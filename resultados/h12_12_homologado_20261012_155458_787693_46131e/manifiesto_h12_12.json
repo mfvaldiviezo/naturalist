@@ -1,0 +1,209 @@
+{
+  "hito": "H12.12",
+  "schema": "H12_12_B1_GREEN2_OBS34_V100",
+  "scope": "NEW_MODEL_REQUIRED; no cargar PPO heredados con action_space=Discrete(4)",
+  "tls_id": "B1",
+  "seed": 101,
+  "network": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml",
+  "routes": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml",
+  "sources_sha256": {
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_contract.py": "df653d836fbb7ff38a8f161d08f7ca393cb97d6ca65425c070ef8c164824a57f",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_env.py": "3bc8783c107a09bd1f520d7606a2dda6b65fd14662d10123459c5584f3092aeb",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_homologar.py": "53f1bec7b0259a55b1f918e9a18370b894e200478c3572db408d268f869fd687",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\src\\core\\tsc_env.py": "a426c8739ff1badee129d42318e83ba9f23612ce9a0f73fb2d265eac819b538e",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\scripts\\train.py": "651c96f1a225f8e24ad0fbd27a34a5c4adbbe2672dd64549ac90d811c702b6cc",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\config\\default_config.yaml": "8347c9d0372a411e7da1b404894ac22316bbfb019116be9113f5f7b9461d9327"
+  },
+  "network_contract": {
+    "tls_id": "B1",
+    "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "program_id": "0",
+    "original_program_type": "actuated",
+    "lanes_in": [
+      "A1B1_0",
+      "B0B1_0",
+      "B2B1_0",
+      "C1B1_0"
+    ],
+    "lane_out_by_in": [
+      [
+        "A1B1_0",
+        [
+          "B1A1_0",
+          "B1B0_0",
+          "B1B2_0",
+          "B1C1_0"
+        ]
+      ],
+      [
+        "B0B1_0",
+        [
+          "B1A1_0",
+          "B1B0_0",
+          "B1B2_0",
+          "B1C1_0"
+        ]
+      ],
+      [
+        "B2B1_0",
+        [
+          "B1A1_0",
+          "B1B0_0",
+          "B1B2_0",
+          "B1C1_0"
+        ]
+      ],
+      [
+        "C1B1_0",
+        [
+          "B1A1_0",
+          "B1B0_0",
+          "B1B2_0",
+          "B1C1_0"
+        ]
+      ]
+    ],
+    "phases": [
+      {
+        "index": 0,
+        "state": "GGggrrrrGGggrrrr",
+        "duration_s": 42.0
+      },
+      {
+        "index": 1,
+        "state": "yyyyrrrryyyyrrrr",
+        "duration_s": 3.0
+      },
+      {
+        "index": 2,
+        "state": "rrrrGGggrrrrGGgg",
+        "duration_s": 42.0
+      },
+      {
+        "index": 3,
+        "state": "rrrryyyyrrrryyyy",
+        "duration_s": 3.0
+      }
+    ],
+    "green_indices": [
+      0,
+      2
+    ],
+    "yellow_minimum_s": 3.0,
+    "actions": [
+      {
+        "action": 0,
+        "phase_index": 0,
+        "state": "GGggrrrrGGggrrrr"
+      },
+      {
+        "action": 1,
+        "phase_index": 2,
+        "state": "rrrrGGggrrrrGGgg"
+      }
+    ]
+  },
+  "simulation": {
+    "microtick_seconds": 0.5,
+    "decision_seconds": 5.0,
+    "rl_steps": 12,
+    "min_green_seconds": 10.0,
+    "start_seconds": 0,
+    "horizon_seconds": 60.0,
+    "sumo_mode": "online via setRedYellowGreenState; remaining TLS original actuated",
+    "yellow_min_seconds": 3.0,
+    "all_red": "Solo si existe en el programa; Hangzhou B1 actual no contiene rojo total explícito",
+    "traffic_demand_xml": "fixed explicit route file; --seed fixed",
+    "original_tls_program_type": "actuated"
+  },
+  "observation": {
+    "shape": [
+      34
+    ],
+    "dtype": "float32",
+    "range": [
+      0,
+      1
+    ],
+    "queue_12": "real incoming lanes in sorted stable order; zero-pad to 12; per-lane halted/MAX_QUEUE50",
+    "wait_12": "real incoming lanes in sorted stable order; zero-pad to 12; per-lane waiting/MAX_WAIT300",
+    "pressure_4": "for each inbound lane count_in - mean(unique connected downstream lane counts); transform 0.5+pressure/100 and clip to 0..1; inactive pad=0.5",
+    "phase_4": "green onehot physical action (n=2); yellow gives all zeros",
+    "age_2": "clipped stage_elapsed/120 and clipped stage_elapsed/min_green",
+    "lane_order": [
+      "A1B1_0",
+      "B0B1_0",
+      "B2B1_0",
+      "C1B1_0"
+    ],
+    "downstream": {
+      "A1B1_0": [
+        "B1A1_0",
+        "B1B0_0",
+        "B1B2_0",
+        "B1C1_0"
+      ],
+      "B0B1_0": [
+        "B1A1_0",
+        "B1B0_0",
+        "B1B2_0",
+        "B1C1_0"
+      ],
+      "B2B1_0": [
+        "B1A1_0",
+        "B1B0_0",
+        "B1B2_0",
+        "B1C1_0"
+      ],
+      "C1B1_0": [
+        "B1A1_0",
+        "B1B0_0",
+        "B1B2_0",
+        "B1C1_0"
+      ]
+    }
+  },
+  "actions": {
+    "type": "Discrete(2)",
+    "map": {
+      "0": 0,
+      "1": 2
+    },
+    "phase_switch": "original net.xml green -> yellow 3 s -> green; min green enforced",
+    "online_control": "explicit states (never direct setPhase green jump)",
+    "conflict_geometry": "NO CERTIFICADA fuera de estados del programa de red"
+  },
+  "reward": {
+    "componentes": [
+      "delay_norm",
+      "gini",
+      "cvar95_norm"
+    ],
+    "weights": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "units": "normalized on REAL input lanes only",
+    "gini_on_no_wait": 0.0,
+    "cvar95": "top ceil(5% of actual lanes) mean"
+  },
+  "evaluation_gates": {
+    "seed_pairing": "required in H12.13",
+    "training_budget_equal": "required in H12.13",
+    "multi_tls": "NOT implemented H12.12",
+    "vine_h09_hook": "NOT implemented H12.12",
+    "cross_city": "NOT validated",
+    "new_checkpoints": "NOT produced"
+  },
+  "provenance": {
+    "source": "repositorio local; XML y fuentes SHA verificados al correr",
+    "training_historical": "NOT CERTIFIED"
+  },
+  "platform": {
+    "python": "3.10.20",
+    "os": "Windows-10-10.0.26100-SP0"
+  }
+}

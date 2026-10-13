@@ -1,0 +1,36 @@
+{
+  "version": "H11.3b evidencia Quito v1.0.0",
+  "created_utc": "2026-10-12T02:54:44.666914+00:00",
+  "h11_3b_code_sha256": "a92180e059eee380e76ee724abdc67bc88fc6a55cf967516d2da7276d52f4bf9",
+  "parent_code_sha256": "9691e10b3a9687b1d16e62267aa69d93fcdc9e9416d6f79bd6a6e6b3a1432a1e",
+  "calibrated_quito": false,
+  "claims_prevalence_quito": false,
+  "test_richard_read": false,
+  "synthetic_furious_read": false,
+  "sumo_executed": false,
+  "source_sha256": {
+    "H01": "1e66f326e76678c250f12032f7e51b0a79503a9cce8b8cfd6a869f5793240af3",
+    "H01_manifest": "89a4e1414784a3831fa4df594a83e753b62cb9bb214abf43440457c534ba964b",
+    "nominal_trajectory": "285899848b6655fa421ddc03f3c36b2014d620a46694d32236a9939fc75d3c84",
+    "hybrid_trajectory": "17d8df6d64c1febf787e933a4e17ae4a1b3b39fd01099794fce8e2ee1d1d7dd2",
+    "Vine_actions": "7dd793f9b5dba3ea3b16ef03cfec08225fd5518f75b3897b19a0b093aff81493"
+  },
+  "n_sessions": 5,
+  "n_drivers": 4,
+  "n_development_rows": 62398,
+  "n_development_moving": 43217,
+  "output_sha256": {
+    "cobertura_polidriving_desarrollo_h11_3b.csv": "2b2bed5397519c0c76a7da457e4eb0e7eae5bfbf204fe1b9f6ba931abde0ac3c",
+    "matriz_evidencia_quito_h11_3b.csv": "52048f5c45c7b6899687b95fd38d92540318df2c20c3fe7181cba49f928929c7",
+    "puertas_director_pdf_h11_3b.csv": "d8f68cb9357b524e877e2bf7ed8f2fe657e4006937029c4557159475bb3fe9bd",
+    "dictamen_h11_3b.md": "6d024bd1d7b7eca00046b2ee732bb02920323b7965636a645b7cbe5b3dd0f8ab"
+  },
+  "limitations": [
+    "No existe muestreo representativo de conductores Quito",
+    "No hay medidas longitudinales directas de lider/TTC en H01",
+    "No hay fase/semaforo/stopline de campo en H01",
+    "No se confunde design_speed con velocidad legal",
+    "Riesgo de accidente != comportamiento imprudente observado",
+    "No inferencia causal ni prevalencia, ni calibracion generalizable"
+  ]
+}

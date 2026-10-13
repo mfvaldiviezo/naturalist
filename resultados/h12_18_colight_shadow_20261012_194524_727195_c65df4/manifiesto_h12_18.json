@@ -1,0 +1,389 @@
+{
+  "schema": "H12_18_LIBSIGNAL_GRAPH_SHADOW_V103_REGISTERED_MODULE",
+  "result": "H12_18_PRECHECK_OK",
+  "local_h1218_source_sha256": {
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_18_Bridge_CoLight_LibSignal_v103\\h12_18_bridge.py": "bf2ecce671167e966f47da7f97eb55549ee7210bd0346713fb6e3be2845f8fe1",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_18_Bridge_CoLight_LibSignal_v103\\h12_18_libsignal_probe.py": "4cb50cb463b9444b7f55dcdbfbdcb084087d1aa2da6d13aab0de878a6fb85f17",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_18_Bridge_CoLight_LibSignal_v103\\h12_18_colight_loader.py": "1d8747e1e6ac2977b6861cafc4ea158a99d9eef1fb1e813247cd030bc852a590"
+  },
+  "provenance": {
+    "h1217": {
+      "report_sha256": "972710ae858e4ae2084f07cff00da0a063ae93356c60ebc5c175291c96aa00f3",
+      "manifest_sha256": "821bf6ba587ffb8fde08872b3ad5c1e38d98f05ebe949113ae827b01aa29b26e",
+      "runtime_sha256": "85ce2dff2918db43e7a1db6055a4ce9903056cd157dbec4a8aa0100f46834555",
+      "run_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_17_multi_tls_20261012_182005_185768_19e1d1",
+      "graph": {
+        "node_order": [
+          "A1",
+          "A2",
+          "B0",
+          "B1",
+          "B2",
+          "B3",
+          "C0",
+          "C1",
+          "C2",
+          "C3",
+          "D1",
+          "D2"
+        ],
+        "edge_index": [
+          [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            3,
+            6,
+            0,
+            2,
+            4,
+            7,
+            1,
+            3,
+            5,
+            8,
+            4,
+            9,
+            2,
+            7,
+            3,
+            6,
+            8,
+            10,
+            4,
+            7,
+            9,
+            11,
+            5,
+            8,
+            7,
+            11,
+            8,
+            10
+          ]
+        ],
+        "incoming_lanes": {
+          "A1": [
+            "A0A1_0",
+            "A2A1_0",
+            "B1A1_0"
+          ],
+          "A2": [
+            "A1A2_0",
+            "A3A2_0",
+            "B2A2_0"
+          ],
+          "B0": [
+            "A0B0_0",
+            "B1B0_0",
+            "C0B0_0"
+          ],
+          "B1": [
+            "A1B1_0",
+            "B0B1_0",
+            "B2B1_0",
+            "C1B1_0"
+          ],
+          "B2": [
+            "A2B2_0",
+            "B1B2_0",
+            "B3B2_0",
+            "C2B2_0"
+          ],
+          "B3": [
+            "A3B3_0",
+            "B2B3_0",
+            "C3B3_0"
+          ],
+          "C0": [
+            "B0C0_0",
+            "C1C0_0",
+            "D0C0_0"
+          ],
+          "C1": [
+            "B1C1_0",
+            "C0C1_0",
+            "C2C1_0",
+            "D1C1_0"
+          ],
+          "C2": [
+            "B2C2_0",
+            "C1C2_0",
+            "C3C2_0",
+            "D2C2_0"
+          ],
+          "C3": [
+            "B3C3_0",
+            "C2C3_0",
+            "D3C3_0"
+          ],
+          "D1": [
+            "C1D1_0",
+            "D0D1_0",
+            "D2D1_0"
+          ],
+          "D2": [
+            "C2D2_0",
+            "D1D2_0",
+            "D3D2_0"
+          ]
+        },
+        "input_dim": 4,
+        "output_dim": 2
+      }
+    },
+    "h1216": {
+      "report_sha256": "db52d05c17f5a0793f7872e87c74896a4ecde00cc085c7188a948b43edce5318",
+      "run_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_16_colight_20261012_125015_322811_3b659c"
+    },
+    "libsignal": {
+      "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+      "blob_sha1": "b33858268b51fa008df2ea4ee4bea725a74de476",
+      "config_blob_sha1": "f9b7bf38851ee0ea59e428081063c5e6c522ddc6",
+      "config_committed_sha256": "b1cf143b459949085c68fbe270cb261cc215a5efa2983071be701b1eed7923dc",
+      "config_worktree_sha256": "a63d3f64016e092ed24d9ba338fcc6eeeb6f853d528ecc3d67e57d83da5c5f99",
+      "committed_file_sha256": "4621e5d80665eacc28037b070a115715a1a6c19871af8e0744fdbe42bfc2ab48",
+      "worktree_sha256": "a484008170bb159c622def05ebe39cd1c7d132e0f5ea172c8c446c2d16fec8f1",
+      "local_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal",
+      "source_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal\\agent\\colight.py"
+    }
+  },
+  "graph": {
+    "node_order": [
+      "A1",
+      "A2",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2"
+    ],
+    "edge_index": [
+      [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11
+      ],
+      [
+        1,
+        3,
+        0,
+        4,
+        3,
+        6,
+        0,
+        2,
+        4,
+        7,
+        1,
+        3,
+        5,
+        8,
+        4,
+        9,
+        2,
+        7,
+        3,
+        6,
+        8,
+        10,
+        4,
+        7,
+        9,
+        11,
+        5,
+        8,
+        7,
+        11,
+        8,
+        10
+      ]
+    ],
+    "incoming_lanes": {
+      "A1": [
+        "A0A1_0",
+        "A2A1_0",
+        "B1A1_0"
+      ],
+      "A2": [
+        "A1A2_0",
+        "A3A2_0",
+        "B2A2_0"
+      ],
+      "B0": [
+        "A0B0_0",
+        "B1B0_0",
+        "C0B0_0"
+      ],
+      "B1": [
+        "A1B1_0",
+        "B0B1_0",
+        "B2B1_0",
+        "C1B1_0"
+      ],
+      "B2": [
+        "A2B2_0",
+        "B1B2_0",
+        "B3B2_0",
+        "C2B2_0"
+      ],
+      "B3": [
+        "A3B3_0",
+        "B2B3_0",
+        "C3B3_0"
+      ],
+      "C0": [
+        "B0C0_0",
+        "C1C0_0",
+        "D0C0_0"
+      ],
+      "C1": [
+        "B1C1_0",
+        "C0C1_0",
+        "C2C1_0",
+        "D1C1_0"
+      ],
+      "C2": [
+        "B2C2_0",
+        "C1C2_0",
+        "C3C2_0",
+        "D2C2_0"
+      ],
+      "C3": [
+        "B3C3_0",
+        "C2C3_0",
+        "D3C3_0"
+      ],
+      "D1": [
+        "C1D1_0",
+        "D0D1_0",
+        "D2D1_0"
+      ],
+      "D2": [
+        "C2D2_0",
+        "D1D2_0",
+        "D3D2_0"
+      ]
+    },
+    "input_dim": 4,
+    "output_dim": 2
+  },
+  "topology": {
+    "n_tls": 12,
+    "n_directed_edges": 32,
+    "node_order": [
+      "A1",
+      "A2",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2"
+    ],
+    "green_phases": [
+      0,
+      2
+    ],
+    "actions_per_tls": 2
+  },
+  "adapter": {
+    "state_native": "lane_count per incoming lane, ordered by net.xml lane id",
+    "state_shape": [
+      12,
+      4
+    ],
+    "state_padding": "zero to 4 lanes per TLS",
+    "phase_input": false,
+    "vehicle_max": 1.0,
+    "policy_import": "original agent/colight.py ColightNet class AST (isolated: no CityFlow import)",
+    "network_params_source": "configs/tsc/colight.yml (selected architecture fields)",
+    "graph_source": "H12.17 explicit edge_index; PyG adds self-loops",
+    "action_semantics": "argmax of Q per node; shadow only; never actuates",
+    "difference_from_native": "ESPECIALIZACION: lista de carriles ordenada por contrato XML, no generadores internos LibSignal; importacion aislada de clases sin CoLightAgent/Trainer",
+    "optimizer": "NOT_RUN",
+    "checkpoint": "NONE_RANDOM_INIT"
+  },
+  "gates": {
+    "H1217_real_multi_TLS": "PASSED",
+    "H1216_upstream": "VERIFIED",
+    "runtime_dependencies": "NOT_CHECKED",
+    "colight_forward": "NOT_EXECUTED",
+    "graph_order": "CHECKED_INPUT_ADAPTER_NOT_FULL_LIBSIGNAL_WORLD",
+    "training": "NOT_RUN",
+    "resilience": "BLOCKED"
+  }
+}

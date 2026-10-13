@@ -1,0 +1,13 @@
+{
+  "tipo": "sensibilidad_externa_no_fusionar",
+  "localidad": "Quito",
+  "fenomeno": "exceso_de_velocidad",
+  "porcentaje_publicado": 0.27,
+  "fecha_nota": "2024-10-30",
+  "url": "https://quitoinforma.quito.gob.ec/2024/10/30/estudio-sobre-seguridad-vial-otorga-herramientas-para-salvar-vidas-y-mejorar-politicas-publicas/",
+  "fuente": "Quito Informa, nota municipal sobre el Informe de Seguridad Vial 2024",
+  "n_observaciones_identificadas": null,
+  "conteo_infracciones_identificadas": null,
+  "no_es_intercambiable_con_el_20pct_de_2021_2023": true,
+  "uso_permitido": "contraste descriptivo de sensibilidad; no estimar Bernoulli individual"
+}

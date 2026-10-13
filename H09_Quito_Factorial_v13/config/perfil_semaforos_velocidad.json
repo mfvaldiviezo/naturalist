@@ -1,0 +1,13 @@
+{
+  "version": "H09_FACTORIAL_SxV_v1.3",
+  "evidence_status": "EXPLORATORY_HYPOTHESES_NOT_CALIBRATED_QUITO",
+  "experiment_name": "semaforos_velocidad",
+  "note": "Hipótesis de sensibilidad SUMO; no calibrado con Quito. Se conserva demanda, red, semilla y cohorte de H09 v1.2.",
+  "families": {
+    "combinado": {
+      "speedFactor": 1.15,
+      "jmDriveAfterYellowTime": 1.5,
+      "jmDriveAfterRedTime": 0.5
+    }
+  }
+}

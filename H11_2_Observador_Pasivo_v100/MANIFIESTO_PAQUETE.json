@@ -1,0 +1,19 @@
+{
+  "package": "H11_2_Observador_Pasivo_v100",
+  "created_utc": "2026-10-11T23:35:57.611060+00:00",
+  "tested_on": "simulated TraCI fixtures, not actual H10",
+  "tests_passed": 6,
+  "files_sha256": {
+    "GUIA_H11_2.md": "f96f88b104e2b6d5dc767a8fcbbe13dbea2ead435bc8dbbc8613c1e2815fe8e7",
+    "h11_2_bootstrap.py": "5c4f6f01cc46f468a2a19a87121999447079f9b867e828dc0ce9ec131a0be7dc",
+    "h11_2_comparar_invariancia.py": "f165636d42f8e0ce7fe09d0ab078390575dca7c7640ad61cc30fa76ed1042ed2",
+    "h11_2_demo_nominal.py": "b7377cae8ff270059092d37a30ba366ba8872ead7e848f418cc7891c16b959c8",
+    "h11_2_ejecutar_h10.py": "11016b3f142fd8c007d2eb587b2b299443cbd5c629f89720020fbd1c1900542e",
+    "h11_2_observador_pasivo.py": "23b3c00addee81e4774cdafd22f15e3996da5eafe10543a03b02727cc56772f5",
+    "h11_2_preflight_h10.py": "044294b9b4600f6a25f8ef554d02068bde729c69a1fed9e852d99bee5918f7fa",
+    "h11_2_resumir.py": "38871ddefd6613814e14aa555ea3259383a6d8c17085e11a4d850d497783aad7",
+    "h11_2_validar.py": "48b095b26694b33463e2c453be3a0f26e5c208f618709b3e745396c7389b9142",
+    "tests/test_autoinstrumentacion.py": "0085fe16cf377d9665af963b537d21877c02c3496ed468394cf3164cce340985",
+    "tests/test_h11_2_observador.py": "81f3bc276c0da166e2202eaef6d8dfd780f667e5ec6bd94d8ed63d1c2b8980a1"
+  }
+}

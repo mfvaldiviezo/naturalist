@@ -1,0 +1,77 @@
+{
+  "version": "BASE_EMPIRICA_QUITO_H09_2026_10_11_V01",
+  "city": "Quito",
+  "country": "Ecuador",
+  "status": "ESTADISTICAS_AGREGADAS_VERIFICADAS_SIN_CALIBRACION_DE_DECISIONES_INDIVIDUALES",
+  "numerical_targets": {
+    "signal_stopline_events": {
+      "QUI-1": {
+        "n_observed_vehicles": 4518,
+        "n_yellow_cross_events": 168,
+        "n_red_cross_events": 170,
+        "n_all_events": 338,
+        "all_event_rate_per_all_observed_vehicles": 0.07481186365648516,
+        "red_event_rate_per_all_observed_vehicles": 0.03762726870296591,
+        "yellow_event_rate_per_all_observed_vehicles": 0.03718459495351926,
+        "unit": "event_count_per_all_observed_vehicles",
+        "application": "aggregate_observation_validation_only",
+        "source_id": "Q01",
+        "quality_flag": "moderada_revisar_exclusiones_OBS09"
+      },
+      "QUI-2": {
+        "n_observed_vehicles": 2716,
+        "n_yellow_cross_events": 0,
+        "n_red_cross_events": 89,
+        "n_all_events": 89,
+        "all_event_rate_per_all_observed_vehicles": 0.03276877761413844,
+        "red_event_rate_per_all_observed_vehicles": 0.03276877761413844,
+        "yellow_event_rate_per_all_observed_vehicles": 0.0,
+        "unit": "event_count_per_all_observed_vehicles",
+        "application": "aggregate_observation_validation_only",
+        "source_id": "Q01",
+        "quality_flag": "sensible_exclusiones_OBS09"
+      },
+      "QUI-3": {
+        "n_observed_vehicles": 2409,
+        "n_yellow_cross_events": 0,
+        "n_red_cross_events": 84,
+        "n_all_events": 84,
+        "all_event_rate_per_all_observed_vehicles": 0.034869240348692404,
+        "red_event_rate_per_all_observed_vehicles": 0.034869240348692404,
+        "yellow_event_rate_per_all_observed_vehicles": 0.0,
+        "unit": "event_count_per_all_observed_vehicles",
+        "application": "aggregate_observation_validation_only",
+        "source_id": "Q01",
+        "quality_flag": "sensible_exclusiones_OBS09"
+      }
+    },
+    "speeding_prevalence": {
+      "report_value_rounded": 0.2,
+      "sample_n_for_value": null,
+      "event_count_for_value": null,
+      "period": "2021-11_to_2023-04",
+      "source_id": "Q02",
+      "application": "aggregate_validation_only"
+    }
+  },
+  "individual_decision_probabilities": {
+    "run_red_given_red_opportunity": null,
+    "continue_yellow_given_yellow_opportunity": null,
+    "enter_blocked_junction": null,
+    "close_following_given_headway_opportunity": null,
+    "priority_violation_given_gap_opportunity": null
+  },
+  "use_policy": {
+    "percent_assigned_15_30_50": "experiment_design_not_quito_driver_prevalence",
+    "forbid_silent_parameter_transfer": true,
+    "do_not_draw_individual_violations_using_aggregate_event_rate": true,
+    "requires_h09_event_logger_for_valid_SIM_replay": true
+  },
+  "sources": {
+    "Q01": "https://www.mdpi.com/2624-6511/9/9/140",
+    "Q02": "https://publichealth.jhu.edu/sites/default/files/2024-02/20230602bigrsquito04pages.pdf",
+    "Q03": "https://movilidad.quito.gob.ec/wp-content/uploads/2024/08/Anuario-de-Seguridad-Vial-2021.pdf",
+    "Q04": "https://repositorio.puce.edu.ec/items/aa649cbb-26e8-4e77-b9c7-dc2d8cffab3d",
+    "Q05": "https://dspace.ups.edu.ec/handle/123456789/31038"
+  }
+}

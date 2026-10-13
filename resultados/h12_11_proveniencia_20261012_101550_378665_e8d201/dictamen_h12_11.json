@@ -1,0 +1,155 @@
+{
+  "status": "H12_11_PROVENIENCIA_DIAGNOSTICADA",
+  "checkpoint_training_certified": false,
+  "experimental_status": "SOLO_DIAGNOSTICO_OFFLINE",
+  "version": "H12.11-v1.0.0",
+  "model": "ppo_ideal",
+  "env": {
+    "path": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\src\\core\\tsc_env.py",
+    "sha256": "a426c8739ff1badee129d42318e83ba9f23612ce9a0f73fb2d265eac819b538e",
+    "flags": {
+      "state_shape_34_present": true,
+      "state_age_first_unclipped": true,
+      "outgoing_empty_placeholder": true,
+      "controlled_lane_padding_last": true,
+      "action_maps_modulo_phases": true,
+      "direct_traci_setPhase": true,
+      "sumo_train_step_length_1s": true,
+      "age_box_normalization_warning": true
+    }
+  },
+  "training": {
+    "path": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\scripts\\train.py",
+    "sha256": "651c96f1a225f8e24ad0fbd27a34a5c4adbbe2672dd64549ac90d811c702b6cc",
+    "flags": {
+      "training_program_constructs_TSCEnv": true,
+      "training_uses_random_xml_flag": true,
+      "training_route_selection_sorted": true,
+      "training_does_not_pass_reward_weights": true,
+      "training_can_enable_legacy_chaos": true,
+      "training_cli_supports_extractor": true,
+      "training_script_has_configurable_total_timesteps": true
+    }
+  },
+  "checkpoints": {
+    "ppo_ideal": {
+      "available": true,
+      "file": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\outputs\\models\\ppo_ideal.zip",
+      "sha256": "9746662b54730664e1262f7f3f9f0f32d106de403141a0731ac00c24f88f701f",
+      "size_bytes": 2766549,
+      "num_timesteps": 20480,
+      "_total_timesteps": 20000,
+      "n_envs": 1,
+      "n_steps": 2048,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "ent_coef": 0.01,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "seed": 42,
+      "policy_kwargs": "JSON object present (contents omitted)",
+      "member_count": 6,
+      "data_sha256": "4894c440ef43002d8181b45cecf1cb6a52030188009b45cbc643f72423e6326f"
+    },
+    "ppo_chaos": {
+      "available": true,
+      "file": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\outputs\\models\\ppo_chaos.zip",
+      "sha256": "b213029728b7a7181a9fd8ea77ef2ac13a0a054770a5b1e03e86c114829a3f52",
+      "size_bytes": 2766549,
+      "num_timesteps": 20480,
+      "_total_timesteps": 20000,
+      "n_envs": 1,
+      "n_steps": 2048,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "ent_coef": 0.01,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "seed": 42,
+      "policy_kwargs": "JSON object present (contents omitted)",
+      "member_count": 6,
+      "data_sha256": "a7a04fdfc5c77b7d2cb520937e9ffe7c4a853ea5b68fb03225c27afe02e11b01"
+    },
+    "ppo_coop_ideal": {
+      "available": true,
+      "file": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\outputs\\models\\ppo_coop_ideal.zip",
+      "sha256": "ecb9039caad7d9fb02765594f2381ccbf1b98ed9a01dea228d69fd1db9c9acaa",
+      "size_bytes": 2745718,
+      "num_timesteps": 1007616,
+      "_total_timesteps": 1000000,
+      "n_envs": 4,
+      "n_steps": 2048,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "ent_coef": 0.01,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "seed": 42,
+      "policy_kwargs": "JSON object present (contents omitted)",
+      "member_count": 6,
+      "data_sha256": "5cfbd751a35ed1ccd53f5081553188a2eb983a190312cb98c31c850eaf18cb6f"
+    },
+    "ppo_coop_chaos": {
+      "available": true,
+      "file": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\outputs\\models\\ppo_coop_chaos.zip",
+      "sha256": "e4e1f710e1152b020c25639494fa0aaa88741efb698119c1798179d7ea0caac1",
+      "size_bytes": 2745718,
+      "num_timesteps": 1007616,
+      "_total_timesteps": 1000000,
+      "n_envs": 4,
+      "n_steps": 2048,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "ent_coef": 0.01,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "seed": 42,
+      "policy_kwargs": "JSON object present (contents omitted)",
+      "member_count": 6,
+      "data_sha256": "c1e15cd6bf47f7f1dcecd657ebd57fcf298259ce663683a131099eac080be6ab"
+    }
+  },
+  "coop_ideal_to_ideal_timesteps_ratio": 49.2,
+  "policy_summary": {
+    "decisions": 60,
+    "states_different": 39,
+    "policy_probs_different_among_changed_states": 39,
+    "actions_different": 0,
+    "max_total_variation": 0.005501590669155121,
+    "mean_total_variation_on_changed_states": 0.0010893085064032138,
+    "mean_entropy_nominal_nats": 1.3319418572749762,
+    "mean_entropy_active_nats": 1.3319184395221546,
+    "min_argmax_margin_nominal": 0.008361101150512695,
+    "min_argmax_margin_active": 0.0031434595584869385,
+    "observation_box_mismatch": {
+      "nominal": {
+        "n_decisions_with_age_raw_gt_one": 35,
+        "max_phase_age_feature_raw": 2.4583332538604736
+      },
+      "probe": {
+        "n_decisions_with_age_raw_gt_one": 35,
+        "max_phase_age_feature_raw": 2.4583332538604736
+      },
+      "active": {
+        "n_decisions_with_age_raw_gt_one": 35,
+        "max_phase_age_feature_raw": 2.4583332538604736
+      }
+    },
+    "action_to_physical_phase": {
+      "0": 0,
+      "1": 2,
+      "2": 0,
+      "3": 2
+    }
+  },
+  "max_entropy_4_actions_nats": 1.3862943611198906,
+  "entropy_fraction_max_nominal": 0.9607929561215218,
+  "unproven": [
+    "ZIP SB3 no contiene obligatoriamente ruta de demanda usada para entrenar ni SHA de archivo .rou.xml",
+    "ZIP SB3 no certifica por si solo commit de TSCEnv, semantica de fases o protocolos de interverde",
+    "flags de train.py corresponden a CODIGO PRESENTE, no a prueba de ejecucion historica",
+    "checkpoint de clases chaos no equivale a entrenado con Vine/H09",
+    "cualquier brecha de timesteps observados impide comparacion de entrenamiento igualado",
+    "no se acreditan sensibilidad poblacional, robustez ni transferencia Quito"
+  ]
+}

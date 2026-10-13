@@ -1,0 +1,25 @@
+{
+  "package": "H12_2_Puente_Gymnasium_Microtick_v100",
+  "files": [
+    {
+      "path": "GUIA_H12_2.md",
+      "sha256": "258f02980105d2914fa90c7b3756f6b335672fd9a382a3fa7f31d76d8b0a4474",
+      "bytes": 7649
+    },
+    {
+      "path": "HALLAZGOS_PRELIMINARES.md",
+      "sha256": "7351b0e50efe02229a8ac772ca26308f6b1906f36277097e1c92881ab108c555",
+      "bytes": 1878
+    },
+    {
+      "path": "h12_2_puente.py",
+      "sha256": "750afc8412fbb40c84b4f56e9ed70dced0a7973d8409bc627190789d12baf508",
+      "bytes": 21432
+    },
+    {
+      "path": "tests/test_h12_2.py",
+      "sha256": "646456c2463d64b55c31d0a56c231d27e2bf3a71358eeefaaa8c1da917f8d8f6",
+      "bytes": 6011
+    }
+  ]
+}

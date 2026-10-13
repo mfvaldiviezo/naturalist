@@ -1,0 +1,18 @@
+{
+  "source": "ntvc_vine_r_08b_cuota_auditada(2).py (archivo original aportado en el chat)",
+  "expected_runtime_name": "ntvc_vine_r_08b_cuota_auditada.py",
+  "sha256": "ee70a04c7f0b698309f7a637a8a0b2b5ddf18434ec3ab6c11dc3346a7a904943",
+  "size_bytes": 14068,
+  "class_name": "FixedRosterInjector",
+  "inherits": [
+    "h08.StressInjector"
+  ],
+  "methods": [
+    "__init__",
+    "_membership",
+    "results"
+  ],
+  "overrides_on_step": false,
+  "verified_use": "H10 importa H08b original en runtime; on_step se hereda de H08.",
+  "source_file_copied_into_H10": false
+}

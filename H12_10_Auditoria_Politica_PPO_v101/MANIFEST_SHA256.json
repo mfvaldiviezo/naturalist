@@ -1,0 +1,8 @@
+{
+  "version": "1.0.1",
+  "files": {
+    "GUIA_H12_10.md": "beab47fe65a806fa94c46b0cbdce961c502f0455cfcc75f2c0912bdd970dda11",
+    "h12_10_politica.py": "5842bfa9bceb495bca576a877be888fc67fc0e2b640575596e49cf6d33e82259",
+    "tests/test_h12_10.py": "768aaf97deb7eb173891cbff0112b8034426aaeac9195c48c4728552d9c97845"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": "H09_v1.5",
+  "files": [
+    {
+      "path": "LEEME_H09_v15.md",
+      "sha256": "990070a3d97851a406878d22c299e0ccdcfb065fe172c1010c647cb9cddd21e7",
+      "bytes": 6090
+    },
+    {
+      "path": "ejecutar_h09_v15.ps1",
+      "sha256": "2456ac84eedae17f1a02870635391ff1c2b96b56402fa57bfc86f16774485fc8",
+      "bytes": 670
+    },
+    {
+      "path": "instrumentacion/observador_traci_h09_v11.py",
+      "sha256": "b3795719b2bbfa7831b651276ddf706e8166b23a5b8dbb857c4112dbc7add763",
+      "bytes": 5466
+    },
+    {
+      "path": "scripts/ejecutar_h09_v15.py",
+      "sha256": "f19c3fd933c280610d046625ae4191dd31b177c5c404a6e562c8717a9ddaa7fc",
+      "bytes": 5013
+    },
+    {
+      "path": "scripts/reportar_h09_v15.py",
+      "sha256": "bb62f6c1a584386c1af36fde9a0bda58177c77895d89c537913af5975f001945",
+      "bytes": 13559
+    },
+    {
+      "path": "tests/test_h09_v15.py",
+      "sha256": "e241a67fb93ee587cd578bc30cf17179e4792f29deb4faf26b795bfb234f8844",
+      "bytes": 14442
+    }
+  ]
+}

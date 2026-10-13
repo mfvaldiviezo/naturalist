@@ -1,0 +1,1433 @@
+{
+  "schema": "NATURALIST_GITHUB_PUBLICACION_SELECTIVA_V1",
+  "destino": "mfvaldiviezo/naturalist",
+  "rama": "main",
+  "checkpoint_exploratorio_incluido": false,
+  "plan_sha256": "82E8DDC391BC9A70F2292C75D311F09C7754657B204A2C7867946AEF923A0A3D",
+  "politica": "Código/guías definitivas por versión + informes de resultados curados; no RAW ni telemetría individual",
+  "archivos": [
+    {
+      "ruta": "H09_Quito_Calibrador_v1/LEEME.md",
+      "sha256": "0d47ddb903e5f6b621daa66804dcf259f327a01d0cceb43e042d03f2c5ad51f9",
+      "bytes": 8894,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/MANIFEST_SHA256.json",
+      "sha256": "7431518397df43ade4152939effda80ff9591a18799ef83168bf1711ad6ec221",
+      "bytes": 1458,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/config/protocolo_hangzhou_ejemplo.json",
+      "sha256": "fa5dfa7b134956f698a5e978f58729eb6560b0d281ded8c69c7fd27a0968b139",
+      "bytes": 979,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/config/zonas_velocidad_ejemplo.json",
+      "sha256": "6664e140f729b63b630ae37c95fd5e7fdbd53226d8b3063b426f0297de105bcf",
+      "bytes": 142,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/datos_referencia/indicador_alterno_velocidad_quito_2024.json",
+      "sha256": "7be052ee9337b78217eda614ec5bfc09c386d5d4b6d23be87cdae5a89fbb6200",
+      "bytes": 648,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/datos_referencia/objetivos_quito_h09.json",
+      "sha256": "15c4c03ddee556e2c85da0d4c3b3fc4f7e2d5ac528be9dac3a42310de3b45df5",
+      "bytes": 3255,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/scripts/calibrador_quito_h09.py",
+      "sha256": "1077a2626c76fa89b5af4cc2eafa4290d7fb5dfeb122836a535f6fb537ed56c0",
+      "bytes": 19635,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/scripts/observador_traci_h09.py",
+      "sha256": "a5e88394e5b58b8b842565591984a5ebc31e0114a058f18b5288f496c6e487a8",
+      "bytes": 11331,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Calibrador_v1/tests/test_h09_quito.py",
+      "sha256": "9c8358795cb753f6f0b87a8ec66588a9d8e6b0b853aa665e1c9488611322aee6",
+      "bytes": 7815,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/LEEME_H09_v13.md",
+      "sha256": "6a6b791225be3ecfb1c7ddbc7832309617f3f7b7c20c28f82bcf6588fce9f74b",
+      "bytes": 6029,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/MANIFEST_SHA256.json",
+      "sha256": "51e6b3aefe55bb7bf39b2d20fda3c1fd8e7e6f8434278ccefa4822f445076f67",
+      "bytes": 910,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/config/perfil_placebo.json",
+      "sha256": "930364dec5bde3c29680f3e7e9fed2e1d839576c5920d96bcefa0bff59358382",
+      "bytes": 332,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/config/perfil_semaforos_velocidad.json",
+      "sha256": "181964793ce6d04589986614142e3f72e7c930becab5280f4d1664b79dbb40dc",
+      "bytes": 424,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/config/perfil_velocidad.json",
+      "sha256": "1cd8463c081583128a87952620835136b8352d51cd28269012f297ef06ff6cdc",
+      "bytes": 343,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/ejecutar_factorial_101.ps1",
+      "sha256": "1da663fb26b65a258f4a707bb3275d70c7a97f7f8adab520212802e4a8644228",
+      "bytes": 2931,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/scripts/comparar_factorial_h09_v13.py",
+      "sha256": "087f4971c685cb1255a7a6d8e40b2b759928e7c0a288f879997700b8d6de4b3c",
+      "bytes": 10434,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/scripts/preparar_factorial_h09_v13.py",
+      "sha256": "3832ab0cbe28a01369993de75efbdc8a1c8e7db2be0f73e4bbde08460f87211e",
+      "bytes": 1914,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Factorial_v13/tests/test_factorial_v13.py",
+      "sha256": "f2c84988036117610547072af458d73d5e115a785e284a03d38686ccb11fa310",
+      "bytes": 7523,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/LEEME.md",
+      "sha256": "d2456c3759e359c02441e1a4943430ba0eb1ae94f76744d882a3f53ecfccbc7b",
+      "bytes": 6962,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/MANIFEST_SHA256.json",
+      "sha256": "a26d4189ac803f215250b8dd2525677b937f50072480a610d297269423d0f631",
+      "bytes": 1696,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/config/protocolo_hangzhou_ejemplo.json",
+      "sha256": "fa5dfa7b134956f698a5e978f58729eb6560b0d281ded8c69c7fd27a0968b139",
+      "bytes": 979,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/datos_referencia/indicador_alterno_velocidad_quito_2024.json",
+      "sha256": "7be052ee9337b78217eda614ec5bfc09c386d5d4b6d23be87cdae5a89fbb6200",
+      "bytes": 648,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/datos_referencia/objetivos_quito_h09.json",
+      "sha256": "15c4c03ddee556e2c85da0d4c3b3fc4f7e2d5ac528be9dac3a42310de3b45df5",
+      "bytes": 3255,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/scripts/auditar_eventos_h09.py",
+      "sha256": "47788cc6c1cb3ca6229175ab780cc8774f12dcddf3b7a718fc489a13670cd077",
+      "bytes": 3217,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/scripts/calibrador_quito_h09.py",
+      "sha256": "1077a2626c76fa89b5af4cc2eafa4290d7fb5dfeb122836a535f6fb537ed56c0",
+      "bytes": 19635,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/scripts/generar_zonas_velocidad_h09.py",
+      "sha256": "df9f24c6441564a8a502252c80c86c6f82c22f832c433c418280ef72258df64d",
+      "bytes": 3252,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/scripts/observador_traci_h09.py",
+      "sha256": "a5e88394e5b58b8b842565591984a5ebc31e0114a058f18b5288f496c6e487a8",
+      "bytes": 11331,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/scripts/observador_traci_h09_v11.py",
+      "sha256": "3167115b1409ce89c90f5d52a50eba8731a5fbb1d8274435b0966df98986d38f",
+      "bytes": 12757,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/scripts/prueba_positiva_aislada_h09.py",
+      "sha256": "e0496d339df65d952a48c98a242f6f797b2a8052127c38b521c7a195df0e1927",
+      "bytes": 6693,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/tests/test_h09_quito.py",
+      "sha256": "9c8358795cb753f6f0b87a8ec66588a9d8e6b0b853aa665e1c9488611322aee6",
+      "bytes": 7815,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Instrumentacion_v11/tests/test_h09_v11.py",
+      "sha256": "a468e625685821aaa38a5b408ad152db4abd09aaaeec6edf34a24a26b570208d",
+      "bytes": 5617,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/LEEME_H09_v143.md",
+      "sha256": "4b3aae7ebe09b714cd563942d11d9223998f654bcf3142263952917f2c097764",
+      "bytes": 3313,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/MANIFEST_SHA256.json",
+      "sha256": "65b0e10eb0621b5660944bfcc26d78e12e19444da3869d1094a360cc4bc4f689",
+      "bytes": 633,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/ejecutar_reanudar_h09_v143.ps1",
+      "sha256": "d5917f0c43b0591ec917e6a01e0d37ccfc87686ecac29c1f7fa631fe90d4efe6",
+      "bytes": 5214,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/scripts/auditar_semilla_h09_v143.py",
+      "sha256": "8624d253baf5e4713bddd6406c9d089d17f8dcecf1a48e9b3ccbdabcf629fc57",
+      "bytes": 3111,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/scripts/comparar_factorial_h09_v143.py",
+      "sha256": "268055316212e05edf8eb9b883b3389c3c44e151ef7301488c57d016901d96b7",
+      "bytes": 13203,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/scripts/comparar_multisemilla_h09_v143.py",
+      "sha256": "ffa1474092fabb50764ec6c66c9a1cfbf05b6c1cf9147405de05d543ef141a9b",
+      "bytes": 8833,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Multisemilla_v143/tests/test_resume_v143.py",
+      "sha256": "8792b5792dddff1421792d6b46e0bccacdecfa371f92cde89cf79b20ce59315b",
+      "bytes": 9972,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/LEEME_H09_v12.md",
+      "sha256": "eec3e96c25d5361f5f9ec998d6d061a124b506762c1554d0fb141bcc80ae1dc3",
+      "bytes": 8694,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/config/escenarios_exploratorios.json",
+      "sha256": "b6989e3be5d043723fe049a30db049ef014de7d93d4921428e8f79553d8c67c8",
+      "bytes": 1065,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/datos_referencia/objetivos_quito_h09.json",
+      "sha256": "15c4c03ddee556e2c85da0d4c3b3fc4f7e2d5ac528be9dac3a42310de3b45df5",
+      "bytes": 3255,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/ejecutar_piloto_15pct.ps1",
+      "sha256": "79aa72df1dbbea39f877d87841c90e643923cd0a221c9d189844cdc2abe8d6d2",
+      "bytes": 2487,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/scripts/analizar_comparacion_h09_v12.py",
+      "sha256": "e92a6cdfb9f3fd87236ae2f878fdc040e1d6c0ae6e85f30d04966e8f98da0319",
+      "bytes": 4988,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/scripts/piloto_perfiles_h09_v12.py",
+      "sha256": "f7f9c40e94e6e2ac8f2d11eb3e38f345aff481cd463127eaacfcf84c611599e6",
+      "bytes": 20185,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/tests/test_comparador_v12.py",
+      "sha256": "0402f3acf06af667908fa4bdb753b8c3f9678fe1f398f2f36e17656c32595fad",
+      "bytes": 2381,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Perfiles_Contextuales_v12/tests/test_piloto_v12.py",
+      "sha256": "1749de9b725e83d745736eebfc3b74778030a8e9ae9abad9dc64b267a130468c",
+      "bytes": 5631,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/LEEME_H09_v15.md",
+      "sha256": "990070a3d97851a406878d22c299e0ccdcfb065fe172c1010c647cb9cddd21e7",
+      "bytes": 6090,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/MANIFEST_SHA256.json",
+      "sha256": "c01e8ff4a92f908760409b943e0ee93ce1b485021a2786009d8698b4b3dd9f8f",
+      "bytes": 1010,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/ejecutar_h09_v15.ps1",
+      "sha256": "2456ac84eedae17f1a02870635391ff1c2b96b56402fa57bfc86f16774485fc8",
+      "bytes": 670,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/instrumentacion/observador_traci_h09_v11.py",
+      "sha256": "b3795719b2bbfa7831b651276ddf706e8166b23a5b8dbb857c4112dbc7add763",
+      "bytes": 5466,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/scripts/ejecutar_h09_v15.py",
+      "sha256": "f19c3fd933c280610d046625ae4191dd31b177c5c404a6e562c8717a9ddaa7fc",
+      "bytes": 5013,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/scripts/reportar_h09_v15.py",
+      "sha256": "bb62f6c1a584386c1af36fde9a0bda58177c77895d89c537913af5975f001945",
+      "bytes": 13559,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H09_Quito_Sensibilidad_v15/tests/test_h09_v15.py",
+      "sha256": "e241a67fb93ee587cd578bc30cf17179e4792f29deb4faf26b795bfb234f8844",
+      "bytes": 14442,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Auditoria_Postpiloto_v120/LEEME_H10_ANALISIS.md",
+      "sha256": "81f2725daef5800d47612ed980fd897e5abb5926187c8095e6656abbc3628d1c",
+      "bytes": 3038,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Auditoria_Postpiloto_v120/MANIFEST_SHA256.json",
+      "sha256": "a8ac49099a440eb78b54de88883ba23e37fd36f78daa07ddcaeb00870ab8fb22",
+      "bytes": 500,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Auditoria_Postpiloto_v120/scripts/auditar_h10_completo.py",
+      "sha256": "2ddb7f78ead19bccdb109207a7fc387f399ed3dad78274f29e18ff21985f1074",
+      "bytes": 12120,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Auditoria_Postpiloto_v120/tests/test_auditor.py",
+      "sha256": "85ea741f1395f88f0fcbc24f6ec227f78604af8bc599b803dcc02f2c4838c52e",
+      "bytes": 2461,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Auditoria_Postpiloto_v120/tests/test_integration_fixture.py",
+      "sha256": "33eda2ec1a78f60ee7193c0587ff7192bdd12e946c2c8cdedd1f7b0ab2ce5c48",
+      "bytes": 2720,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/AUDITORIA_H08B_ADJUNTO.json",
+      "sha256": "59e5986acd33048c8a8b5fecd34c529cf52abdb71f6ff3f8d95cd8b53546e935",
+      "bytes": 570,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/LEEME_H10.md",
+      "sha256": "1ff61273ea76dc2ffbe647d2b215d9b3f57e0bdc82e25b2d3b95d55d1d3787a1",
+      "bytes": 3256,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/MANIFEST_SHA256.json",
+      "sha256": "d898130ddf8b7ea08472718c0461c10bd8b84fe8f9a0a793d1d894d092a28c83",
+      "bytes": 1442,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/ejecutar_piloto_h10_v112.ps1",
+      "sha256": "d43e1a5fb7d115990c2818fffc697e546369c286bcd51b26d92deba9bcde6e5e",
+      "bytes": 858,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/scripts/piloto_hibrido_h10.py",
+      "sha256": "42a6fb5674307560688164c5ebbe7f06160a5df55b58c8fb021e1daac6211e7b",
+      "bytes": 33369,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/tests/test_digest_v111.py",
+      "sha256": "d849db650d4482192ca33a9e518f273aa7e6b79e9b590ce952f3506bb1ff5273",
+      "bytes": 2163,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/tests/test_h10.py",
+      "sha256": "fd6f3fc391430007e4605e8e9684c1c77704e37205a9e5bd4f8bc898c4a45666",
+      "bytes": 7820,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/tests/test_policy_v11.py",
+      "sha256": "bf11d7bfec52f6f718a2a428f92348b23b2175de8970cbb0e77c1b95423d0294",
+      "bytes": 3013,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H10_Vine_H09_Imprudencia_v112/tests/test_xml_reuse_v112.py",
+      "sha256": "633e0d229c7f44098f0852861fc75b829545f6af176aa810dcc5e1426d737d18",
+      "bytes": 5146,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/LEEME_EJECUCION_H11_2_H10.md",
+      "sha256": "3633a6dd4ca8441742bed770a2d78a488eec83824dbaec8199df92e2c0067917",
+      "bytes": 6674,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/h11_2_bootstrap.py",
+      "sha256": "5c4f6f01cc46f468a2a19a87121999447079f9b867e828dc0ce9ec131a0be7dc",
+      "bytes": 1964,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/h11_2_integrar_y_comparar_h10.py",
+      "sha256": "6d678b28d531f765738c00c6270aaa5b36500c51adbc41eb622608ab11ebf89a",
+      "bytes": 10618,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/h11_2_observador_pasivo.py",
+      "sha256": "23b3c00addee81e4774cdafd22f15e3996da5eafe10543a03b02727cc56772f5",
+      "bytes": 19367,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/h11_2_resumir.py",
+      "sha256": "38871ddefd6613814e14aa555ea3259383a6d8c17085e11a4d850d497783aad7",
+      "bytes": 3838,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/h11_2_validar.py",
+      "sha256": "48b095b26694b33463e2c453be3a0f26e5c208f618709b3e745396c7389b9142",
+      "bytes": 2309,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/tests/test_h11_2_observador.py",
+      "sha256": "81f3bc276c0da166e2202eaef6d8dfd780f667e5ec6bd94d8ed63d1c2b8980a1",
+      "bytes": 6089,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_H10_Integracion_Pareada_v110/tests/test_pareado_h10.py",
+      "sha256": "9f222e8eaef95384814eacf776567646bcf6a65bde0bc837a797483764ab8726",
+      "bytes": 3446,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/GUIA_H11_2.md",
+      "sha256": "f96f88b104e2b6d5dc767a8fcbbe13dbea2ead435bc8dbbc8613c1e2815fe8e7",
+      "bytes": 8846,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/MANIFIESTO_PAQUETE.json",
+      "sha256": "7c5bd26ef07a2436aab54eaea27f88381321413a436ba7f990ebd5b574ed1d08",
+      "bytes": 1285,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_bootstrap.py",
+      "sha256": "5c4f6f01cc46f468a2a19a87121999447079f9b867e828dc0ce9ec131a0be7dc",
+      "bytes": 1964,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_comparar_invariancia.py",
+      "sha256": "f165636d42f8e0ce7fe09d0ab078390575dca7c7640ad61cc30fa76ed1042ed2",
+      "bytes": 970,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_demo_nominal.py",
+      "sha256": "b7377cae8ff270059092d37a30ba366ba8872ead7e848f418cc7891c16b959c8",
+      "bytes": 1916,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_ejecutar_h10.py",
+      "sha256": "11016b3f142fd8c007d2eb587b2b299443cbd5c629f89720020fbd1c1900542e",
+      "bytes": 3095,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_observador_pasivo.py",
+      "sha256": "23b3c00addee81e4774cdafd22f15e3996da5eafe10543a03b02727cc56772f5",
+      "bytes": 19367,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_preflight_h10.py",
+      "sha256": "044294b9b4600f6a25f8ef554d02068bde729c69a1fed9e852d99bee5918f7fa",
+      "bytes": 1516,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_resumir.py",
+      "sha256": "38871ddefd6613814e14aa555ea3259383a6d8c17085e11a4d850d497783aad7",
+      "bytes": 3838,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/h11_2_validar.py",
+      "sha256": "48b095b26694b33463e2c453be3a0f26e5c208f618709b3e745396c7389b9142",
+      "bytes": 2309,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/tests/test_autoinstrumentacion.py",
+      "sha256": "0085fe16cf377d9665af963b537d21877c02c3496ed468394cf3164cce340985",
+      "bytes": 1282,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2_Observador_Pasivo_v100/tests/test_h11_2_observador.py",
+      "sha256": "81f3bc276c0da166e2202eaef6d8dfd780f667e5ec6bd94d8ed63d1c2b8980a1",
+      "bytes": 6089,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2b_Auditoria_Semaforica_v100/GUIA_H11_2b.md",
+      "sha256": "a6d5f268f48d4dd78eaf3391a3104676c69dab9b9a5b39afd3e280f65297d904",
+      "bytes": 7430,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2b_Auditoria_Semaforica_v100/NOTAS_VERSION.md",
+      "sha256": "207f6372ecddf67cb3263903deddae7c612246fe14c40482124d2feb45e7313d",
+      "bytes": 1014,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2b_Auditoria_Semaforica_v100/h11_2b_auditar_semaforos.py",
+      "sha256": "ed17e5ae3cd24ccb6fae5509b802fde9d17b8b43613ff7166c14b16de453653b",
+      "bytes": 34693,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2b_Auditoria_Semaforica_v100/tests/test_h11_2b.py",
+      "sha256": "ebe9bb460400beb09ffe2ed66eb962a77988aafce55b6a6b0a49f3ae91f1f4a7",
+      "bytes": 10652,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2c_Caracterizacion_Integral_v100/GUIA_H11_2c.md",
+      "sha256": "e831c8712c56c45329b04848d174003698cdff6b3553189232ba42fa38e57c91",
+      "bytes": 7582,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2c_Caracterizacion_Integral_v100/NOTAS_VERSION.md",
+      "sha256": "b59c66099e3948402b5891e994a9c04b3f3ff9e20eacde24f6f895fcfac71dfb",
+      "bytes": 868,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2c_Caracterizacion_Integral_v100/h11_2c_caracterizar.py",
+      "sha256": "c1575b5a8d204da01ab3edeaf97850b27c52f122a170d7ef6447e7b39c39cbc6",
+      "bytes": 36215,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_2c_Caracterizacion_Integral_v100/tests/test_h11_2c.py",
+      "sha256": "07e73f03cf0133a57172815393c2cd47b4ee228e173f06b52a4f04ddf810b691",
+      "bytes": 10825,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Bandas_Velocidad_v100/GUIA_H11_3a_BANDAS.md",
+      "sha256": "45d2058309bdc8ed6660085d893ce71e579ad3589357a7fa17696fc0d92236f1",
+      "bytes": 4551,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Bandas_Velocidad_v100/NOTAS_VERSION.md",
+      "sha256": "ae388144d9a1f67e82bce369e14b2e4db30815a878e154e9c34376490ca67c62",
+      "bytes": 809,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Bandas_Velocidad_v100/h11_3a_bandas_velocidad.py",
+      "sha256": "7cceb8ebf4b46e6a8986d8b52e9802fe07eccd21b69f7b98b786eff68847402b",
+      "bytes": 18083,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Bandas_Velocidad_v100/tests/test_h11_3a_bandas.py",
+      "sha256": "954a81ad18d62a8f596773a9ce27e1e1fa0e9445ce5553c9ebeb58cf2dbb57d8",
+      "bytes": 6455,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Contraste_Aplicado_v100/ANTECEDENTES_NO_DUPLICAR.md",
+      "sha256": "1c6ccd1ca8dbeb9903494dc32ddcb50bb12f98b705fdbb1cb215d2ff4252c853",
+      "bytes": 2377,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Contraste_Aplicado_v100/GUIA_H11_3a.md",
+      "sha256": "51b489d74eb15a285c35a31037b1e1fe49f006d860a4334cdd350e8e38c120dc",
+      "bytes": 6098,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Contraste_Aplicado_v100/h11_3a_contraste_aplicado.py",
+      "sha256": "9691e10b3a9687b1d16e62267aa69d93fcdc9e9416d6f79bd6a6e6b3a1432a1e",
+      "bytes": 18537,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3a_Contraste_Aplicado_v100/tests/test_h11_3a.py",
+      "sha256": "70b997f9a3e53a7393c21e63ab400aacf0b54d23b0635a055f407c3e1cb3f1f0",
+      "bytes": 6455,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3b_Auditoria_Evidencia_Quito_v100/GUIA_H11_3b.md",
+      "sha256": "be0611d3beaa289f1cd6ee797f40fd7df20933574a796a09e57a3643864cba07",
+      "bytes": 4678,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3b_Auditoria_Evidencia_Quito_v100/PROTOCOLO_EVIDENCIA_FALTANTE.md",
+      "sha256": "c0ca364173af42267ca966f6db136abdb13c652a56d92e621e50c0f19b22e2d5",
+      "bytes": 3318,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3b_Auditoria_Evidencia_Quito_v100/h11_3b_auditar_evidencia.py",
+      "sha256": "a92180e059eee380e76ee724abdc67bc88fc6a55cf967516d2da7276d52f4bf9",
+      "bytes": 19078,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3b_Auditoria_Evidencia_Quito_v100/tests/test_h11_3b.py",
+      "sha256": "a8ecb51008d522e38684ef3b456f431f95cb4c1406ca3bf4dab7d7e45003c2f3",
+      "bytes": 2790,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3c_Episodios_Cinematica_PoliDriving_v100/GUIA_H11_3c.md",
+      "sha256": "567ee46bfb6a4123485479755d26c5b5fe1b9fed94a8271baec41d696d443726",
+      "bytes": 3897,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3c_Episodios_Cinematica_PoliDriving_v100/h11_3c_episodios.py",
+      "sha256": "b89c21b12dbcb5885c6d62ed8f2aa6e4e69809bf3c9b1011582768b772d092ef",
+      "bytes": 11524,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H11_3c_Episodios_Cinematica_PoliDriving_v100/tests/test_h11_3c.py",
+      "sha256": "113bc05af3c113dcbe80146b90dd12ab9b69b9b269ed3f67370e83010442da39",
+      "bytes": 2202,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_10_Auditoria_Politica_PPO_v101/GUIA_H12_10.md",
+      "sha256": "beab47fe65a806fa94c46b0cbdce961c502f0455cfcc75f2c0912bdd970dda11",
+      "bytes": 5936,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_10_Auditoria_Politica_PPO_v101/MANIFEST_SHA256.json",
+      "sha256": "5dd708d7807417c40f00c321ca35b906b414653659a0272719069994a02dd7cf",
+      "bytes": 321,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_10_Auditoria_Politica_PPO_v101/h12_10_politica.py",
+      "sha256": "5842bfa9bceb495bca576a877be888fc67fc0e2b640575596e49cf6d33e82259",
+      "bytes": 21153,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_10_Auditoria_Politica_PPO_v101/tests/test_h12_10.py",
+      "sha256": "768aaf97deb7eb173891cbff0112b8034426aaeac9195c48c4728552d9c97845",
+      "bytes": 9207,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_11_Auditoria_Proveniencia_PPO_v100/GUIA_H12_11.md",
+      "sha256": "8b984fc2ce4c0c06f636e79ab2a2cec8de54f3d272d5ed91eacc3e0a24768314",
+      "bytes": 3211,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_11_Auditoria_Proveniencia_PPO_v100/h12_11_proveniencia.py",
+      "sha256": "65a493e74083d0a97760103fcd2ceac6fd6a807c70f88876ecf67c8ec71457c5",
+      "bytes": 12558,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_11_Auditoria_Proveniencia_PPO_v100/tests/test_h12_11.py",
+      "sha256": "b0879ed37f67c4a8ba33334c9c422b3810d71253dbef6574082336c5382c5df1",
+      "bytes": 7564,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/GUIA_H12_12.md",
+      "sha256": "f34ae75407e43eba998c81b07b9770f7f51338c52292eee0d45bf38587f9f1fa",
+      "bytes": 8065,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/PROTOCOLO_H12_13.md",
+      "sha256": "b3844494cbe7e84595e7694152c25c7420767d43304a6ecb4ba4a2aaeac0a931",
+      "bytes": 2218,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/h12_12_contract.py",
+      "sha256": "df653d836fbb7ff38a8f161d08f7ca393cb97d6ca65425c070ef8c164824a57f",
+      "bytes": 11616,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/h12_12_env.py",
+      "sha256": "3bc8783c107a09bd1f520d7606a2dda6b65fd14662d10123459c5584f3092aeb",
+      "bytes": 10786,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/h12_12_homologar.py",
+      "sha256": "53f1bec7b0259a55b1f918e9a18370b894e200478c3572db408d268f869fd687",
+      "bytes": 11471,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/tests/test_h12_12.py",
+      "sha256": "675ec75db98b06f016768f6705343f5551880cbd3687010c18a70bf742ebca5c",
+      "bytes": 8566,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_12_Entorno_Homologado_B1_v100/tests/test_h12_12_runtime_mock.py",
+      "sha256": "3df26573a4c21fc2b23100f4025df5f917414635bbd10e6228f68058078d88a8",
+      "bytes": 6191,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_14_Auditoria_SOTA_RESCO_v100/GUIA_H12_14.md",
+      "sha256": "54a1d8c6e89515db52666b04d1fb766bbba79ff9f4f537b8e30c99eab63969c8",
+      "bytes": 5699,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_14_Auditoria_SOTA_RESCO_v100/MATRIZ_DECISION_H12_14.md",
+      "sha256": "fc77d90fa7965f5afbc4dd941742d4182313b92cc7687e4776b42e8766f33cfd",
+      "bytes": 1598,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_14_Auditoria_SOTA_RESCO_v100/h12_14_auditar.py",
+      "sha256": "b792d84018fe78d4135358d131a2d50f5d371e312eb83f43c1e0d7fbb70e7302",
+      "bytes": 21147,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_14_Auditoria_SOTA_RESCO_v100/tests/test_h12_14.py",
+      "sha256": "60b744b367792a70f3d2f43dd4ae4688bcc4d6f52cd79230aada5f0a550ea208",
+      "bytes": 10964,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_15_Baselines_Fisicos_B1_v100/GUIA_H12_15.md",
+      "sha256": "a2c95a2629243daf2d15a4016aadabd5700caac933cff018710785d41bc53c43",
+      "bytes": 5751,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_15_Baselines_Fisicos_B1_v100/MATRIZ_DECISION_H12_15.md",
+      "sha256": "86d1167ad886b6eb2694804aaa906829b977f3eb74bd1e2dd4c56e8e3dc0e3df",
+      "bytes": 1788,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_15_Baselines_Fisicos_B1_v100/h12_15_baselines.py",
+      "sha256": "bcc7d6482f515f5c5149c78ddc57d83ea2e5cd3ba846699e2e0e139104e2f7e4",
+      "bytes": 20565,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_15_Baselines_Fisicos_B1_v100/h12_15_politicas.py",
+      "sha256": "aef87c6873cf261b10976f7f98dfa766e539b71d3400a5aa1378908528738c5b",
+      "bytes": 8608,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_15_Baselines_Fisicos_B1_v100/tests/test_h12_15.py",
+      "sha256": "7c0946f2b35fdd35c6164403df825cdd0062dce1afb44818a627bc4d4aac9997",
+      "bytes": 17850,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_16_Auditoria_CoLight_LibSignal_v100/ESTADO_Y_PROCEDENCIA.md",
+      "sha256": "0f5e714cd3ab0664c3814fcbee93184c684516a5069059980cda905055ae0e19",
+      "bytes": 2600,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_16_Auditoria_CoLight_LibSignal_v100/GUIA_H12_16.md",
+      "sha256": "3e931a8d36014b53980c2e8fe583706f4d49739bafc3936025781de521ef9a58",
+      "bytes": 6739,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_16_Auditoria_CoLight_LibSignal_v100/MATRIZ_DECISION_H12_16.md",
+      "sha256": "13b530f56c78e2babe7c11db63202f1462bfd12b78547858ea877155193d6528",
+      "bytes": 2291,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_16_Auditoria_CoLight_LibSignal_v100/h12_16_auditar_colight.py",
+      "sha256": "a0406b66f1914ea98e31cf12c090c1ce22bd29733e38c8e7b946be5c6ca22244",
+      "bytes": 20625,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_16_Auditoria_CoLight_LibSignal_v100/tests/test_h12_16.py",
+      "sha256": "04b2a72e82e7e9fc286e27911573cf5aa99cd8fb72ebdda501ad219379eabf7f",
+      "bytes": 12353,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_16_Auditoria_CoLight_LibSignal_v100/upstream_pins.json",
+      "sha256": "8ae74369cd245de8031ccdf4a400f7f14bd3816b97ab56be93178f53c537e054",
+      "bytes": 1748,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_17_Entorno_MultiTLS_CoLight_v101/GUIA_H12_17.md",
+      "sha256": "5e6cc164ef7a260654e8a60570c429a7a5e1b3e7aadac2d8044a4bffa157cb54",
+      "bytes": 6163,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_17_Entorno_MultiTLS_CoLight_v101/MATRIZ_PUERTAS_H12_17.md",
+      "sha256": "d0b0b362eb34f571e5c576a257f3b4e593cc21b13fd55c3a4086b4e29dd823d2",
+      "bytes": 1411,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_17_Entorno_MultiTLS_CoLight_v101/h12_17_contract.py",
+      "sha256": "5451d8475e21de84909cca329cc61e375ff7cc7fbfe74f8fafc66525dd2e3b1d",
+      "bytes": 10640,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_17_Entorno_MultiTLS_CoLight_v101/h12_17_env.py",
+      "sha256": "bbd51d067532bcdcc47c41d728778e856d7321ff10264f8d2def6e257b9b1323",
+      "bytes": 11628,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_17_Entorno_MultiTLS_CoLight_v101/h12_17_multi_tls.py",
+      "sha256": "49e809f037b8f00bff874485efbbd7d353da7b7b6db51f2dbb43e78444105e29",
+      "bytes": 17954,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_17_Entorno_MultiTLS_CoLight_v101/tests/test_h12_17.py",
+      "sha256": "cfb70fe55f40fbb90129018d891e77bb4a37e0a243bde427718ef60d00c0d8d3",
+      "bytes": 24937,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/GUIA_H12_18.md",
+      "sha256": "f151b3518b063abe916cac31d1cddb34ae54ae93e66e73bcda33e296e7b2d21a",
+      "bytes": 5132,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/MANIFIESTO_RELEASE.json",
+      "sha256": "f1832bedb291fb278a8bee56bc1d6e3655ba4a83051862dc26845599273289e4",
+      "bytes": 1498,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/MATRIZ_H12_18.md",
+      "sha256": "fe0ad262a35ca424dc6ce04599f41aae7245388dba7da252e306f0da3a614a08",
+      "bytes": 1481,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/h12_18_bridge.py",
+      "sha256": "bf2ecce671167e966f47da7f97eb55549ee7210bd0346713fb6e3be2845f8fe1",
+      "bytes": 21768,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/h12_18_colight_loader.py",
+      "sha256": "1d8747e1e6ac2977b6861cafc4ea158a99d9eef1fb1e813247cd030bc852a590",
+      "bytes": 8651,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/h12_18_libsignal_probe.py",
+      "sha256": "4cb50cb463b9444b7f55dcdbfbdcb084087d1aa2da6d13aab0de878a6fb85f17",
+      "bytes": 2560,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/tests/test_h12_18.py",
+      "sha256": "53e39a21aef356a53d61951c163d3dc21b3c11a570c1cbc932dd7651855245f2",
+      "bytes": 15127,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/tests/test_h12_18_isolation.py",
+      "sha256": "36eb04f91732ade71b47ebd204b453d0b20333f2db448e7415f38014ab511918",
+      "bytes": 7594,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_18_Bridge_CoLight_LibSignal_v103/tests/test_h12_18_module_registry.py",
+      "sha256": "3623d630351b3959ae7a76028349f74b6be82d9261c686250b1f4cd5d31e4359",
+      "bytes": 4022,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_19_Piloto_Aprendizaje_CoLight_v101/GUIA_H12_19.md",
+      "sha256": "59c259e4cc3d0c3e978095a35a59af2925c5b6d3a5385750f913488df73bfab0",
+      "bytes": 7020,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_19_Piloto_Aprendizaje_CoLight_v101/MANIFIESTO_RELEASE.json",
+      "sha256": "ab5f09071cb9c119dc499e57b47fd223de32238e2b445fd88dac6d122580f810",
+      "bytes": 1376,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_19_Piloto_Aprendizaje_CoLight_v101/MATRIZ_H12_19.md",
+      "sha256": "c8e8e56b25db0dc3343bca701250474e67ae84eb9d7939efe8fbfadad69d2b2b",
+      "bytes": 1781,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_19_Piloto_Aprendizaje_CoLight_v101/h12_19_offpolicy.py",
+      "sha256": "bbd1f4d5c3a12ef17274d8e0708a0b4b882f0f45208fb3282a2e87d0725fcff8",
+      "bytes": 17028,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_19_Piloto_Aprendizaje_CoLight_v101/h12_19_td.py",
+      "sha256": "9d0008d0e013b3f64407d84aef9e030f95a68c7f2fc9ea9714e952fbd91a4c69",
+      "bytes": 8361,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_19_Piloto_Aprendizaje_CoLight_v101/tests/test_h12_19.py",
+      "sha256": "9668d169696e2b9d6ac430cd36de275227ff572bd7e6ca236550f850056526f9",
+      "bytes": 19636,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_1_Verificacion_Checkpoints_Tiempo_v100/GUIA_H12_1.md",
+      "sha256": "50d71c965f27d23a4fc96a15bf8e6569fa1f91de2793e7229e7e8f0c2140db68",
+      "bytes": 3051,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_1_Verificacion_Checkpoints_Tiempo_v100/h12_1_verificar.py",
+      "sha256": "d36472eeb3ffb31f46b673ed0e4365f733286cc3b32fcbe6c31e1a929738b115",
+      "bytes": 11434,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_1_Verificacion_Checkpoints_Tiempo_v100/tests/test_h12_1.py",
+      "sha256": "19fabd3893c46fe5aa4bf74620e972fc528711a79df3c2d419fde7c1d1fb36cc",
+      "bytes": 1967,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_2_Puente_Gymnasium_Microtick_v100/GUIA_H12_2.md",
+      "sha256": "258f02980105d2914fa90c7b3756f6b335672fd9a382a3fa7f31d76d8b0a4474",
+      "bytes": 7649,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_2_Puente_Gymnasium_Microtick_v100/HALLAZGOS_PRELIMINARES.md",
+      "sha256": "7351b0e50efe02229a8ac772ca26308f6b1906f36277097e1c92881ab108c555",
+      "bytes": 1878,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_2_Puente_Gymnasium_Microtick_v100/MANIFEST_SHA256.json",
+      "sha256": "6fcc5cd0af29cb416ca0c080e0a2447b4018f46cdd958e1483d11d971d6ffafa",
+      "bytes": 686,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_2_Puente_Gymnasium_Microtick_v100/h12_2_puente.py",
+      "sha256": "750afc8412fbb40c84b4f56e9ed70dced0a7973d8409bc627190789d12baf508",
+      "bytes": 21432,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_2_Puente_Gymnasium_Microtick_v100/tests/test_h12_2.py",
+      "sha256": "646456c2463d64b55c31d0a56c231d27e2bf3a71358eeefaaa8c1da917f8d8f6",
+      "bytes": 6011,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_3_Localizar_H08b_H09_H10_v100/GUIA_H12_3.md",
+      "sha256": "9702e10a0b1caaa3667be40d34851ec433dc801fe1b838b578889ba6f2eede9c",
+      "bytes": 2676,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_3_Localizar_H08b_H09_H10_v100/MANIFEST_SHA256.json",
+      "sha256": "7b4aaa257be73feae4d41d813661045819f7ffa612f9d09bf9ac154e27d236ac",
+      "bytes": 276,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_3_Localizar_H08b_H09_H10_v100/h12_3_localizador.py",
+      "sha256": "47a0ef7ec111809b2cea1d3cd661e1608c84bf0e53c651dda2902e993d6ffe11",
+      "bytes": 10067,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_3_Localizar_H08b_H09_H10_v100/tests/test_h12_3.py",
+      "sha256": "522a831a65db91b4accfaf228def6b13a06459e76161a65e7e9734a037d6e93f",
+      "bytes": 3531,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_4_Contrato_Inyector_Vine_v100/GUIA_H12_4.md",
+      "sha256": "3c601daa07e69531dc2358b79bcf87db32e7a54ac6c2c47290130aec34cb1177",
+      "bytes": 2123,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_4_Contrato_Inyector_Vine_v100/MANIFEST_SHA256.json",
+      "sha256": "1a58d8d476ccda3e92fe7369e78e2a76812b565d84a9928a2e43414c850b5841",
+      "bytes": 529,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_4_Contrato_Inyector_Vine_v100/h12_4_inspeccionar.py",
+      "sha256": "ce13b6a5e71e8a519920cac6e97005bb541f419537801005b05e87743809a4cd",
+      "bytes": 10922,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_4_Contrato_Inyector_Vine_v100/tests/test_h12_4.py",
+      "sha256": "a330a767774af484a2e62e9d638be2c39fb9113b449859d0903dfa10963bbaad",
+      "bytes": 3170,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_5_Integracion_Vine_Gymnasium_v100/GUIA_H12_5.md",
+      "sha256": "a24cb7a3d5f958c3e80905d11b2c79c5e032f364de65d356ac12b6f88716dc6f",
+      "bytes": 6687,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_5_Integracion_Vine_Gymnasium_v100/HALLAZGOS_FUENTES.md",
+      "sha256": "f1358a2d7cf3c5d7f5fee2efebbda30d4c7321e0d100ebbf72af3168b0053e37",
+      "bytes": 1787,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_5_Integracion_Vine_Gymnasium_v100/h12_5_integrar.py",
+      "sha256": "2d09fa9c918a1e0837805983c60a7c19565495a04dca9a1f0824bc7599fb4430",
+      "bytes": 21691,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_5_Integracion_Vine_Gymnasium_v100/tests/test_h12_5.py",
+      "sha256": "167416403d629db9cc3897acf37b2da99b555be3e27a8c4d7bbd4c6d5a3ce2a3",
+      "bytes": 7762,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_6_Auditoria_Comparativa_PPO_Vine_v100/GUIA_H12_6.md",
+      "sha256": "96303e5a29960c46d04a6fa77b2a87b0d01d0835006b56c3c5adca50c859188d",
+      "bytes": 3314,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_6_Auditoria_Comparativa_PPO_Vine_v100/h12_6_auditar.py",
+      "sha256": "a4cf9d48696003084df4badd55e4fd07d0fe7c0a6421a439e0a2db66e5365723",
+      "bytes": 14691,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_6_Auditoria_Comparativa_PPO_Vine_v100/tests/test_h12_6.py",
+      "sha256": "1244b493faa6343a91b9e170931ab73f8738d8b7d9ed6dbdbe1010e2c9ef2019",
+      "bytes": 6686,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_7_Diagnostico_Estado_B1_v100/GUIA_H12_7.md",
+      "sha256": "6082d0a0d2b46a7e73db285703e3fec66f29105d2af6d3e17a41d08a7b34398b",
+      "bytes": 4120,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_7_Diagnostico_Estado_B1_v100/h12_7_estado_b1.py",
+      "sha256": "0ac1f79e9a500af81a206bd735fe348be0bf12d8f80d5311a9a4449bc520c891",
+      "bytes": 16877,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_7_Diagnostico_Estado_B1_v100/tests/test_estado_b1.py",
+      "sha256": "14be0d99b0f12e1d39ebb92f0b46c3b0e6957b315cd34d788ca2732f925168ee",
+      "bytes": 3597,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_8_Auditoria_Exposicion_Observabilidad_v100/GUIA_H12_8.md",
+      "sha256": "0517b115e1aecf87ca1e7be84e53465ab458bcb60eb701b712086aecef68e22b",
+      "bytes": 3847,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_8_Auditoria_Exposicion_Observabilidad_v100/h12_8_auditar.py",
+      "sha256": "5050f89a9dac56f67b56b68fb2f665e4b029d30a19e2ec32f6adde0035715943",
+      "bytes": 19631,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_8_Auditoria_Exposicion_Observabilidad_v100/tests/test_h12_8.py",
+      "sha256": "8c67d4d19c3944448bcaaeb7ee4614a40c54671b826a9a6e79b50333da96aec0",
+      "bytes": 4907,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_9_Exposicion_B1_300s_v101/GUIA_H12_9.md",
+      "sha256": "285d842071d1dc2d6df25b8f877346dfde5c07e210e20874cc623bb373334d17",
+      "bytes": 5239,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_9_Exposicion_B1_300s_v101/h12_9_exposicion.py",
+      "sha256": "27ca707f42b92590eff310068ae02b30c151bedc545b697f52d88efc7ee0cead",
+      "bytes": 20416,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_9_Exposicion_B1_300s_v101/tests/test_h12_9.py",
+      "sha256": "346f353a00851465454d24c2f14261c9ce1b16fd451a98546747df9862226484",
+      "bytes": 8076,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_Auditoria_Gymnasium_SOTA_v100/GUIA_H12.md",
+      "sha256": "9f543c8472f0e8becd6b32ea2207b46bf17b0c7d776b940d7ca3e5f0a5fd167a",
+      "bytes": 5768,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_Auditoria_Gymnasium_SOTA_v100/HALLAZGOS_GITHUB.md",
+      "sha256": "d0c077134f24f68115f0a8f308ced4549f8c50ce213f0e2148462293e9e26009",
+      "bytes": 4902,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_Auditoria_Gymnasium_SOTA_v100/h12_auditar.py",
+      "sha256": "4dde93e90228153964912d633ceefa7672e9667dcf80b08ace07e8c047f8e6c8",
+      "bytes": 20289,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "H12_Auditoria_Gymnasium_SOTA_v100/tests/test_h12.py",
+      "sha256": "95357b7593af2af1719d405b6f2614bd6225be485688cdc1f817d92e73d707d3",
+      "bytes": 4958,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "INSTRUCCIONES.md",
+      "sha256": "560446c70e1044ccd04fcc5d6d6dfd1917dc96c3d62454eeb86ee2da14b786be",
+      "bytes": 5074,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "README.md",
+      "sha256": "4f3cd2a6934fb574115ba0f374682215c1f753e9a52373377e80ff4b11a6cb39",
+      "bytes": 2815,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "resultados/h11_3b_evidencia_20261011_215444_585422/dictamen_h11_3b.md",
+      "sha256": "6d024bd1d7b7eca00046b2ee732bb02920323b7965636a645b7cbe5b3dd0f8ab",
+      "bytes": 2863,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h11_3b_evidencia_20261011_215444_585422/manifiesto_h11_3b.json",
+      "sha256": "39fe5017c445b120346dcac094e18955c41c07d168445b2dc2cb85d3693ffd7f",
+      "bytes": 1896,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h11_3c_cinematica_20261011_224718_172406/dictamen_h11_3c.md",
+      "sha256": "3873f46b4275a18783397b950456645df36b24c79d7df5286b447d1151e405ea",
+      "bytes": 3219,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h11_3c_cinematica_20261011_224718_172406/manifiesto_h11_3c.json",
+      "sha256": "b72144ee9c3dd8dee64b57fe3a6d006a368cbfa08102ad8e35131b02317d8526",
+      "bytes": 1357,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_10_politica_20261012_100459_259433_104ecf/dictamen_h12_10.json",
+      "sha256": "d9fbd997a838ccb400d70666a6f6c7b65d421f71baf0f18b1ba1bfed070ba629",
+      "bytes": 86584,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_10_politica_20261012_100459_259433_104ecf/dictamen_h12_10.md",
+      "sha256": "b38a298a970f7fee91260892e19963ee45d44b4568dd0409e7b1f9a4491df38a",
+      "bytes": 3748,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_11_proveniencia_20261012_101550_378665_e8d201/dictamen_h12_11.json",
+      "sha256": "51e27b66538d8402bae86660e0d96e28bef2aa385bc87962e9ffe6ae6c8d3869",
+      "bytes": 6023,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_11_proveniencia_20261012_101550_378665_e8d201/dictamen_h12_11.md",
+      "sha256": "be9a089efddfdd7fea397f7de1a694fa5c8962524a0ee7a35f74196da5c99057",
+      "bytes": 2668,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_12_homologado_20261012_155458_787693_46131e/manifiesto_h12_12.json",
+      "sha256": "6d5710705c4119ee7c057eb8ffbdcb57b68c302df755dfa37fc07767889dfbb2",
+      "bytes": 6452,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_12_homologado_20261012_155458_787693_46131e/smoke_h12_12.json",
+      "sha256": "6d712732fc17d3b77c1e6bee06981f285964f6ea871cc7d2831713d0a923cc84",
+      "bytes": 14730,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_14_sota_20261012_162718_504371_4d2424/dictamen_h12_14.json",
+      "sha256": "7f5408fa1626145850d9008da3f05612b8985c0759b301550d81b5645b184938",
+      "bytes": 11055,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_14_sota_20261012_162718_504371_4d2424/dictamen_h12_14.md",
+      "sha256": "667ff659a6995f7e7f486d166fd27f93ed17d67062e91696538ff9b6d2630b5a",
+      "bytes": 3772,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_15_baselines_b1_20261012_164454_620962_0816b8/dictamen_h12_15.md",
+      "sha256": "9e4f729f92d0268b629ca531774d6cb5239e8d1aa991e36a1983ec79459b0092",
+      "bytes": 1826,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_15_baselines_b1_20261012_164454_620962_0816b8/manifiesto_h12_15.json",
+      "sha256": "75090b3b1ae2716ba46de6c43a9572fc800ca2e8647db9e875fe71a2f850b1e7",
+      "bytes": 6010,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_15_baselines_b1_20261012_164454_620962_0816b8/resultado_h12_15.json",
+      "sha256": "0c78f968690d9b1c0a147b7e887e07e11ff83e4da82f6349caa38ccca4e150e4",
+      "bytes": 4393,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_16_colight_20261012_125015_322811_3b659c/dictamen_h12_16.json",
+      "sha256": "db52d05c17f5a0793f7872e87c74896a4ecde00cc085c7188a948b43edce5318",
+      "bytes": 12677,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_16_colight_20261012_125015_322811_3b659c/dictamen_h12_16.md",
+      "sha256": "48bb940241ca8fcb3128aae22b2896b90fd67b1a3df7d66b37dbba06a71bb9c4",
+      "bytes": 4041,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_17_multi_tls_20261012_182005_185768_19e1d1/dictamen_h12_17.md",
+      "sha256": "59275c62e045e974c41cf9313134c261cf373e5fb875d5c282f8dae2d4ffddaf",
+      "bytes": 2706,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_17_multi_tls_20261012_182005_185768_19e1d1/manifiesto_h12_17.json",
+      "sha256": "821bf6ba587ffb8fde08872b3ad5c1e38d98f05ebe949113ae827b01aa29b26e",
+      "bytes": 28547,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_17_multi_tls_20261012_182005_185768_19e1d1/smoke_h12_17.json",
+      "sha256": "972710ae858e4ae2084f07cff00da0a063ae93356c60ebc5c175291c96aa00f3",
+      "bytes": 153977,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_18_colight_shadow_20261012_194524_727195_c65df4/dictamen_h12_18.md",
+      "sha256": "b7d92030e16e9ee93e5bbc3dfeeccdef778e27fe68cc2894650c7d9018eaa633",
+      "bytes": 1645,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_18_colight_shadow_20261012_194524_727195_c65df4/manifiesto_h12_18.json",
+      "sha256": "060ca591943268ed016d2680c5832edd4a9dd042a6280165a88849b611bd9d6e",
+      "bytes": 8687,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_18_colight_shadow_20261012_194524_727195_c65df4/resultado_h12_18.json",
+      "sha256": "e57445867d1a9c93d3db2f7778c659439f58e89dab4db5f3782ad5716b20d438",
+      "bytes": 33962,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_19_colight_td_20261013_130858_702463_16fae0/dictamen_h12_19.md",
+      "sha256": "9c40c134772941015fd58aa83f71b15684179dcc5512ebb24bee47fb85df9958",
+      "bytes": 5395,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_19_colight_td_20261013_130858_702463_16fae0/manifiesto_h12_19.json",
+      "sha256": "5ef09e0d4e11d15d5b39190e966857681df524df662d104ecb115cafcb85a9a4",
+      "bytes": 9025,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_19_colight_td_20261013_130858_702463_16fae0/resultado_h12_19.json",
+      "sha256": "a477652c3edb8ffd7c565968f1141e6d2cd0608c863833bd27f21289e4c22f92",
+      "bytes": 4261,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_6_auditoria_20261012_004426_153498_7c6e68/dictamen_h12_6.md",
+      "sha256": "208a1a889872b65649b6e288968505a178b1a34837116bf52c2febcd994a8577",
+      "bytes": 2307,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_7_estado_b1_20261012_073512_250528_5143e4/dictamen_estado_b1.md",
+      "sha256": "47dc0da823ae908a533411249f42f9681ac434a8ae1b20fe36d04b17b6cd5feb",
+      "bytes": 2072,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_9_exposicion_300s_20261012_081108_902703_b5adca/dictamen_h12_9.json",
+      "sha256": "8f9cbd93da90b4eee9d3be510a8e165523f7a865ebe437095a1fbc6929bf74c7",
+      "bytes": 3387,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "resultados/h12_9_exposicion_300s_20261012_081108_902703_b5adca/dictamen_h12_9.md",
+      "sha256": "92c37414cc503e7ae4f0d160c11362a2bdb11783c426ac02c0917dad2b6ebaca",
+      "bytes": 1981,
+      "categoria": "evidencia"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_02_contraste_vine_en_marcha.py",
+      "sha256": "8a888fc3a27b24a530f5e9d7d52b57f9e3da2da4b728e4d85365294a69f7b3fc",
+      "bytes": 19854,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_02_contraste_vine_en_marcha_corregido.py",
+      "sha256": "6d49121457072d1445899797486f04f0fa7b049421b8d9fd1a47ac615e70b99f",
+      "bytes": 21929,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_03_integracion_cinematica_sumo.py",
+      "sha256": "0f9041ace1ee38fceea99d21ad789c3aa1f1b8ba2ae1c39dd5d753cd6d7fe855",
+      "bytes": 24799,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_04_shadow_multivehiculo_rutas_corregidas.py",
+      "sha256": "08a5383893798bcd65a40a0cb414bd17e07c95f3d6ed4305549827bfcb1e9d76",
+      "bytes": 17991,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_04_sumo_shadow_multivehiculo.py",
+      "sha256": "0d1f99b2ed826c1a3489a74cedd4d64d7ed3659799e95012d844c3d1a761d899",
+      "bytes": 17390,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_06_piloto_integracion_protegida.py",
+      "sha256": "574f29d52e43241907bad53e54b6d73c7fa506c5914683cc0c0672449f9846f5",
+      "bytes": 23431,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_08_inyector_estres_porcentual.py",
+      "sha256": "514da8097c896abd5244b6ecfa43ec555904d0e0f53ce199d47adc06fddb59c1",
+      "bytes": 23316,
+      "categoria": "codigo"
+    },
+    {
+      "ruta": "scripts/ntvc_vine_r_08b_cuota_auditada.py",
+      "sha256": "ee70a04c7f0b698309f7a637a8a0b2b5ddf18434ec3ab6c11dc3346a7a904943",
+      "bytes": 14068,
+      "categoria": "codigo"
+    }
+  ],
+  "advertencias": [
+    "Archivos seleccionados automáticamente, no acreditación científica",
+    "H12.19 TD es piloto exploratorio; CoLight SOTA íntegro pendiente",
+    "Conducción no nominal Quito no calibrada/validada como representativa",
+    "traffic_project, datos originales y clones Git externos no están incluidos",
+    "Evitar incorporar RAW, holdout y secretos en repositorio público"
+  ]
+}

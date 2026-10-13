@@ -1,0 +1,8 @@
+{
+  "LEEME_H09_v143.md": "4b3aae7ebe09b714cd563942d11d9223998f654bcf3142263952917f2c097764",
+  "ejecutar_reanudar_h09_v143.ps1": "d5917f0c43b0591ec917e6a01e0d37ccfc87686ecac29c1f7fa631fe90d4efe6",
+  "scripts/auditar_semilla_h09_v143.py": "8624d253baf5e4713bddd6406c9d089d17f8dcecf1a48e9b3ccbdabcf629fc57",
+  "scripts/comparar_factorial_h09_v143.py": "268055316212e05edf8eb9b883b3389c3c44e151ef7301488c57d016901d96b7",
+  "scripts/comparar_multisemilla_h09_v143.py": "ffa1474092fabb50764ec6c66c9a1cfbf05b6c1cf9147405de05d543ef141a9b",
+  "tests/test_resume_v143.py": "8792b5792dddff1421792d6b46e0bccacdecfa371f92cde89cf79b20ce59315b"
+}

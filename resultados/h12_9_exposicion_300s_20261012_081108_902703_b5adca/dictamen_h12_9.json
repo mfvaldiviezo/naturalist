@@ -1,0 +1,113 @@
+{
+  "status": "H12_9_EXTENDED_OK",
+  "version": "H12.9-v1.0.1",
+  "checkpoint_sha256": "9746662b54730664e1262f7f3f9f0f32d106de403141a0731ac00c24f88f701f",
+  "model": "ppo_ideal",
+  "duration_s": 300,
+  "seed": 101,
+  "decisions": 60,
+  "microticks": 600,
+  "nominal_probe_identical": true,
+  "vine_confirmed": 100,
+  "global_kinematics_changed": true,
+  "metrics": {
+    "nominal": {
+      "ticks_b1_vehicles": 574,
+      "ticks_b1_halted": 316,
+      "ticks_b1_wait": 305,
+      "b1_vehicle_ticks": 8469,
+      "ticks_with_selected_vine_in_b1": 475,
+      "unique_selected_vine_in_b1": 13,
+      "max_b1_vehicles": 26,
+      "mean_b1_speed_m_s_time_avg": 10.736058360400692,
+      "decisions_queue_nonzero": 34,
+      "decisions_delay_nonzero": 34,
+      "decisions_reward_nonzero": 34,
+      "action_frequencies": {
+        "0": 60
+      },
+      "commands": 0
+    },
+    "probe": {
+      "ticks_b1_vehicles": 574,
+      "ticks_b1_halted": 316,
+      "ticks_b1_wait": 305,
+      "b1_vehicle_ticks": 8469,
+      "ticks_with_selected_vine_in_b1": 475,
+      "unique_selected_vine_in_b1": 13,
+      "max_b1_vehicles": 26,
+      "mean_b1_speed_m_s_time_avg": 10.736058360400692,
+      "decisions_queue_nonzero": 34,
+      "decisions_delay_nonzero": 34,
+      "decisions_reward_nonzero": 34,
+      "action_frequencies": {
+        "0": 60
+      },
+      "commands": 0
+    },
+    "active": {
+      "ticks_b1_vehicles": 574,
+      "ticks_b1_halted": 348,
+      "ticks_b1_wait": 340,
+      "b1_vehicle_ticks": 9292,
+      "ticks_with_selected_vine_in_b1": 483,
+      "unique_selected_vine_in_b1": 12,
+      "max_b1_vehicles": 29,
+      "mean_b1_speed_m_s_time_avg": 10.041614209295703,
+      "decisions_queue_nonzero": 37,
+      "decisions_delay_nonzero": 37,
+      "decisions_reward_nonzero": 37,
+      "action_frequencies": {
+        "0": 60
+      },
+      "commands": 100
+    }
+  },
+  "b1_local_aggregate_microticks_different": 389,
+  "first_b1_aggregate_difference": 77.0,
+  "b1_local_mean_speed_microticks_different": 453,
+  "b1_selected_vine_speed_records_different": 735,
+  "first_b1_local_speed_difference": 61.5,
+  "obs34d_boundaries_different": 39,
+  "obs34d_segment_boundaries_different": {
+    "presion_4": 38,
+    "espera_12": 36,
+    "cola_12": 31
+  },
+  "first_obs34d_difference": 90.0,
+  "actions_different": 0,
+  "action_indices_different": [],
+  "representation": {
+    "unique_lanes": 4,
+    "lanes_12": [
+      "B2B1_0",
+      "C1B1_0",
+      "B0B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0",
+      "A1B1_0"
+    ],
+    "outgoing_lanes": [],
+    "green_phases": [
+      0,
+      2
+    ]
+  },
+  "limitations": [
+    "300 s/semilla única, NO inferencia estadística de resiliencia",
+    "Estado 34D y mapa de acciones heredados; no corregir sin reentrenar",
+    "No se homologa aquí el tiempo amarillo ni SOTA multiagente",
+    "No demuestra representatividad poblacional de Quito"
+  ],
+  "sha_manifest": {
+    "h125_sha256": "2d09fa9c918a1e0837805983c60a7c19565495a04dca9a1f0824bc7599fb4430",
+    "h127_sha256": "0ac1f79e9a500af81a206bd735fe348be0bf12d8f80d5311a9a4449bc520c891",
+    "overlay_sha256": "3b8e4cdde44440b3b587c781f3361f50873229a50fcf7d7f0f31cbaf91187ff9"
+  }
+}

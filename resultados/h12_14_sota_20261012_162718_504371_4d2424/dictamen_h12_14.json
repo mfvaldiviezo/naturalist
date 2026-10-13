@@ -1,0 +1,202 @@
+{
+  "result": "H12_14_SOTA_AUDIT_OK",
+  "schema": "H12_14_RESCO_CONTRACT_AUDIT_V100",
+  "meaning": "Auditoría estática + validación de identidad de archivos; NINGUN controlador SOTA fue entrenado o ejecutado",
+  "scope": "Hangzhou B1, baselines/RESCO original, sin tocar checkpoint ni código",
+  "network": {
+    "green_indices": [
+      0,
+      2
+    ],
+    "yellow_phases": [
+      1,
+      3
+    ],
+    "action_space_n": 2,
+    "inbound_lanes": [
+      "A1B1_0",
+      "B0B1_0",
+      "B2B1_0",
+      "C1B1_0"
+    ],
+    "phase_states": [
+      "GGggrrrrGGggrrrr",
+      "yyyyrrrryyyyrrrr",
+      "rrrrGGggrrrrGGgg",
+      "rrrryyyyrrrryyyy"
+    ]
+  },
+  "H1212": {
+    "smoke_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_12_homologado_20261012_155458_787693_46131e",
+    "smoke_sha256": "6d712732fc17d3b77c1e6bee06981f285964f6ea871cc7d2831713d0a923cc84",
+    "manifest_sha256": "6d5710705c4119ee7c057eb8ffbdcb57b68c302df755dfa37fc07767889dfbb2",
+    "runtime_sha256": "8f5dae8e7387b43600dc4148b177ece961bd29f9bb9d7df836b7df196a22f704",
+    "sumo_version": [
+      "Eclipse SUMO sumo 1.26.0",
+      " Build features: Windows-10.0.26100 AMD64 MSVC 19.44.35222.0 Release FMI Proj GUI FMT Intl SWIG Parquet Eigen GDAL FFmpeg OSG GL2PS JuPedSim"
+    ],
+    "H1212_schema": "H12_12_B1_GREEN2_OBS34_V100",
+    "green_phases": [
+      0,
+      2
+    ],
+    "controlled_intersection": "B1"
+  },
+  "H1213": {
+    "H1213": "NOT_RUN_OR_NOT_SUPPLIED",
+    "meaning": "No impide auditar SOTA; falta piloto nuevo de H-SARG-B1/Coop-SARG-B1"
+  },
+  "resco_reference_inputs": {
+    "net_original": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\environments\\hangzhou\\hangzhou.net.xml",
+    "route_original": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\environments\\hangzhou\\hangzhou.rou.xml",
+    "net_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "route_sha256": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+    "net_byte_identical_to_H1212": true,
+    "route_byte_identical_to_H1212": true
+  },
+  "controllers": [
+    {
+      "controller": "FIXED",
+      "module": "static.fixed",
+      "source": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\fixed.py",
+      "source_sha256": "e6b244a34d6bb9f32eb7d1f1b389dce82539ad3abfe7438fa2a4e7b02233e22a",
+      "yaml_state": "wave",
+      "yaml_reward": "wait",
+      "scope": "local_baseline",
+      "source_class_verified": true,
+      "yaml_registered": true,
+      "can_execute_directly_on_H1212": false,
+      "checkpoint_verified": false,
+      "training_certified": false,
+      "integration_stage": "requiere adaptador de ciclo/temporización (sin pesos)"
+    },
+    {
+      "controller": "MAXPRESSURE",
+      "module": "static.maxpressure",
+      "source": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\maxpressure.py",
+      "source_sha256": "202d9fe983f7d8d17e55a387b4b1166f2ba6ee6478beba701160ef6536da8e20",
+      "yaml_state": "mplight",
+      "yaml_reward": "wait",
+      "scope": "local_baseline",
+      "source_class_verified": true,
+      "yaml_registered": true,
+      "can_execute_directly_on_H1212": false,
+      "checkpoint_verified": false,
+      "training_certified": false,
+      "integration_stage": "requiere adaptador de sensores/pares por fase; RESCO delega a WaveAgent"
+    },
+    {
+      "controller": "IPPO",
+      "module": "policy.pfrl_ppo",
+      "source": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\policy\\pfrl_ppo.py",
+      "source_sha256": "cc638a76147fb3ebdef0a366a01785ff1b632316eafefe335dcd60ddcb9cef47",
+      "yaml_state": "drq",
+      "yaml_reward": "wait",
+      "scope": "local_rl",
+      "source_class_verified": true,
+      "yaml_registered": true,
+      "can_execute_directly_on_H1212": false,
+      "checkpoint_verified": false,
+      "training_certified": false,
+      "integration_stage": "requiere adaptador drq 34D→estado RESCO y acciones 2D; entrenamiento PFRL nuevo"
+    },
+    {
+      "controller": "MPLight",
+      "module": "action_value.mplight",
+      "source": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\action_value\\mplight.py",
+      "source_sha256": "db5a0c7c081a513c9e6d031d4e685f7954af6fb46432e126d8167c022ac402eb",
+      "yaml_state": "mplight",
+      "yaml_reward": "pressure",
+      "scope": "shared_rl",
+      "source_class_verified": true,
+      "yaml_registered": true,
+      "can_execute_directly_on_H1212": false,
+      "checkpoint_verified": false,
+      "training_certified": false,
+      "integration_stage": "requiere adaptador de FRAP (pares competitivos/direcciones); DQN nuevo"
+    },
+    {
+      "controller": "CoSLight",
+      "module": "policy.CoSLight.coslight",
+      "source": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\policy\\CoSLight\\coslight.py",
+      "source_sha256": "9834540fe507bf27b2de2bdaa15238d7b0dd1474c121e088fb199abe1518e687",
+      "yaml_state": "coslight",
+      "yaml_reward": "coslight",
+      "scope": "multiagent_rl",
+      "source_class_verified": true,
+      "yaml_registered": true,
+      "can_execute_directly_on_H1212": false,
+      "checkpoint_verified": false,
+      "training_certified": false,
+      "integration_stage": "requiere control multi-TLS y estados compartidos; NO homologable como B1 aislado"
+    }
+  ],
+  "source_sha256": {
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\README.rst": "1277bb670b59a52836c568abffb8b1f913edf7be32fec59d290db6f708bd239f",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\action_value\\mplight.py": "db5a0c7c081a513c9e6d031d4e685f7954af6fb46432e126d8167c022ac402eb",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\action_value\\pfrl_dqn.py": "d696891d19379f3230f2b00212c36f6b9ff0a73746f00adb40c88ec61deb949d",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\policy\\CoSLight\\coslight.py": "9834540fe507bf27b2de2bdaa15238d7b0dd1474c121e088fb199abe1518e687",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\policy\\CoSLight\\r_mappo.py": "b2688bdd13a1cca46075de64bfd698521e18b78aff68e8ddb2969c0dcdd01b0d",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\policy\\CoSLight\\rMAPPOPolicy.py": "4bc9aa11119f6cb83f1cf36564d969b20638bb5d556e65c5029add5670caba8c",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\policy\\pfrl_ppo.py": "cc638a76147fb3ebdef0a366a01785ff1b632316eafefe335dcd60ddcb9cef47",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\fixed.py": "e6b244a34d6bb9f32eb7d1f1b389dce82539ad3abfe7438fa2a4e7b02233e22a",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\maxpressure.py": "202d9fe983f7d8d17e55a387b4b1166f2ba6ee6478beba701160ef6536da8e20",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\maxwave.py": "615f412b00a2a50f17bcaec800a803ec91ca8c5a31d2909dc3ea381bee192ca9",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\config\\agent.yaml": "a24a0440148a4ec9d4e3b5c3d61b75cce05e860ceedb478125a123f4d34f9876",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\config\\config.yaml": "848242821c3e0950476899267c847ca2fea7ff628f4cc7c75f27b027d405f49e",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\environments\\hangzhou\\hangzhou.net.xml": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\environments\\hangzhou\\hangzhou.rou.xml": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_14_Auditoria_SOTA_RESCO_v100\\h12_14_auditar.py": "b792d84018fe78d4135358d131a2d50f5d371e312eb83f43c1e0d7fbb70e7302"
+  },
+  "gates": {
+    "source_code_and_yaml": "PASSED",
+    "h1212_physical_contract": "PASSED",
+    "resco_hangzhou_network_identity": "PASSED",
+    "resco_hangzhou_routes_identity": "PASSED",
+    "B1_SOTA_state_adapter": "NOT_IMPLEMENTED",
+    "B1_SOTA_action_adapter": "NOT_IMPLEMENTED",
+    "B1_SOTA_transition_adapter": "NOT_IMPLEMENTED",
+    "SOTA_model_training": "NOT_ACCREDITED",
+    "CoSLight_multi_TLS_environment": "NOT_IMPLEMENTED",
+    "Vine_H09_injection_in_new_contract": "NOT_IMPLEMENTED",
+    "SOTA_full_comparison": "BLOCKED"
+  },
+  "protocol": {
+    "stage_A_B1": [
+      "Fixed physical homologated baseline",
+      "MaxPressure physical homologated baseline",
+      "IPPO adapted + retrained with verified 2 actions",
+      "MPLight original FRAP adapted and retrained",
+      "HSARG_B1/CoopSARG_B1 new architectures trained"
+    ],
+    "stage_B_network": [
+      "CoSLight must use multi-agent controlled TLS not just B1",
+      "Match controller scope and opponent TLS policy",
+      "No network claim from single-B1 testing"
+    ],
+    "fairness": [
+      "Freeze exact network and demand SHA",
+      "Match 5s decisions, 0.5s SUMO ticks, yellow 3s and min-green 10s",
+      "Match *decision opportunities* and matched SUMO seeds",
+      "Document own algorithm observation & reward mapping; do not silently replace SOTA architecture",
+      "Match interaction budgets, use multiple seeds and report compute/time",
+      "Freeze independent evaluation demand and Vine/H09 profiles",
+      "Causal comparison only under paired randomized experiments, not single seed"
+    ],
+    "do_not_label": [
+      "RESCO code as trained checkpoint",
+      "RESCO CoSLight as original CoLight",
+      "RESCO MAXPRESSURE WaveAgent as theoretical MaxPressure without examination",
+      "local Coop-SARG-B1 as cooperative multiagent"
+    ]
+  },
+  "limitations": [
+    "Los códigos RESCO NO se han importado ni ejecutado",
+    "RESCO puede requerir dependencias/API históricas PFRL y cambios de adaptador",
+    "No existe equivalencia automática entre estados RESCO (drq, mplight, coslight) y H12.12 34D",
+    "No se han certificado modelos entrenados ni métricas de resiliencia",
+    "Una red igual byte a byte NO implica igual demand protocol, amarillo, decisiones, reward o entrenamiento"
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "result": "H12_16_COLIGHT_SOURCE_AUDIT_OK",
+  "schema": "H12_16_COLIGHT_SOURCE_AUDIT_V100",
+  "meaning": "FUENTES/CONTRATO auditados; SIN ejecución de CoLight, SUMO o entrenamiento",
+  "original": {
+    "repository": "wingsweihua/colight",
+    "local_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\colight_original",
+    "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+    "origin": "https://github.com/wingsweihua/colight.git",
+    "files": [
+      {
+        "repository": "wingsweihua/colight",
+        "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+        "path": "CoLight_agent.py",
+        "blob_sha1": "4506141de6a38529ef2994c8b145610e2737caf6",
+        "sha256_git_blob": "25d7ed50252032af6e51d7c54e773353f296e9c5cae337acb4287fd1bbefe6e9",
+        "size_bytes": 28508
+      },
+      {
+        "repository": "wingsweihua/colight",
+        "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+        "path": "anon_env.py",
+        "blob_sha1": "13181b1e101ab98cfd566e99fd84344403f1d8f2",
+        "sha256_git_blob": "a8ffbd6228f77fafd75405d3d9853f37e33876db2e234860762cfb67d1e2f0ca",
+        "size_bytes": 72058
+      },
+      {
+        "repository": "wingsweihua/colight",
+        "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+        "path": "config.py",
+        "blob_sha1": "a36771a22d0a7749fd601c7e6a1068266e504234",
+        "sha256_git_blob": "5b983002ea722146e92f40e1c960b94f25d5db8bc21564a9a8285ac03ea7cc14",
+        "size_bytes": 12867
+      },
+      {
+        "repository": "wingsweihua/colight",
+        "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+        "path": "readme.md",
+        "blob_sha1": "4297c1a06b272599a9fec760ff171be9a9814b38",
+        "sha256_git_blob": "f745a469e57cf47645a1891ab77b42a75b67653e4cf418c26532c5b1d43ad0bf",
+        "size_bytes": 3865
+      },
+      {
+        "repository": "wingsweihua/colight",
+        "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+        "path": "requirements.txt",
+        "blob_sha1": "c6cb90a24a176cf9e6ab3b7e3b8fbd58d7922858",
+        "sha256_git_blob": "f126f70469d0a8e6b6c6b1fdc1b350c8cccebb356ea8fb9435e6a3016dddf16f",
+        "size_bytes": 55
+      }
+    ]
+  },
+  "libsignal": {
+    "repository": "DaRL-LibSignal/LibSignal",
+    "local_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal",
+    "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+    "origin": "https://github.com/DaRL-LibSignal/LibSignal.git",
+    "files": [
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "agent/__init__.py",
+        "blob_sha1": "af4090d181cd228391b83b45395185c685d26862",
+        "sha256_git_blob": "04f4ed705230f578595045c939339c697c7e5b9db47ddf1040e129147d72121a",
+        "size_bytes": 496
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "agent/colight.py",
+        "blob_sha1": "b33858268b51fa008df2ea4ee4bea725a74de476",
+        "sha256_git_blob": "4621e5d80665eacc28037b070a115715a1a6c19871af8e0744fdbe42bfc2ab48",
+        "size_bytes": 24597
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "agent/colight_pytorch_agent.py",
+        "blob_sha1": "b008a93c4582f1b0042b9020c8ec87bc7d484345",
+        "sha256_git_blob": "c5058bf68a35701955cccfed006cb12f13da2aab81826e1056af162d906acced",
+        "size_bytes": 21224
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "configs/sim/sumo1x1_colight.cfg",
+        "blob_sha1": "bb505811c3e8667968576cd37c1aa447c0027733",
+        "sha256_git_blob": "d4d9f766fa940d23a4a10ed21b4acf83c07655dcb628cbb8459a2b4ca388b495",
+        "size_bytes": 314
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "configs/tsc/colight.yml",
+        "blob_sha1": "f9b7bf38851ee0ea59e428081063c5e6c522ddc6",
+        "sha256_git_blob": "b1cf143b459949085c68fbe270cb261cc215a5efa2983071be701b1eed7923dc",
+        "size_bytes": 446
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "requirements.txt",
+        "blob_sha1": "2bbdd207488ccb49f28ef58d382b623f83be5c4c",
+        "sha256_git_blob": "1b4c47b726212406a2992565543b840cf97f55d1f3c746f7f158bf0c0fac25da",
+        "size_bytes": 84
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "run.py",
+        "blob_sha1": "4e4ae5f3cda9eb7423210b0f7cd9d9549cb459a9",
+        "sha256_git_blob": "0265f577758610e65de189cf5ec921efbd7cd5c449a332ac6d54893dbc5f2d56",
+        "size_bytes": 3640
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "trainer/tsc_trainer.py",
+        "blob_sha1": "e7575b97f1fbc33ca7d3fcb7c00678b4c81c7472",
+        "sha256_git_blob": "fcf2111ed892687d020f1eba77f366a6bc3d55089ac38e747a568235607c99c4",
+        "size_bytes": 14371
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "world/world_cityflow.py",
+        "blob_sha1": "3ff82a08b14f3063d7cdeb2805b7e6732acc4d6c",
+        "sha256_git_blob": "428aab51df1d8bd3f46dace17229fb390b44de296deb8633d162d46c05cadbb0",
+        "size_bytes": 35715
+      },
+      {
+        "repository": "DaRL-LibSignal/LibSignal",
+        "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+        "path": "world/world_sumo.py",
+        "blob_sha1": "ca6cbd71440ccab438e7c2454da3234c545ede51",
+        "sha256_git_blob": "5a8fa3a0541264a9e94eeae639d53cb7df80b99d397eac7a6e64491135068015",
+        "size_bytes": 39058
+      }
+    ]
+  },
+  "feature_audit": {
+    "original_framework": "TensorFlow 1.11 / Keras 2.1 (fuente histórica, no ejecutada)",
+    "libsignal_framework": "PyTorch / torch_geometric / torch_scatter (fuente auditada, no importada)",
+    "actual_registered_agent": "agent/colight.py::CoLightAgent",
+    "alternative_file": "agent/colight_pytorch_agent.py no registrado en agent/__init__.py",
+    "network_attention_verified_in_source": true,
+    "graph_edge_source": "graph['sparse_adj'] (requiere verificar orden de nodos en runtime)",
+    "heterogeneous_phases": "El código usa phase_lengths, máscara de acciones y grafo global",
+    "inert_sorted_lines": [
+      54,
+      65,
+      77,
+      89,
+      100,
+      143,
+      154,
+      165,
+      177,
+      189
+    ],
+    "unassigned_sorted_warning": true,
+    "example_sumo_network": "cologne1",
+    "example_sumo_is_hangzhou": false,
+    "SUMO_yellow_helper_present": true,
+    "incompatible_libraries_for_direct_legacy_execution": [
+      "tensorflow==1.11",
+      "keras==2.1"
+    ]
+  },
+  "local_contract": {
+    "repo_root": "C:\\Proyecto_Tesis_Final_V1\\traffic_project",
+    "network_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "route_sha256": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+    "network": {
+      "n_tls": 12,
+      "n_tls_with_connections": 12,
+      "b1_phases": {
+        "tls": "B1",
+        "n_phases": 4,
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_indices": [
+          1,
+          3
+        ],
+        "program_type": "actuated"
+      },
+      "signals": [
+        {
+          "tls": "A1",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "A2",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "B0",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "B1",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            2
+          ],
+          "yellow_indices": [
+            1,
+            3
+          ],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "B2",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            2
+          ],
+          "yellow_indices": [
+            1,
+            3
+          ],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "B3",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "C0",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "C1",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            2
+          ],
+          "yellow_indices": [
+            1,
+            3
+          ],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "C2",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            2
+          ],
+          "yellow_indices": [
+            1,
+            3
+          ],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "C3",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "D1",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        },
+        {
+          "tls": "D2",
+          "n_phases": 4,
+          "green_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "yellow_indices": [],
+          "program_type": "actuated"
+        }
+      ],
+      "all_two_green": false
+    },
+    "H1214": {
+      "status": "H12_14_SOTA_AUDIT_OK",
+      "report_sha256": "7f5408fa1626145850d9008da3f05612b8985c0759b301550d81b5645b184938"
+    },
+    "H1215": {
+      "status": "H12_15_PHYSICAL_SMOKE_OK",
+      "report_sha256": "0c78f968690d9b1c0a147b7e887e07e11ff83e4da82f6349caa38ccca4e150e4"
+    }
+  },
+  "dependencies_environment": {
+    "torch": "present_not_imported",
+    "torch_scatter": "not_found",
+    "torch_geometric": "not_found",
+    "gym": "present_not_imported",
+    "gymnasium": "present_not_imported",
+    "traci": "present_not_imported",
+    "libsumo": "not_found",
+    "tensorflow": "not_found",
+    "keras": "not_found"
+  },
+  "gates": {
+    "upstream_orig_authenticity": "PASSED_PINNED_COMMIT_AND_BLOBS",
+    "upstream_libsignal_authenticity": "PASSED_PINNED_COMMIT_AND_BLOBS",
+    "colight_network_attention": "PRESENT_STATICALLY",
+    "registered_colight_pytorch": "PRESENT_STATICALLY",
+    "libsignal_sumo_support": "PRESENT_STATICALLY",
+    "h1212_hangzhou_network_and_demand": "PASSED_IDENTITY",
+    "node_order_graph_runtime": "NOT_VERIFIED",
+    "yellow_transition_equivalence": "NOT_VERIFIED",
+    "phase_action_masking_network": "NOT_VERIFIED",
+    "libs_binary_compatibility": "NOT_VERIFIED",
+    "multi_tls_h1212_adapter": "NOT_IMPLEMENTED",
+    "colight_training_checkpoint": "NOT_ACCREDITED",
+    "training_equal_budget": "NOT_ACCREDITED",
+    "Vine_H09_injection_multi_TLS": "NOT_IMPLEMENTED",
+    "sota_resilience": "BLOCKED"
+  },
+  "next_stage": "H12.17 multi-TLS and verified CoLight interface; avoid relabeling different model as CoLight",
+  "time_utc": "2026-10-12T17:50:15.322811+00:00"
+}

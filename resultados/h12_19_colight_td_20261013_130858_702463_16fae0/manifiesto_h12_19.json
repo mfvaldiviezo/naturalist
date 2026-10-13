@@ -1,0 +1,379 @@
+{
+  "schema": "H12_19_UPSTREAM_COLIGHT_OFFPOLICY_TD_SMOKE_V100",
+  "status": "H12_19_PREFLIGHT_OK",
+  "h1218_shadow": {
+    "shadow_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_18_colight_shadow_20261012_194524_727195_c65df4",
+    "shadow_result_sha256": "e57445867d1a9c93d3db2f7778c659439f58e89dab4db5f3782ad5716b20d438",
+    "shadow_manifest_sha256": "060ca591943268ed016d2680c5832edd4a9dd042a6280165a88849b611bd9d6e",
+    "n_decisions": 12
+  },
+  "h1218_manifest_sha256": "060ca591943268ed016d2680c5832edd4a9dd042a6280165a88849b611bd9d6e",
+  "libsignal": {
+    "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+    "blob_sha1": "b33858268b51fa008df2ea4ee4bea725a74de476",
+    "config_blob_sha1": "f9b7bf38851ee0ea59e428081063c5e6c522ddc6",
+    "config_committed_sha256": "b1cf143b459949085c68fbe270cb261cc215a5efa2983071be701b1eed7923dc",
+    "config_worktree_sha256": "a63d3f64016e092ed24d9ba338fcc6eeeb6f853d528ecc3d67e57d83da5c5f99",
+    "committed_file_sha256": "4621e5d80665eacc28037b070a115715a1a6c19871af8e0744fdbe42bfc2ab48",
+    "worktree_sha256": "a484008170bb159c622def05ebe39cd1c7d132e0f5ea172c8c446c2d16fec8f1",
+    "local_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal",
+    "source_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal\\agent\\colight.py"
+  },
+  "base_provenance": {
+    "h1217": {
+      "report_sha256": "972710ae858e4ae2084f07cff00da0a063ae93356c60ebc5c175291c96aa00f3",
+      "manifest_sha256": "821bf6ba587ffb8fde08872b3ad5c1e38d98f05ebe949113ae827b01aa29b26e",
+      "runtime_sha256": "85ce2dff2918db43e7a1db6055a4ce9903056cd157dbec4a8aa0100f46834555",
+      "run_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_17_multi_tls_20261012_182005_185768_19e1d1",
+      "graph": {
+        "node_order": [
+          "A1",
+          "A2",
+          "B0",
+          "B1",
+          "B2",
+          "B3",
+          "C0",
+          "C1",
+          "C2",
+          "C3",
+          "D1",
+          "D2"
+        ],
+        "edge_index": [
+          [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            3,
+            6,
+            0,
+            2,
+            4,
+            7,
+            1,
+            3,
+            5,
+            8,
+            4,
+            9,
+            2,
+            7,
+            3,
+            6,
+            8,
+            10,
+            4,
+            7,
+            9,
+            11,
+            5,
+            8,
+            7,
+            11,
+            8,
+            10
+          ]
+        ],
+        "incoming_lanes": {
+          "A1": [
+            "A0A1_0",
+            "A2A1_0",
+            "B1A1_0"
+          ],
+          "A2": [
+            "A1A2_0",
+            "A3A2_0",
+            "B2A2_0"
+          ],
+          "B0": [
+            "A0B0_0",
+            "B1B0_0",
+            "C0B0_0"
+          ],
+          "B1": [
+            "A1B1_0",
+            "B0B1_0",
+            "B2B1_0",
+            "C1B1_0"
+          ],
+          "B2": [
+            "A2B2_0",
+            "B1B2_0",
+            "B3B2_0",
+            "C2B2_0"
+          ],
+          "B3": [
+            "A3B3_0",
+            "B2B3_0",
+            "C3B3_0"
+          ],
+          "C0": [
+            "B0C0_0",
+            "C1C0_0",
+            "D0C0_0"
+          ],
+          "C1": [
+            "B1C1_0",
+            "C0C1_0",
+            "C2C1_0",
+            "D1C1_0"
+          ],
+          "C2": [
+            "B2C2_0",
+            "C1C2_0",
+            "C3C2_0",
+            "D2C2_0"
+          ],
+          "C3": [
+            "B3C3_0",
+            "C2C3_0",
+            "D3C3_0"
+          ],
+          "D1": [
+            "C1D1_0",
+            "D0D1_0",
+            "D2D1_0"
+          ],
+          "D2": [
+            "C2D2_0",
+            "D1D2_0",
+            "D3D2_0"
+          ]
+        },
+        "input_dim": 4,
+        "output_dim": 2
+      }
+    },
+    "h1216": {
+      "report_sha256": "db52d05c17f5a0793f7872e87c74896a4ecde00cc085c7188a948b43edce5318",
+      "run_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_16_colight_20261012_125015_322811_3b659c"
+    },
+    "libsignal": {
+      "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+      "blob_sha1": "b33858268b51fa008df2ea4ee4bea725a74de476",
+      "config_blob_sha1": "f9b7bf38851ee0ea59e428081063c5e6c522ddc6",
+      "config_committed_sha256": "b1cf143b459949085c68fbe270cb261cc215a5efa2983071be701b1eed7923dc",
+      "config_worktree_sha256": "a63d3f64016e092ed24d9ba338fcc6eeeb6f853d528ecc3d67e57d83da5c5f99",
+      "committed_file_sha256": "4621e5d80665eacc28037b070a115715a1a6c19871af8e0744fdbe42bfc2ab48",
+      "worktree_sha256": "a484008170bb159c622def05ebe39cd1c7d132e0f5ea172c8c446c2d16fec8f1",
+      "local_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal",
+      "source_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal\\agent\\colight.py"
+    }
+  },
+  "graph": {
+    "node_order": [
+      "A1",
+      "A2",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2"
+    ],
+    "edge_index": [
+      [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11
+      ],
+      [
+        1,
+        3,
+        0,
+        4,
+        3,
+        6,
+        0,
+        2,
+        4,
+        7,
+        1,
+        3,
+        5,
+        8,
+        4,
+        9,
+        2,
+        7,
+        3,
+        6,
+        8,
+        10,
+        4,
+        7,
+        9,
+        11,
+        5,
+        8,
+        7,
+        11,
+        8,
+        10
+      ]
+    ],
+    "incoming_lanes": {
+      "A1": [
+        "A0A1_0",
+        "A2A1_0",
+        "B1A1_0"
+      ],
+      "A2": [
+        "A1A2_0",
+        "A3A2_0",
+        "B2A2_0"
+      ],
+      "B0": [
+        "A0B0_0",
+        "B1B0_0",
+        "C0B0_0"
+      ],
+      "B1": [
+        "A1B1_0",
+        "B0B1_0",
+        "B2B1_0",
+        "C1B1_0"
+      ],
+      "B2": [
+        "A2B2_0",
+        "B1B2_0",
+        "B3B2_0",
+        "C2B2_0"
+      ],
+      "B3": [
+        "A3B3_0",
+        "B2B3_0",
+        "C3B3_0"
+      ],
+      "C0": [
+        "B0C0_0",
+        "C1C0_0",
+        "D0C0_0"
+      ],
+      "C1": [
+        "B1C1_0",
+        "C0C1_0",
+        "C2C1_0",
+        "D1C1_0"
+      ],
+      "C2": [
+        "B2C2_0",
+        "C1C2_0",
+        "C3C2_0",
+        "D2C2_0"
+      ],
+      "C3": [
+        "B3C3_0",
+        "C2C3_0",
+        "D3C3_0"
+      ],
+      "D1": [
+        "C1D1_0",
+        "D0D1_0",
+        "D2D1_0"
+      ],
+      "D2": [
+        "C2D2_0",
+        "D1D2_0",
+        "D3D2_0"
+      ]
+    },
+    "input_dim": 4,
+    "output_dim": 2
+  },
+  "network_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+  "route_sha256": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+  "settings": {
+    "seed": 101,
+    "decision_steps": 24,
+    "updates": 4,
+    "batch_size": 4,
+    "min_green_s": 10.0,
+    "gamma": 0.95,
+    "learning_rate": 0.001,
+    "gradient_clip": 5.0,
+    "device": "cpu",
+    "target_sync_every_updates": 4
+  },
+  "strict_label": "UNTRAINED_UPSTREAM_NETWORK_OFF_POLICY_TD_PROBE",
+  "gates": {
+    "SUMO_12_TLS": "VERIFIED_PRIOR",
+    "upstream_colight_network": "PINNED",
+    "native_full_colight_trainer": "NOT_INVOKED",
+    "RL_action_applied": "NEVER",
+    "resilience": "BLOCKED"
+  },
+  "src_sha256": {
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_19_Piloto_Aprendizaje_CoLight_v101\\h12_19_offpolicy.py": "bbd1f4d5c3a12ef17274d8e0708a0b4b882f0f45208fb3282a2e87d0725fcff8",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_19_Piloto_Aprendizaje_CoLight_v101\\h12_19_td.py": "9d0008d0e013b3f64407d84aef9e030f95a68c7f2fc9ea9714e952fbd91a4c69"
+  }
+}

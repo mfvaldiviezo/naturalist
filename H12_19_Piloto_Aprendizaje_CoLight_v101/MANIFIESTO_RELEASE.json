@@ -1,0 +1,33 @@
+{
+  "package": "H12_19_Piloto_Aprendizaje_CoLight_v101",
+  "schema": "H12_19_UPSTREAM_COLIGHT_OFFPOLICY_TD_SMOKE_V100",
+  "local_test_count": 60,
+  "local_tests": "PASSED_MOCKED_NO_PYG_NO_SUMO_PYTHON313_CPU",
+  "verified_upstream": "DaRL-LibSignal/LibSignal commit 127af9f93902778e556de2eedb2b606c4c9447e6",
+  "modes": [
+    "plan",
+    "probe",
+    "pilot"
+  ],
+  "not_certified": [
+    "upstream_ColightAgent_full_training",
+    "SUMO_neural_control",
+    "SOTA_comparison",
+    "Vine_H09",
+    "resilience"
+  ],
+  "sha256_files": {
+    "GUIA_H12_19.md": "59c259e4cc3d0c3e978095a35a59af2925c5b6d3a5385750f913488df73bfab0",
+    "h12_19_offpolicy.py": "bbd1f4d5c3a12ef17274d8e0708a0b4b882f0f45208fb3282a2e87d0725fcff8",
+    "h12_19_td.py": "9d0008d0e013b3f64407d84aef9e030f95a68c7f2fc9ea9714e952fbd91a4c69",
+    "MATRIZ_H12_19.md": "c8e8e56b25db0dc3343bca701250474e67ae84eb9d7939efe8fbfadad69d2b2b",
+    "tests/test_h12_19.py": "9668d169696e2b9d6ac430cd36de275227ff572bd7e6ca236550f850056526f9"
+  },
+  "patch_version": "1.0.1",
+  "schema_unchanged": "H12_19_UPSTREAM_COLIGHT_OFFPOLICY_TD_SMOKE_V100",
+  "change_log": [
+    "Replace hard-coded Linux H12.18 path in six PlanTests with isolated tempfile fixture",
+    "Add rejection cases for missing H12.18 bridge and incorrect version marker",
+    "Production h12_19_offpolicy.py and h12_19_td.py byte-identical to v100"
+  ]
+}

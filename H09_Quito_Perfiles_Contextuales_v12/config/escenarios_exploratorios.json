@@ -1,0 +1,31 @@
+{
+  "version": "H09_CONTEXTUAL_SUMO_v1.2",
+  "evidence_status": "EXPLORATORY_HYPOTHESES_NOT_CALIBRATED_QUITO",
+  "note": "Valores de estrés propuestos para un experimento de sensibilidad. NINGUNA probabilidad individual procede de Quito. Las tasas de Quito son objetivos agregados externos.",
+  "families": {
+    "seguimiento": {
+      "tau": 0.9,
+      "minGap": 1.2
+    },
+    "semaforos": {
+      "jmDriveAfterYellowTime": 1.5,
+      "jmDriveAfterRedTime": 0.5
+    },
+    "bloqueo": {
+      "jmIgnoreKeepClearTime": 0.0
+    },
+    "combinado": {
+      "tau": 0.9,
+      "minGap": 1.2,
+      "speedFactor": 1.15,
+      "jmDriveAfterYellowTime": 1.5,
+      "jmDriveAfterRedTime": 0.5,
+      "jmIgnoreKeepClearTime": 0.0
+    }
+  },
+  "reference": {
+    "quIto_signal_crossings": "https://doi.org/10.3390/smartcities9090140",
+    "quite_speed_study": "https://publichealth.jhu.edu/sites/default/files/2024-02/20230602bigrsquito04pages.pdf",
+    "technical_sumo_junction": "https://eclipse.dev/sumo/docs/Definition_of_Vehicles,_Vehicle_Types,_and_Routes.html"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "H09_QUITO_INSTRUMENTACION_V11",
+  "artifacts": {
+    "LEEME.md": "d2456c3759e359c02441e1a4943430ba0eb1ae94f76744d882a3f53ecfccbc7b",
+    "config/protocolo_hangzhou_ejemplo.json": "fa5dfa7b134956f698a5e978f58729eb6560b0d281ded8c69c7fd27a0968b139",
+    "datos_referencia/cruces_quito_publicados.csv": "95c81e963283dd444b38ea1bddd691d900e832d8f77564463c7c8ace75db5092",
+    "datos_referencia/indicador_alterno_velocidad_quito_2024.json": "7be052ee9337b78217eda614ec5bfc09c386d5d4b6d23be87cdae5a89fbb6200",
+    "datos_referencia/objetivos_quito_h09.json": "15c4c03ddee556e2c85da0d4c3b3fc4f7e2d5ac528be9dac3a42310de3b45df5",
+    "datos_referencia/velocidad_quito_publicada.csv": "4a97811d788f23dfff7b99fe2afa8345e8152e590bb0b1b43fc06ff65daca5ae",
+    "scripts/auditar_eventos_h09.py": "47788cc6c1cb3ca6229175ab780cc8774f12dcddf3b7a718fc489a13670cd077",
+    "scripts/calibrador_quito_h09.py": "1077a2626c76fa89b5af4cc2eafa4290d7fb5dfeb122836a535f6fb537ed56c0",
+    "scripts/generar_zonas_velocidad_h09.py": "df9f24c6441564a8a502252c80c86c6f82c22f832c433c418280ef72258df64d",
+    "scripts/observador_traci_h09.py": "a5e88394e5b58b8b842565591984a5ebc31e0114a058f18b5288f496c6e487a8",
+    "scripts/observador_traci_h09_v11.py": "3167115b1409ce89c90f5d52a50eba8731a5fbb1d8274435b0966df98986d38f",
+    "scripts/prueba_positiva_aislada_h09.py": "e0496d339df65d952a48c98a242f6f797b2a8052127c38b521c7a195df0e1927",
+    "tests/test_h09_quito.py": "9c8358795cb753f6f0b87a8ec66588a9d8e6b0b853aa665e1c9488611322aee6",
+    "tests/test_h09_v11.py": "a468e625685821aaa38a5b408ad152db4abd09aaaeec6edf34a24a26b570208d"
+  },
+  "notice": "sumo integration isolated scenario not run in build environment"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "H11.3c v1.0.0",
+  "input_h01": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\ntvc_vine_r_01_cohortes_movimiento_regenerado",
+  "source_h01_sha256": "1e66f326e76678c250f12032f7e51b0a79503a9cce8b8cfd6a869f5793240af3",
+  "source_manifest_sha256": "89a4e1414784a3831fa4df594a83e753b62cb9bb214abf43440457c534ba964b",
+  "n_rows": 62398,
+  "n_sessions": 5,
+  "n_drivers": 4,
+  "threshold_grid": [
+    {
+      "name": "exploratorio_sensible",
+      "abs_accel": 1.5,
+      "abs_jerk": 2.0
+    },
+    {
+      "name": "exploratorio_intermedio",
+      "abs_accel": 2.0,
+      "abs_jerk": 3.0
+    },
+    {
+      "name": "exploratorio_conservador",
+      "abs_accel": 3.0,
+      "abs_jerk": 5.0
+    }
+  ],
+  "ground_truth_imprudence": false,
+  "holdout_read": false,
+  "trained": false,
+  "sumo_run": false,
+  "outputs_sha256": {
+    "resumen_por_sesion_h11_3c.csv": "0ddb61a0a55c9964174158099c6070fdaf425cc4cec262d292c2c105fba7fd76",
+    "resumen_por_umbral_h11_3c.csv": "fc947ab54988c0c57483dd09828d8e6d5af578e47565012f317c4354a191b004",
+    "episodios_candidatos_h11_3c.csv": "521fffa055942de677255b51f5cf8197c4d440933508b66a7eabe470b59c203b",
+    "dictamen_h11_3c.md": "3873f46b4275a18783397b950456645df36b24c79d7df5286b447d1151e405ea"
+  },
+  "timestamp_utc": "2026-10-12T03:47:18.269506+00:00"
+}

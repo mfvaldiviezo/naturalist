@@ -1,0 +1,2904 @@
+{
+  "status": "H12_10_POLITICA_OFFLINE_OK",
+  "version": "H12.10-v1.0.1",
+  "model": "ppo_ideal",
+  "checkpoint_sha256": "9746662b54730664e1262f7f3f9f0f32d106de403141a0731ac00c24f88f701f",
+  "decisions": 60,
+  "states_different": 39,
+  "actions_different": 0,
+  "physical_phases_different": 0,
+  "policy_probs_different_among_changed_states": 39,
+  "policy_probs_diff_threshold_tv": 1e-07,
+  "max_total_variation": 0.005501590669155121,
+  "mean_total_variation_on_changed_states": 0.0010893085064032138,
+  "max_js_divergence_nats": 1.9297641026952455e-05,
+  "max_phase_total_variation": 0.0012485086917877197,
+  "mean_entropy_nominal_nats": 1.3319418572749762,
+  "mean_entropy_active_nats": 1.3319184395221546,
+  "min_argmax_margin_nominal": 0.008361101150512695,
+  "min_argmax_margin_active": 0.0031434595584869385,
+  "observation_box_mismatch": {
+    "nominal": {
+      "n_decisions_with_age_raw_gt_one": 35,
+      "max_phase_age_feature_raw": 2.4583332538604736
+    },
+    "probe": {
+      "n_decisions_with_age_raw_gt_one": 35,
+      "max_phase_age_feature_raw": 2.4583332538604736
+    },
+    "active": {
+      "n_decisions_with_age_raw_gt_one": 35,
+      "max_phase_age_feature_raw": 2.4583332538604736
+    }
+  },
+  "action_count_nominal": {
+    "0": 60
+  },
+  "action_count_active": {
+    "0": 60
+  },
+  "action_to_physical_phase": {
+    "0": 0,
+    "1": 2,
+    "2": 0,
+    "3": 2
+  },
+  "unique_phases": 2,
+  "max_probe_nominal_total_variation": 0.0,
+  "top_decisions_by_probability_change": [
+    {
+      "i": 39,
+      "decision_time_s": 195.0,
+      "end_time_s": 200.0,
+      "n_state_components_different": 28,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33352264761924744,
+        0.1387282758951187,
+        0.32054173946380615,
+        0.20720738172531128
+      ],
+      "active_p": [
+        0.32918673753738403,
+        0.13817614316940308,
+        0.3260432779788971,
+        0.20659378170967102
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3310898386178334,
+      "active_entropy_nats": 1.3304545737558784,
+      "nominal_top_margin": 0.012980908155441284,
+      "active_top_margin": 0.0031434595584869385,
+      "total_variation": 0.005501590669155121,
+      "jensen_shannon_nats": 1.9297641026952455e-05,
+      "phase_probability_nominal": {
+        "0": 0.6540643870830536,
+        "2": 0.34593565762043
+      },
+      "phase_probability_active": {
+        "0": 0.6552300155162811,
+        "2": 0.3447699248790741
+      },
+      "phase_total_variation": 0.0011656805872917175
+    },
+    {
+      "i": 37,
+      "decision_time_s": 185.0,
+      "end_time_s": 190.0,
+      "n_state_components_different": 23,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3327915370464325,
+        0.1388711780309677,
+        0.3206736147403717,
+        0.2076636254787445
+      ],
+      "active_p": [
+        0.32975098490715027,
+        0.13823434710502625,
+        0.32496267557144165,
+        0.20705194771289825
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.33143618112517,
+      "active_entropy_nats": 1.3307053837772818,
+      "nominal_top_margin": 0.012117922306060791,
+      "active_top_margin": 0.004788309335708618,
+      "total_variation": 0.004289060831069946,
+      "jensen_shannon_nats": 1.1203156099514792e-05,
+      "phase_probability_nominal": {
+        "0": 0.6534651517868042,
+        "2": 0.3465348035097122
+      },
+      "phase_probability_active": {
+        "0": 0.6547136604785919,
+        "2": 0.3452862948179245
+      },
+      "phase_total_variation": 0.0012485086917877197
+    },
+    {
+      "i": 36,
+      "decision_time_s": 180.0,
+      "end_time_s": 185.0,
+      "n_state_components_different": 26,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33349379897117615,
+        0.13847380876541138,
+        0.3202107548713684,
+        0.20782162249088287
+      ],
+      "active_p": [
+        0.33005189895629883,
+        0.138217031955719,
+        0.3241609036922455,
+        0.2075701355934143
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3311445339343093,
+      "active_entropy_nats": 1.3309179759045262,
+      "nominal_top_margin": 0.01328304409980774,
+      "active_top_margin": 0.005890995264053345,
+      "total_variation": 0.003950156271457672,
+      "jensen_shannon_nats": 1.0614928199497654e-05,
+      "phase_probability_nominal": {
+        "0": 0.6537045538425446,
+        "2": 0.34629543125629425
+      },
+      "phase_probability_active": {
+        "0": 0.6542128026485443,
+        "2": 0.3457871675491333
+      },
+      "phase_total_variation": 0.0005082562565803528
+    },
+    {
+      "i": 38,
+      "decision_time_s": 190.0,
+      "end_time_s": 195.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3323095142841339,
+        0.13887417316436768,
+        0.3216661512851715,
+        0.2071501612663269
+      ],
+      "active_p": [
+        0.3294394314289093,
+        0.13818205893039703,
+        0.32558703422546387,
+        0.20679153501987457
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312309517996925,
+      "active_entropy_nats": 1.3305469611727767,
+      "nominal_top_margin": 0.010643362998962402,
+      "active_top_margin": 0.0038523972034454346,
+      "total_variation": 0.003920853137969971,
+      "jensen_shannon_nats": 9.559845810953429e-06,
+      "phase_probability_nominal": {
+        "0": 0.6539756655693054,
+        "2": 0.3460243344306946
+      },
+      "phase_probability_active": {
+        "0": 0.6550264656543732,
+        "2": 0.3449735939502716
+      },
+      "phase_total_variation": 0.0010507702827453613
+    },
+    {
+      "i": 40,
+      "decision_time_s": 200.0,
+      "end_time_s": 205.0,
+      "n_state_components_different": 25,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3333112895488739,
+        0.1388106793165207,
+        0.32087138295173645,
+        0.207006573677063
+      ],
+      "active_p": [
+        0.33064597845077515,
+        0.1386719048023224,
+        0.32460618019104004,
+        0.20607595145702362
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.33107925597869,
+      "active_entropy_nats": 1.3306219805242017,
+      "nominal_top_margin": 0.012439906597137451,
+      "active_top_margin": 0.006039798259735107,
+      "total_variation": 0.0037347525358200073,
+      "jensen_shannon_nats": 8.618835867175311e-06,
+      "phase_probability_nominal": {
+        "0": 0.6541826725006104,
+        "2": 0.3458172529935837
+      },
+      "phase_probability_active": {
+        "0": 0.6552521586418152,
+        "2": 0.344747856259346
+      },
+      "phase_total_variation": 0.0010694414377212524
+    },
+    {
+      "i": 43,
+      "decision_time_s": 215.0,
+      "end_time_s": 220.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3335384428501129,
+        0.13896916806697845,
+        0.32119569182395935,
+        0.2062966674566269
+      ],
+      "active_p": [
+        0.3313213288784027,
+        0.13936759531497955,
+        0.32338884472846985,
+        0.2059221714735031
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3308907293570542,
+      "active_entropy_nats": 1.3311265599151874,
+      "nominal_top_margin": 0.012342751026153564,
+      "active_top_margin": 0.007932484149932861,
+      "total_variation": 0.0025915950536727905,
+      "jensen_shannon_nats": 3.941515452264403e-06,
+      "phase_probability_nominal": {
+        "0": 0.6547341346740723,
+        "2": 0.34526583552360535
+      },
+      "phase_probability_active": {
+        "0": 0.6547101736068726,
+        "2": 0.34528976678848267
+      },
+      "phase_total_variation": 2.3946166038513184e-05
+    },
+    {
+      "i": 26,
+      "decision_time_s": 130.0,
+      "end_time_s": 135.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3319386839866638,
+        0.1379207819700241,
+        0.32024234533309937,
+        0.2098981887102127
+      ],
+      "active_p": [
+        0.3339245021343231,
+        0.13765616714954376,
+        0.3181754946708679,
+        0.21024386584758759
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3316267611175636,
+      "active_entropy_nats": 1.3314655006821212,
+      "nominal_top_margin": 0.011696338653564453,
+      "active_top_margin": 0.0157490074634552,
+      "total_variation": 0.002331480383872986,
+      "jensen_shannon_nats": 3.288052274360323e-06,
+      "phase_probability_nominal": {
+        "0": 0.6521810293197632,
+        "2": 0.3478189706802368
+      },
+      "phase_probability_active": {
+        "0": 0.652099996805191,
+        "2": 0.34790003299713135
+      },
+      "phase_total_variation": 8.10474157333374e-05
+    },
+    {
+      "i": 34,
+      "decision_time_s": 170.0,
+      "end_time_s": 175.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33290863037109375,
+        0.1385723054409027,
+        0.3202097415924072,
+        0.20830921828746796
+      ],
+      "active_p": [
+        0.3312845230102539,
+        0.13870704174041748,
+        0.3216753304004669,
+        0.20833304524421692
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314605422551047,
+      "active_entropy_nats": 1.3316394266127007,
+      "nominal_top_margin": 0.012698888778686523,
+      "active_top_margin": 0.009609192609786987,
+      "total_variation": 0.0016241297125816345,
+      "jensen_shannon_nats": 1.8461197672640475e-06,
+      "phase_probability_nominal": {
+        "0": 0.653118371963501,
+        "2": 0.34688152372837067
+      },
+      "phase_probability_active": {
+        "0": 0.6529598534107208,
+        "2": 0.3470400869846344
+      },
+      "phase_total_variation": 0.00015854090452194214
+    },
+    {
+      "i": 31,
+      "decision_time_s": 155.0,
+      "end_time_s": 160.0,
+      "n_state_components_different": 28,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33231762051582336,
+        0.1382114440202713,
+        0.32100561261177063,
+        0.2084653228521347
+      ],
+      "active_p": [
+        0.3333888053894043,
+        0.1381995528936386,
+        0.31946733593940735,
+        0.20894432067871094
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312463661118015,
+      "active_entropy_nats": 1.3314000598841107,
+      "nominal_top_margin": 0.011312007904052734,
+      "active_top_margin": 0.013921469449996948,
+      "total_variation": 0.0015501752495765686,
+      "jensen_shannon_nats": 1.4921083289649444e-06,
+      "phase_probability_nominal": {
+        "0": 0.653323233127594,
+        "2": 0.346676766872406
+      },
+      "phase_probability_active": {
+        "0": 0.6528561413288116,
+        "2": 0.34714387357234955
+      },
+      "phase_total_variation": 0.00046709924936294556
+    },
+    {
+      "i": 42,
+      "decision_time_s": 210.0,
+      "end_time_s": 215.0,
+      "n_state_components_different": 23,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3336464464664459,
+        0.13889341056346893,
+        0.3209182918071747,
+        0.20654186606407166
+      ],
+      "active_p": [
+        0.3321380019187927,
+        0.139582097530365,
+        0.3216298222541809,
+        0.20665019750595093
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309314478092256,
+      "active_entropy_nats": 1.331608698528516,
+      "nominal_top_margin": 0.01272815465927124,
+      "active_top_margin": 0.010508179664611816,
+      "total_variation": 0.0015084967017173767,
+      "jensen_shannon_nats": 1.4842802437413918e-06,
+      "phase_probability_nominal": {
+        "0": 0.6545647382736206,
+        "2": 0.3454352766275406
+      },
+      "phase_probability_active": {
+        "0": 0.6537678241729736,
+        "2": 0.3462322950363159
+      },
+      "phase_total_variation": 0.0007969662547111511
+    }
+  ],
+  "per_decision": [
+    {
+      "i": 0,
+      "decision_time_s": 0.0,
+      "end_time_s": 5.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3396921455860138,
+        0.13784678280353546,
+        0.2937585413455963,
+        0.22870251536369324
+      ],
+      "active_p": [
+        0.3396921455860138,
+        0.13784678280353546,
+        0.2937585413455963,
+        0.22870251536369324
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3371955699757259,
+      "active_entropy_nats": 1.3371955699757259,
+      "nominal_top_margin": 0.04593360424041748,
+      "active_top_margin": 0.04593360424041748,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6334506869316101,
+        "2": 0.3665492981672287
+      },
+      "phase_probability_active": {
+        "0": 0.6334506869316101,
+        "2": 0.3665492981672287
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 1,
+      "decision_time_s": 5.0,
+      "end_time_s": 10.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33961525559425354,
+        0.13726849853992462,
+        0.2950570285320282,
+        0.22805924713611603
+      ],
+      "active_p": [
+        0.33961525559425354,
+        0.13726849853992462,
+        0.2950570285320282,
+        0.22805924713611603
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3366031842704353,
+      "active_entropy_nats": 1.3366031842704353,
+      "nominal_top_margin": 0.04455822706222534,
+      "active_top_margin": 0.04455822706222534,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6346722841262817,
+        "2": 0.36532774567604065
+      },
+      "phase_probability_active": {
+        "0": 0.6346722841262817,
+        "2": 0.36532774567604065
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 2,
+      "decision_time_s": 10.0,
+      "end_time_s": 15.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3394390046596527,
+        0.1366998851299286,
+        0.296446830034256,
+        0.22741425037384033
+      ],
+      "active_p": [
+        0.3394390046596527,
+        0.1366998851299286,
+        0.296446830034256,
+        0.22741425037384033
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3360213064560087,
+      "active_entropy_nats": 1.3360213064560087,
+      "nominal_top_margin": 0.04299217462539673,
+      "active_top_margin": 0.04299217462539673,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6358858346939087,
+        "2": 0.3641141355037689
+      },
+      "phase_probability_active": {
+        "0": 0.6358858346939087,
+        "2": 0.3641141355037689
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 3,
+      "decision_time_s": 15.0,
+      "end_time_s": 20.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3388771116733551,
+        0.1362052708864212,
+        0.2987616956233978,
+        0.22615593671798706
+      ],
+      "active_p": [
+        0.3388771116733551,
+        0.1362052708864212,
+        0.2987616956233978,
+        0.22615593671798706
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3353671045833808,
+      "active_entropy_nats": 1.3353671045833808,
+      "nominal_top_margin": 0.040115416049957275,
+      "active_top_margin": 0.040115416049957275,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6376388072967529,
+        "2": 0.36236120760440826
+      },
+      "phase_probability_active": {
+        "0": 0.6376388072967529,
+        "2": 0.36236120760440826
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 4,
+      "decision_time_s": 20.0,
+      "end_time_s": 25.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.338473916053772,
+        0.13591207563877106,
+        0.30049484968185425,
+        0.2251192033290863
+      ],
+      "active_p": [
+        0.338473916053772,
+        0.13591207563877106,
+        0.30049484968185425,
+        0.2251192033290863
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3348910080330534,
+      "active_entropy_nats": 1.3348910080330534,
+      "nominal_top_margin": 0.037979066371917725,
+      "active_top_margin": 0.037979066371917725,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6389687657356262,
+        "2": 0.36103127896785736
+      },
+      "phase_probability_active": {
+        "0": 0.6389687657356262,
+        "2": 0.36103127896785736
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 5,
+      "decision_time_s": 25.0,
+      "end_time_s": 30.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33788979053497314,
+        0.1355648934841156,
+        0.3026778995990753,
+        0.22386744618415833
+      ],
+      "active_p": [
+        0.33788979053497314,
+        0.1355648934841156,
+        0.3026778995990753,
+        0.22386744618415833
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3343112098896786,
+      "active_entropy_nats": 1.3343112098896786,
+      "nominal_top_margin": 0.03521189093589783,
+      "active_top_margin": 0.03521189093589783,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6405676901340485,
+        "2": 0.3594323396682739
+      },
+      "phase_probability_active": {
+        "0": 0.6405676901340485,
+        "2": 0.3594323396682739
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 6,
+      "decision_time_s": 30.0,
+      "end_time_s": 35.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3374458849430084,
+        0.13534054160118103,
+        0.30433952808380127,
+        0.2228739857673645
+      ],
+      "active_p": [
+        0.3374458849430084,
+        0.13534054160118103,
+        0.30433952808380127,
+        0.2228739857673645
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.333872960496811,
+      "active_entropy_nats": 1.333872960496811,
+      "nominal_top_margin": 0.03310635685920715,
+      "active_top_margin": 0.03310635685920715,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6417854130268097,
+        "2": 0.35821452736854553
+      },
+      "phase_probability_active": {
+        "0": 0.6417854130268097,
+        "2": 0.35821452736854553
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 7,
+      "decision_time_s": 35.0,
+      "end_time_s": 40.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33699968457221985,
+        0.1351662427186966,
+        0.3059379756450653,
+        0.22189608216285706
+      ],
+      "active_p": [
+        0.33699968457221985,
+        0.1351662427186966,
+        0.3059379756450653,
+        0.22189608216285706
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3334664012534239,
+      "active_entropy_nats": 1.3334664012534239,
+      "nominal_top_margin": 0.03106170892715454,
+      "active_top_margin": 0.03106170892715454,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6429376602172852,
+        "2": 0.35706232488155365
+      },
+      "phase_probability_active": {
+        "0": 0.6429376602172852,
+        "2": 0.35706232488155365
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 8,
+      "decision_time_s": 40.0,
+      "end_time_s": 45.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33655619621276855,
+        0.13503853976726532,
+        0.3074563443660736,
+        0.22094888985157013
+      ],
+      "active_p": [
+        0.33655619621276855,
+        0.13503853976726532,
+        0.3074563443660736,
+        0.22094888985157013
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3330946148753329,
+      "active_entropy_nats": 1.3330946148753329,
+      "nominal_top_margin": 0.029099851846694946,
+      "active_top_margin": 0.029099851846694946,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6440125405788422,
+        "2": 0.35598742961883545
+      },
+      "phase_probability_active": {
+        "0": 0.6440125405788422,
+        "2": 0.35598742961883545
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 9,
+      "decision_time_s": 45.0,
+      "end_time_s": 50.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33598434925079346,
+        0.13491134345531464,
+        0.30961036682128906,
+        0.21949392557144165
+      ],
+      "active_p": [
+        0.33598434925079346,
+        0.13491134345531464,
+        0.30961036682128906,
+        0.21949392557144165
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.33254807947091,
+      "active_entropy_nats": 1.33254807947091,
+      "nominal_top_margin": 0.026373982429504395,
+      "active_top_margin": 0.026373982429504395,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6455947160720825,
+        "2": 0.3544052690267563
+      },
+      "phase_probability_active": {
+        "0": 0.6455947160720825,
+        "2": 0.3544052690267563
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 10,
+      "decision_time_s": 50.0,
+      "end_time_s": 55.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3358129560947418,
+        0.1349685937166214,
+        0.31051018834114075,
+        0.21870829164981842
+      ],
+      "active_p": [
+        0.3358129560947418,
+        0.1349685937166214,
+        0.31051018834114075,
+        0.21870829164981842
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.33233663603425,
+      "active_entropy_nats": 1.33233663603425,
+      "nominal_top_margin": 0.025302767753601074,
+      "active_top_margin": 0.025302767753601074,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6463231444358826,
+        "2": 0.3536768853664398
+      },
+      "phase_probability_active": {
+        "0": 0.6463231444358826,
+        "2": 0.3536768853664398
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 11,
+      "decision_time_s": 55.0,
+      "end_time_s": 60.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3356987237930298,
+        0.13498739898204803,
+        0.31127819418907166,
+        0.21803569793701172
+      ],
+      "active_p": [
+        0.3356987237930298,
+        0.13498739898204803,
+        0.31127819418907166,
+        0.21803569793701172
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3321235160340914,
+      "active_entropy_nats": 1.3321235160340914,
+      "nominal_top_margin": 0.02442052960395813,
+      "active_top_margin": 0.02442052960395813,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6469769179821014,
+        "2": 0.35302309691905975
+      },
+      "phase_probability_active": {
+        "0": 0.6469769179821014,
+        "2": 0.35302309691905975
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 12,
+      "decision_time_s": 60.0,
+      "end_time_s": 65.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33571773767471313,
+        0.13513526320457458,
+        0.31178346276283264,
+        0.21736356616020203
+      ],
+      "active_p": [
+        0.33571773767471313,
+        0.13513526320457458,
+        0.31178346276283264,
+        0.21736356616020203
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3320047975664373,
+      "active_entropy_nats": 1.3320047975664373,
+      "nominal_top_margin": 0.023934274911880493,
+      "active_top_margin": 0.023934274911880493,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6475012004375458,
+        "2": 0.3524988293647766
+      },
+      "phase_probability_active": {
+        "0": 0.6475012004375458,
+        "2": 0.3524988293647766
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 13,
+      "decision_time_s": 65.0,
+      "end_time_s": 70.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3356141149997711,
+        0.13523873686790466,
+        0.3124232590198517,
+        0.21672388911247253
+      ],
+      "active_p": [
+        0.3356141149997711,
+        0.13523873686790466,
+        0.3124232590198517,
+        0.21672388911247253
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3318665548223065,
+      "active_entropy_nats": 1.3318665548223065,
+      "nominal_top_margin": 0.023190855979919434,
+      "active_top_margin": 0.023190855979919434,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6480373740196228,
+        "2": 0.3519626259803772
+      },
+      "phase_probability_active": {
+        "0": 0.6480373740196228,
+        "2": 0.3519626259803772
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 14,
+      "decision_time_s": 70.0,
+      "end_time_s": 75.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3353891968727112,
+        0.135332390666008,
+        0.31327715516090393,
+        0.21600130200386047
+      ],
+      "active_p": [
+        0.3353891968727112,
+        0.135332390666008,
+        0.31327715516090393,
+        0.21600130200386047
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.331694330124075,
+      "active_entropy_nats": 1.331694330124075,
+      "nominal_top_margin": 0.02211204171180725,
+      "active_top_margin": 0.02211204171180725,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6486663520336151,
+        "2": 0.35133369266986847
+      },
+      "phase_probability_active": {
+        "0": 0.6486663520336151,
+        "2": 0.35133369266986847
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 15,
+      "decision_time_s": 75.0,
+      "end_time_s": 80.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3353329598903656,
+        0.1355164796113968,
+        0.3137679994106293,
+        0.21538259088993073
+      ],
+      "active_p": [
+        0.3353329598903656,
+        0.1355164796113968,
+        0.3137679994106293,
+        0.21538259088993073
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3316212388197086,
+      "active_entropy_nats": 1.3316212388197086,
+      "nominal_top_margin": 0.021564960479736328,
+      "active_top_margin": 0.021564960479736328,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6491009593009949,
+        "2": 0.3508990705013275
+      },
+      "phase_probability_active": {
+        "0": 0.6491009593009949,
+        "2": 0.3508990705013275
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 16,
+      "decision_time_s": 80.0,
+      "end_time_s": 85.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33531925082206726,
+        0.13577622175216675,
+        0.3141760528087616,
+        0.2147284299135208
+      ],
+      "active_p": [
+        0.33531925082206726,
+        0.13577622175216675,
+        0.3141760528087616,
+        0.2147284299135208
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3315925786321559,
+      "active_entropy_nats": 1.3315925786321559,
+      "nominal_top_margin": 0.021143198013305664,
+      "active_top_margin": 0.021143198013305664,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6494953036308289,
+        "2": 0.35050465166568756
+      },
+      "phase_probability_active": {
+        "0": 0.6494953036308289,
+        "2": 0.35050465166568756
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 17,
+      "decision_time_s": 85.0,
+      "end_time_s": 90.0,
+      "n_state_components_different": 1,
+      "affected_segments": [
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3341183066368103,
+        0.13623425364494324,
+        0.3155491054058075,
+        0.21409839391708374
+      ],
+      "active_p": [
+        0.33413633704185486,
+        0.13626696169376373,
+        0.31553182005882263,
+        0.21406494081020355
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3318084510433492,
+      "active_entropy_nats": 1.331821909553283,
+      "nominal_top_margin": 0.018569201231002808,
+      "active_top_margin": 0.018604516983032227,
+      "total_variation": 5.073845386505127e-05,
+      "jensen_shannon_nats": 1.8748979906760028e-09,
+      "phase_probability_nominal": {
+        "0": 0.6496674120426178,
+        "2": 0.350332647562027
+      },
+      "phase_probability_active": {
+        "0": 0.6496681571006775,
+        "2": 0.3503319025039673
+      },
+      "phase_total_variation": 7.450580596923828e-07
+    },
+    {
+      "i": 18,
+      "decision_time_s": 90.0,
+      "end_time_s": 95.0,
+      "n_state_components_different": 1,
+      "affected_segments": [
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3331408202648163,
+        0.13662174344062805,
+        0.31685689091682434,
+        0.21338053047657013
+      ],
+      "active_p": [
+        0.3331581652164459,
+        0.13665473461151123,
+        0.3168380558490753,
+        0.2133490890264511
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.331905463861441,
+      "active_entropy_nats": 1.3319199184005455,
+      "nominal_top_margin": 0.016283929347991943,
+      "active_top_margin": 0.016320109367370605,
+      "total_variation": 5.030632019042969e-05,
+      "jensen_shannon_nats": 1.8276993801029926e-09,
+      "phase_probability_nominal": {
+        "0": 0.6499977111816406,
+        "2": 0.3500022739171982
+      },
+      "phase_probability_active": {
+        "0": 0.6499962210655212,
+        "2": 0.35000382363796234
+      },
+      "phase_total_variation": 1.519918441772461e-06
+    },
+    {
+      "i": 19,
+      "decision_time_s": 95.0,
+      "end_time_s": 100.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33486834168434143,
+        0.13638871908187866,
+        0.3157777190208435,
+        0.2129652053117752
+      ],
+      "active_p": [
+        0.33486834168434143,
+        0.13638871908187866,
+        0.3157777190208435,
+        0.2129652053117752
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314517380697695,
+      "active_entropy_nats": 1.3314517380697695,
+      "nominal_top_margin": 0.019090622663497925,
+      "active_top_margin": 0.019090622663497925,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6506460607051849,
+        "2": 0.34935392439365387
+      },
+      "phase_probability_active": {
+        "0": 0.6506460607051849,
+        "2": 0.34935392439365387
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 20,
+      "decision_time_s": 100.0,
+      "end_time_s": 105.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33476951718330383,
+        0.13662683963775635,
+        0.3161269426345825,
+        0.21247681975364685
+      ],
+      "active_p": [
+        0.33476951718330383,
+        0.13662683963775635,
+        0.3161269426345825,
+        0.21247681975364685
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314641130492104,
+      "active_entropy_nats": 1.3314641130492104,
+      "nominal_top_margin": 0.018642574548721313,
+      "active_top_margin": 0.018642574548721313,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6508964598178864,
+        "2": 0.3491036593914032
+      },
+      "phase_probability_active": {
+        "0": 0.6508964598178864,
+        "2": 0.3491036593914032
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 21,
+      "decision_time_s": 105.0,
+      "end_time_s": 110.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33467134833335876,
+        0.13686777651309967,
+        0.3164406716823578,
+        0.21202020347118378
+      ],
+      "active_p": [
+        0.33467134833335876,
+        0.13686777651309967,
+        0.3164406716823578,
+        0.21202020347118378
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314895475634199,
+      "active_entropy_nats": 1.3314895475634199,
+      "nominal_top_margin": 0.018230676651000977,
+      "active_top_margin": 0.018230676651000977,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.6511120200157166,
+        "2": 0.34888797998428345
+      },
+      "phase_probability_active": {
+        "0": 0.6511120200157166,
+        "2": 0.34888797998428345
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 22,
+      "decision_time_s": 110.0,
+      "end_time_s": 115.0,
+      "n_state_components_different": 0,
+      "affected_segments": [],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33457446098327637,
+        0.13710983097553253,
+        0.3167225420475006,
+        0.21159319579601288
+      ],
+      "active_p": [
+        0.33457446098327637,
+        0.13710983097553253,
+        0.3167225420475006,
+        0.21159319579601288
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3315260690760287,
+      "active_entropy_nats": 1.3315260690760287,
+      "nominal_top_margin": 0.017851918935775757,
+      "active_top_margin": 0.017851918935775757,
+      "total_variation": 0.0,
+      "jensen_shannon_nats": 0.0,
+      "phase_probability_nominal": {
+        "0": 0.651297003030777,
+        "2": 0.3487030267715454
+      },
+      "phase_probability_active": {
+        "0": 0.651297003030777,
+        "2": 0.3487030267715454
+      },
+      "phase_total_variation": 0.0
+    },
+    {
+      "i": 23,
+      "decision_time_s": 115.0,
+      "end_time_s": 120.0,
+      "n_state_components_different": 1,
+      "affected_segments": [
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3345107436180115,
+        0.13729828596115112,
+        0.316928893327713,
+        0.21126209199428558
+      ],
+      "active_p": [
+        0.334524929523468,
+        0.137327641248703,
+        0.3169115483760834,
+        0.211235910654068
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3315533273105766,
+      "active_entropy_nats": 1.3315664958356133,
+      "nominal_top_margin": 0.017581850290298462,
+      "active_top_margin": 0.017613381147384644,
+      "total_variation": 4.353374242782593e-05,
+      "jensen_shannon_nats": 1.3839199368297737e-09,
+      "phase_probability_nominal": {
+        "0": 0.6514396369457245,
+        "2": 0.3485603779554367
+      },
+      "phase_probability_active": {
+        "0": 0.6514364778995514,
+        "2": 0.348563551902771
+      },
+      "phase_total_variation": 3.166496753692627e-06
+    },
+    {
+      "i": 24,
+      "decision_time_s": 120.0,
+      "end_time_s": 125.0,
+      "n_state_components_different": 10,
+      "affected_segments": [
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33359473943710327,
+        0.1378478705883026,
+        0.3175591230392456,
+        0.21099825203418732
+      ],
+      "active_p": [
+        0.33353734016418457,
+        0.13780155777931213,
+        0.31766071915626526,
+        0.211000457406044
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3319523662857191,
+      "active_entropy_nats": 1.331917431040877,
+      "nominal_top_margin": 0.016035616397857666,
+      "active_top_margin": 0.01587662100791931,
+      "total_variation": 0.00010375678539276123,
+      "jensen_shannon_nats": 7.245099712517152e-09,
+      "phase_probability_nominal": {
+        "0": 0.6511538624763489,
+        "2": 0.34884612262248993
+      },
+      "phase_probability_active": {
+        "0": 0.6511980593204498,
+        "2": 0.34880201518535614
+      },
+      "phase_total_variation": 4.4152140617370605e-05
+    },
+    {
+      "i": 25,
+      "decision_time_s": 125.0,
+      "end_time_s": 130.0,
+      "n_state_components_different": 10,
+      "affected_segments": [
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3329698145389557,
+        0.13772879540920258,
+        0.31891223788261414,
+        0.2103891223669052
+      ],
+      "active_p": [
+        0.3329397737979889,
+        0.13774366676807404,
+        0.31894978880882263,
+        0.21036680042743683
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.331630363080031,
+      "active_entropy_nats": 1.3316348633352169,
+      "nominal_top_margin": 0.014057576656341553,
+      "active_top_margin": 0.01398998498916626,
+      "total_variation": 5.239248275756836e-05,
+      "jensen_shannon_nats": 1.3882207365600941e-09,
+      "phase_probability_nominal": {
+        "0": 0.6518820524215698,
+        "2": 0.3481179177761078
+      },
+      "phase_probability_active": {
+        "0": 0.6518895626068115,
+        "2": 0.34811046719551086
+      },
+      "phase_total_variation": 7.4803829193115234e-06
+    },
+    {
+      "i": 26,
+      "decision_time_s": 130.0,
+      "end_time_s": 135.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3319386839866638,
+        0.1379207819700241,
+        0.32024234533309937,
+        0.2098981887102127
+      ],
+      "active_p": [
+        0.3339245021343231,
+        0.13765616714954376,
+        0.3181754946708679,
+        0.21024386584758759
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3316267611175636,
+      "active_entropy_nats": 1.3314655006821212,
+      "nominal_top_margin": 0.011696338653564453,
+      "active_top_margin": 0.0157490074634552,
+      "total_variation": 0.002331480383872986,
+      "jensen_shannon_nats": 3.288052274360323e-06,
+      "phase_probability_nominal": {
+        "0": 0.6521810293197632,
+        "2": 0.3478189706802368
+      },
+      "phase_probability_active": {
+        "0": 0.652099996805191,
+        "2": 0.34790003299713135
+      },
+      "phase_total_variation": 8.10474157333374e-05
+    },
+    {
+      "i": 27,
+      "decision_time_s": 135.0,
+      "end_time_s": 140.0,
+      "n_state_components_different": 6,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3339167833328247,
+        0.1376444548368454,
+        0.31854483485221863,
+        0.20989389717578888
+      ],
+      "active_p": [
+        0.333816260099411,
+        0.1377878338098526,
+        0.3183632493019104,
+        0.21003273129463196
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3313105412774522,
+      "active_entropy_nats": 1.331493330311061,
+      "nominal_top_margin": 0.015371948480606079,
+      "active_top_margin": 0.01545301079750061,
+      "total_variation": 0.0002821609377861023,
+      "jensen_shannon_nats": 4.686052136138128e-08,
+      "phase_probability_nominal": {
+        "0": 0.6524616181850433,
+        "2": 0.3475383520126343
+      },
+      "phase_probability_active": {
+        "0": 0.6521795094013214,
+        "2": 0.34782056510448456
+      },
+      "phase_total_variation": 0.0002821609377861023
+    },
+    {
+      "i": 28,
+      "decision_time_s": 140.0,
+      "end_time_s": 145.0,
+      "n_state_components_different": 5,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3337339758872986,
+        0.13783808052539825,
+        0.31865522265434265,
+        0.2097727656364441
+      ],
+      "active_p": [
+        0.33390700817108154,
+        0.13783854246139526,
+        0.3185339868068695,
+        0.2097204029560089
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314308650799844,
+      "active_entropy_nats": 1.3314012706608693,
+      "nominal_top_margin": 0.015078753232955933,
+      "active_top_margin": 0.015373021364212036,
+      "total_variation": 0.00017354637384414673,
+      "jensen_shannon_nats": 1.8612182833419917e-08,
+      "phase_probability_nominal": {
+        "0": 0.6523891985416412,
+        "2": 0.34761084616184235
+      },
+      "phase_probability_active": {
+        "0": 0.652440994977951,
+        "2": 0.3475589454174042
+      },
+      "phase_total_variation": 5.184859037399292e-05
+    },
+    {
+      "i": 29,
+      "decision_time_s": 145.0,
+      "end_time_s": 150.0,
+      "n_state_components_different": 3,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3333236873149872,
+        0.13821585476398468,
+        0.3188268840312958,
+        0.20963358879089355
+      ],
+      "active_p": [
+        0.33327579498291016,
+        0.13829724490642548,
+        0.31878358125686646,
+        0.20964333415031433
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3317073667865111,
+      "active_entropy_nats": 1.331781571819227,
+      "nominal_top_margin": 0.014496803283691406,
+      "active_top_margin": 0.014492213726043701,
+      "total_variation": 9.116530418395996e-05,
+      "jensen_shannon_nats": 7.641248937098234e-09,
+      "phase_probability_nominal": {
+        "0": 0.652150571346283,
+        "2": 0.34784944355487823
+      },
+      "phase_probability_active": {
+        "0": 0.6520593762397766,
+        "2": 0.3479405790567398
+      },
+      "phase_total_variation": 9.116530418395996e-05
+    },
+    {
+      "i": 30,
+      "decision_time_s": 150.0,
+      "end_time_s": 155.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.332904577255249,
+        0.13820607960224152,
+        0.3198915123939514,
+        0.20899783074855804
+      ],
+      "active_p": [
+        0.3338721692562103,
+        0.13801665604114532,
+        0.31894585490226746,
+        0.2091653048992157
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314482607006148,
+      "active_entropy_nats": 1.3313189916196606,
+      "nominal_top_margin": 0.013013064861297607,
+      "active_top_margin": 0.014926314353942871,
+      "total_variation": 0.0011350736021995544,
+      "jensen_shannon_nats": 7.502326485282477e-07,
+      "phase_probability_nominal": {
+        "0": 0.6527960896492004,
+        "2": 0.34720391035079956
+      },
+      "phase_probability_active": {
+        "0": 0.6528180241584778,
+        "2": 0.347181960940361
+      },
+      "phase_total_variation": 2.1941959857940674e-05
+    },
+    {
+      "i": 31,
+      "decision_time_s": 155.0,
+      "end_time_s": 160.0,
+      "n_state_components_different": 28,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33231762051582336,
+        0.1382114440202713,
+        0.32100561261177063,
+        0.2084653228521347
+      ],
+      "active_p": [
+        0.3333888053894043,
+        0.1381995528936386,
+        0.31946733593940735,
+        0.20894432067871094
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312463661118015,
+      "active_entropy_nats": 1.3314000598841107,
+      "nominal_top_margin": 0.011312007904052734,
+      "active_top_margin": 0.013921469449996948,
+      "total_variation": 0.0015501752495765686,
+      "jensen_shannon_nats": 1.4921083289649444e-06,
+      "phase_probability_nominal": {
+        "0": 0.653323233127594,
+        "2": 0.346676766872406
+      },
+      "phase_probability_active": {
+        "0": 0.6528561413288116,
+        "2": 0.34714387357234955
+      },
+      "phase_total_variation": 0.00046709924936294556
+    },
+    {
+      "i": 32,
+      "decision_time_s": 160.0,
+      "end_time_s": 165.0,
+      "n_state_components_different": 4,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3337242603302002,
+        0.13811944425106049,
+        0.3194870352745056,
+        0.2086692452430725
+      ],
+      "active_p": [
+        0.3338754177093506,
+        0.1381102055311203,
+        0.3194114863872528,
+        0.2086029201745987
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312014523130584,
+      "active_entropy_nats": 1.331158814576568,
+      "nominal_top_margin": 0.01423722505569458,
+      "active_top_margin": 0.014463931322097778,
+      "total_variation": 0.00015113502740859985,
+      "jensen_shannon_nats": 1.3502449357420638e-08,
+      "phase_probability_nominal": {
+        "0": 0.6532112956047058,
+        "2": 0.346788689494133
+      },
+      "phase_probability_active": {
+        "0": 0.6532869040966034,
+        "2": 0.346713125705719
+      },
+      "phase_total_variation": 7.558614015579224e-05
+    },
+    {
+      "i": 33,
+      "decision_time_s": 165.0,
+      "end_time_s": 170.0,
+      "n_state_components_different": 22,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3328290283679962,
+        0.1386539787054062,
+        0.3198160231113434,
+        0.2087010145187378
+      ],
+      "active_p": [
+        0.3321724832057953,
+        0.1388341188430786,
+        0.3204096853733063,
+        0.2085837721824646
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3316998768835424,
+      "active_entropy_nats": 1.331825226055767,
+      "nominal_top_margin": 0.013013005256652832,
+      "active_top_margin": 0.011762797832489014,
+      "total_variation": 0.000773794949054718,
+      "jensen_shannon_nats": 3.371416286863181e-07,
+      "phase_probability_nominal": {
+        "0": 0.6526450514793396,
+        "2": 0.347354993224144
+      },
+      "phase_probability_active": {
+        "0": 0.6525821685791016,
+        "2": 0.3474178910255432
+      },
+      "phase_total_variation": 6.289035081863403e-05
+    },
+    {
+      "i": 34,
+      "decision_time_s": 170.0,
+      "end_time_s": 175.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33290863037109375,
+        0.1385723054409027,
+        0.3202097415924072,
+        0.20830921828746796
+      ],
+      "active_p": [
+        0.3312845230102539,
+        0.13870704174041748,
+        0.3216753304004669,
+        0.20833304524421692
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314605422551047,
+      "active_entropy_nats": 1.3316394266127007,
+      "nominal_top_margin": 0.012698888778686523,
+      "active_top_margin": 0.009609192609786987,
+      "total_variation": 0.0016241297125816345,
+      "jensen_shannon_nats": 1.8461197672640475e-06,
+      "phase_probability_nominal": {
+        "0": 0.653118371963501,
+        "2": 0.34688152372837067
+      },
+      "phase_probability_active": {
+        "0": 0.6529598534107208,
+        "2": 0.3470400869846344
+      },
+      "phase_total_variation": 0.00015854090452194214
+    },
+    {
+      "i": 35,
+      "decision_time_s": 175.0,
+      "end_time_s": 180.0,
+      "n_state_components_different": 15,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33139410614967346,
+        0.1387990266084671,
+        0.3218565285205841,
+        0.20795033872127533
+      ],
+      "active_p": [
+        0.33052459359169006,
+        0.13834813237190247,
+        0.3232107162475586,
+        0.2079164981842041
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.331546883848139,
+      "active_entropy_nats": 1.3311735259225694,
+      "nominal_top_margin": 0.009537577629089355,
+      "active_top_margin": 0.00731387734413147,
+      "total_variation": 0.001354217529296875,
+      "jensen_shannon_nats": 1.1803442920425893e-06,
+      "phase_probability_nominal": {
+        "0": 0.6532506346702576,
+        "2": 0.34674936532974243
+      },
+      "phase_probability_active": {
+        "0": 0.6537353098392487,
+        "2": 0.34626463055610657
+      },
+      "phase_total_variation": 0.00048470497131347656
+    },
+    {
+      "i": 36,
+      "decision_time_s": 180.0,
+      "end_time_s": 185.0,
+      "n_state_components_different": 26,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33349379897117615,
+        0.13847380876541138,
+        0.3202107548713684,
+        0.20782162249088287
+      ],
+      "active_p": [
+        0.33005189895629883,
+        0.138217031955719,
+        0.3241609036922455,
+        0.2075701355934143
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3311445339343093,
+      "active_entropy_nats": 1.3309179759045262,
+      "nominal_top_margin": 0.01328304409980774,
+      "active_top_margin": 0.005890995264053345,
+      "total_variation": 0.003950156271457672,
+      "jensen_shannon_nats": 1.0614928199497654e-05,
+      "phase_probability_nominal": {
+        "0": 0.6537045538425446,
+        "2": 0.34629543125629425
+      },
+      "phase_probability_active": {
+        "0": 0.6542128026485443,
+        "2": 0.3457871675491333
+      },
+      "phase_total_variation": 0.0005082562565803528
+    },
+    {
+      "i": 37,
+      "decision_time_s": 185.0,
+      "end_time_s": 190.0,
+      "n_state_components_different": 23,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3327915370464325,
+        0.1388711780309677,
+        0.3206736147403717,
+        0.2076636254787445
+      ],
+      "active_p": [
+        0.32975098490715027,
+        0.13823434710502625,
+        0.32496267557144165,
+        0.20705194771289825
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.33143618112517,
+      "active_entropy_nats": 1.3307053837772818,
+      "nominal_top_margin": 0.012117922306060791,
+      "active_top_margin": 0.004788309335708618,
+      "total_variation": 0.004289060831069946,
+      "jensen_shannon_nats": 1.1203156099514792e-05,
+      "phase_probability_nominal": {
+        "0": 0.6534651517868042,
+        "2": 0.3465348035097122
+      },
+      "phase_probability_active": {
+        "0": 0.6547136604785919,
+        "2": 0.3452862948179245
+      },
+      "phase_total_variation": 0.0012485086917877197
+    },
+    {
+      "i": 38,
+      "decision_time_s": 190.0,
+      "end_time_s": 195.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3323095142841339,
+        0.13887417316436768,
+        0.3216661512851715,
+        0.2071501612663269
+      ],
+      "active_p": [
+        0.3294394314289093,
+        0.13818205893039703,
+        0.32558703422546387,
+        0.20679153501987457
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312309517996925,
+      "active_entropy_nats": 1.3305469611727767,
+      "nominal_top_margin": 0.010643362998962402,
+      "active_top_margin": 0.0038523972034454346,
+      "total_variation": 0.003920853137969971,
+      "jensen_shannon_nats": 9.559845810953429e-06,
+      "phase_probability_nominal": {
+        "0": 0.6539756655693054,
+        "2": 0.3460243344306946
+      },
+      "phase_probability_active": {
+        "0": 0.6550264656543732,
+        "2": 0.3449735939502716
+      },
+      "phase_total_variation": 0.0010507702827453613
+    },
+    {
+      "i": 39,
+      "decision_time_s": 195.0,
+      "end_time_s": 200.0,
+      "n_state_components_different": 28,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33352264761924744,
+        0.1387282758951187,
+        0.32054173946380615,
+        0.20720738172531128
+      ],
+      "active_p": [
+        0.32918673753738403,
+        0.13817614316940308,
+        0.3260432779788971,
+        0.20659378170967102
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3310898386178334,
+      "active_entropy_nats": 1.3304545737558784,
+      "nominal_top_margin": 0.012980908155441284,
+      "active_top_margin": 0.0031434595584869385,
+      "total_variation": 0.005501590669155121,
+      "jensen_shannon_nats": 1.9297641026952455e-05,
+      "phase_probability_nominal": {
+        "0": 0.6540643870830536,
+        "2": 0.34593565762043
+      },
+      "phase_probability_active": {
+        "0": 0.6552300155162811,
+        "2": 0.3447699248790741
+      },
+      "phase_total_variation": 0.0011656805872917175
+    },
+    {
+      "i": 40,
+      "decision_time_s": 200.0,
+      "end_time_s": 205.0,
+      "n_state_components_different": 25,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3333112895488739,
+        0.1388106793165207,
+        0.32087138295173645,
+        0.207006573677063
+      ],
+      "active_p": [
+        0.33064597845077515,
+        0.1386719048023224,
+        0.32460618019104004,
+        0.20607595145702362
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.33107925597869,
+      "active_entropy_nats": 1.3306219805242017,
+      "nominal_top_margin": 0.012439906597137451,
+      "active_top_margin": 0.006039798259735107,
+      "total_variation": 0.0037347525358200073,
+      "jensen_shannon_nats": 8.618835867175311e-06,
+      "phase_probability_nominal": {
+        "0": 0.6541826725006104,
+        "2": 0.3458172529935837
+      },
+      "phase_probability_active": {
+        "0": 0.6552521586418152,
+        "2": 0.344747856259346
+      },
+      "phase_total_variation": 0.0010694414377212524
+    },
+    {
+      "i": 41,
+      "decision_time_s": 205.0,
+      "end_time_s": 210.0,
+      "n_state_components_different": 10,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3335525393486023,
+        0.138832688331604,
+        0.3208737075328827,
+        0.206741064786911
+      ],
+      "active_p": [
+        0.3334333896636963,
+        0.13893483579158783,
+        0.3209485709667206,
+        0.2066832184791565
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309719026414357,
+      "active_entropy_nats": 1.3310365951765597,
+      "nominal_top_margin": 0.012678831815719604,
+      "active_top_margin": 0.012484818696975708,
+      "total_variation": 0.00017700344324111938,
+      "jensen_shannon_nats": 1.8918752934994975e-08,
+      "phase_probability_nominal": {
+        "0": 0.654426246881485,
+        "2": 0.345573753118515
+      },
+      "phase_probability_active": {
+        "0": 0.6543819606304169,
+        "2": 0.3456180542707443
+      },
+      "phase_total_variation": 4.429370164871216e-05
+    },
+    {
+      "i": 42,
+      "decision_time_s": 210.0,
+      "end_time_s": 215.0,
+      "n_state_components_different": 23,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3336464464664459,
+        0.13889341056346893,
+        0.3209182918071747,
+        0.20654186606407166
+      ],
+      "active_p": [
+        0.3321380019187927,
+        0.139582097530365,
+        0.3216298222541809,
+        0.20665019750595093
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309314478092256,
+      "active_entropy_nats": 1.331608698528516,
+      "nominal_top_margin": 0.01272815465927124,
+      "active_top_margin": 0.010508179664611816,
+      "total_variation": 0.0015084967017173767,
+      "jensen_shannon_nats": 1.4842802437413918e-06,
+      "phase_probability_nominal": {
+        "0": 0.6545647382736206,
+        "2": 0.3454352766275406
+      },
+      "phase_probability_active": {
+        "0": 0.6537678241729736,
+        "2": 0.3462322950363159
+      },
+      "phase_total_variation": 0.0007969662547111511
+    },
+    {
+      "i": 43,
+      "decision_time_s": 215.0,
+      "end_time_s": 220.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3335384428501129,
+        0.13896916806697845,
+        0.32119569182395935,
+        0.2062966674566269
+      ],
+      "active_p": [
+        0.3313213288784027,
+        0.13936759531497955,
+        0.32338884472846985,
+        0.2059221714735031
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3308907293570542,
+      "active_entropy_nats": 1.3311265599151874,
+      "nominal_top_margin": 0.012342751026153564,
+      "active_top_margin": 0.007932484149932861,
+      "total_variation": 0.0025915950536727905,
+      "jensen_shannon_nats": 3.941515452264403e-06,
+      "phase_probability_nominal": {
+        "0": 0.6547341346740723,
+        "2": 0.34526583552360535
+      },
+      "phase_probability_active": {
+        "0": 0.6547101736068726,
+        "2": 0.34528976678848267
+      },
+      "phase_total_variation": 2.3946166038513184e-05
+    },
+    {
+      "i": 44,
+      "decision_time_s": 220.0,
+      "end_time_s": 225.0,
+      "n_state_components_different": 4,
+      "affected_segments": [
+        "cola_12",
+        "espera_12"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3334285318851471,
+        0.13904991745948792,
+        0.32128825783729553,
+        0.20623333752155304
+      ],
+      "active_p": [
+        0.33339163661003113,
+        0.13904544711112976,
+        0.3213510513305664,
+        0.20621182024478912
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.330934432636131,
+      "active_entropy_nats": 1.3309224963894817,
+      "nominal_top_margin": 0.012140274047851562,
+      "active_top_margin": 0.012040585279464722,
+      "total_variation": 6.283819675445557e-05,
+      "jensen_shannon_nats": 2.342877368194595e-09,
+      "phase_probability_nominal": {
+        "0": 0.6547167897224426,
+        "2": 0.34528325498104095
+      },
+      "phase_probability_active": {
+        "0": 0.6547426879405975,
+        "2": 0.3452572673559189
+      },
+      "phase_total_variation": 2.594292163848877e-05
+    },
+    {
+      "i": 45,
+      "decision_time_s": 225.0,
+      "end_time_s": 230.0,
+      "n_state_components_different": 13,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33269307017326355,
+        0.13939426839351654,
+        0.3217342495918274,
+        0.2061784416437149
+      ],
+      "active_p": [
+        0.3327851891517639,
+        0.13949403166770935,
+        0.32139673829078674,
+        0.20632411539554596
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312242131630436,
+      "active_entropy_nats": 1.3313691231124745,
+      "nominal_top_margin": 0.010958820581436157,
+      "active_top_margin": 0.011388450860977173,
+      "total_variation": 0.0003375336527824402,
+      "jensen_shannon_nats": 6.925168704439733e-08,
+      "phase_probability_nominal": {
+        "0": 0.6544273197650909,
+        "2": 0.34557271003723145
+      },
+      "phase_probability_active": {
+        "0": 0.6541819274425507,
+        "2": 0.3458181470632553
+      },
+      "phase_total_variation": 0.000245414674282074
+    },
+    {
+      "i": 46,
+      "decision_time_s": 230.0,
+      "end_time_s": 235.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3321942985057831,
+        0.13929696381092072,
+        0.32271048426628113,
+        0.20579829812049866
+      ],
+      "active_p": [
+        0.3321091830730438,
+        0.13982437551021576,
+        0.32185065746307373,
+        0.2062157839536667
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309881377676394,
+      "active_entropy_nats": 1.3316189328786519,
+      "nominal_top_margin": 0.009483814239501953,
+      "active_top_margin": 0.010258525609970093,
+      "total_variation": 0.0009449198842048645,
+      "jensen_shannon_nats": 6.443722701654617e-07,
+      "phase_probability_nominal": {
+        "0": 0.6549047827720642,
+        "2": 0.3450952619314194
+      },
+      "phase_probability_active": {
+        "0": 0.6539598405361176,
+        "2": 0.34604015946388245
+      },
+      "phase_total_variation": 0.0009449198842048645
+    },
+    {
+      "i": 47,
+      "decision_time_s": 235.0,
+      "end_time_s": 240.0,
+      "n_state_components_different": 23,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33178675174713135,
+        0.13920314610004425,
+        0.32342565059661865,
+        0.20558452606201172
+      ],
+      "active_p": [
+        0.3313615918159485,
+        0.13963258266448975,
+        0.32339978218078613,
+        0.20560605823993683
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3308237734024142,
+      "active_entropy_nats": 1.3312054672654354,
+      "nominal_top_margin": 0.008361101150512695,
+      "active_top_margin": 0.007961809635162354,
+      "total_variation": 0.00045099854469299316,
+      "jensen_shannon_nats": 2.3403004239299632e-07,
+      "phase_probability_nominal": {
+        "0": 0.65521240234375,
+        "2": 0.34478767216205597
+      },
+      "phase_probability_active": {
+        "0": 0.6547613739967346,
+        "2": 0.3452386409044266
+      },
+      "phase_total_variation": 0.00045099854469299316
+    },
+    {
+      "i": 48,
+      "decision_time_s": 240.0,
+      "end_time_s": 245.0,
+      "n_state_components_different": 6,
+      "affected_segments": [
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33329883217811584,
+        0.1392870992422104,
+        0.3215424716472626,
+        0.2058716118335724
+      ],
+      "active_p": [
+        0.3333835005760193,
+        0.13932494819164276,
+        0.3214259743690491,
+        0.2058655023574829
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309768708623377,
+      "active_entropy_nats": 1.331002721372869,
+      "nominal_top_margin": 0.011756360530853271,
+      "active_top_margin": 0.011957526206970215,
+      "total_variation": 0.00012256205081939697,
+      "jensen_shannon_nats": 9.273242040492606e-09,
+      "phase_probability_nominal": {
+        "0": 0.6548413038253784,
+        "2": 0.3451587110757828
+      },
+      "phase_probability_active": {
+        "0": 0.6548094749450684,
+        "2": 0.34519045054912567
+      },
+      "phase_total_variation": 3.178417682647705e-05
+    },
+    {
+      "i": 49,
+      "decision_time_s": 245.0,
+      "end_time_s": 250.0,
+      "n_state_components_different": 6,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3334924578666687,
+        0.1393246203660965,
+        0.3215448260307312,
+        0.20563803613185883
+      ],
+      "active_p": [
+        0.3335127830505371,
+        0.1393795758485794,
+        0.32139331102371216,
+        0.2057144045829773
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3308969577911174,
+      "active_entropy_nats": 1.3309762720975487,
+      "nominal_top_margin": 0.0119476318359375,
+      "active_top_margin": 0.012119472026824951,
+      "total_variation": 0.00015158206224441528,
+      "jensen_shannon_nats": 1.5334908363353082e-08,
+      "phase_probability_nominal": {
+        "0": 0.6550372838973999,
+        "2": 0.3449626564979553
+      },
+      "phase_probability_active": {
+        "0": 0.6549060940742493,
+        "2": 0.3450939804315567
+      },
+      "phase_total_variation": 0.00013125687837600708
+    },
+    {
+      "i": 50,
+      "decision_time_s": 250.0,
+      "end_time_s": 255.0,
+      "n_state_components_different": 15,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33271312713623047,
+        0.13981479406356812,
+        0.3219575583934784,
+        0.2055145502090454
+      ],
+      "active_p": [
+        0.3324219882488251,
+        0.13986101746559143,
+        0.32218560576438904,
+        0.2055313140153885
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3312780744782629,
+      "active_entropy_nats": 1.3313334914831196,
+      "nominal_top_margin": 0.010755568742752075,
+      "active_top_margin": 0.010236382484436035,
+      "total_variation": 0.00029108673334121704,
+      "jensen_shannon_nats": 5.4123723041859326e-08,
+      "phase_probability_nominal": {
+        "0": 0.6546706855297089,
+        "2": 0.3453293442726135
+      },
+      "phase_probability_active": {
+        "0": 0.6546075940132141,
+        "2": 0.3453923314809799
+      },
+      "phase_total_variation": 6.303936243057251e-05
+    },
+    {
+      "i": 51,
+      "decision_time_s": 255.0,
+      "end_time_s": 260.0,
+      "n_state_components_different": 6,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3334353566169739,
+        0.13954240083694458,
+        0.3216449022293091,
+        0.20537728071212769
+      ],
+      "active_p": [
+        0.33359605073928833,
+        0.139525905251503,
+        0.32148298621177673,
+        0.20539499819278717
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309642587345365,
+      "active_entropy_nats": 1.330952565315822,
+      "nominal_top_margin": 0.011790454387664795,
+      "active_top_margin": 0.012113064527511597,
+      "total_variation": 0.000178411602973938,
+      "jensen_shannon_nats": 2.0304118914923007e-08,
+      "phase_probability_nominal": {
+        "0": 0.655080258846283,
+        "2": 0.34491968154907227
+      },
+      "phase_probability_active": {
+        "0": 0.6550790369510651,
+        "2": 0.34492090344429016
+      },
+      "phase_total_variation": 1.2218952178955078e-06
+    },
+    {
+      "i": 52,
+      "decision_time_s": 260.0,
+      "end_time_s": 265.0,
+      "n_state_components_different": 7,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33339667320251465,
+        0.13955016434192657,
+        0.32168832421302795,
+        0.20536477863788605
+      ],
+      "active_p": [
+        0.3334202766418457,
+        0.1396874487400055,
+        0.32157766819000244,
+        0.20531459152698517
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3309665203206869,
+      "active_entropy_nats": 1.3310577195507216,
+      "nominal_top_margin": 0.011708348989486694,
+      "active_top_margin": 0.011842608451843262,
+      "total_variation": 0.00016086548566818237,
+      "jensen_shannon_nats": 2.3374605007329117e-08,
+      "phase_probability_nominal": {
+        "0": 0.6550849974155426,
+        "2": 0.3449149429798126
+      },
+      "phase_probability_active": {
+        "0": 0.6549979448318481,
+        "2": 0.34500204026699066
+      },
+      "phase_total_variation": 8.707493543624878e-05
+    },
+    {
+      "i": 53,
+      "decision_time_s": 265.0,
+      "end_time_s": 270.0,
+      "n_state_components_different": 14,
+      "affected_segments": [
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3328339457511902,
+        0.14009331166744232,
+        0.3217127025127411,
+        0.2053600400686264
+      ],
+      "active_p": [
+        0.33246108889579773,
+        0.139986053109169,
+        0.3224891424179077,
+        0.20506376028060913
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3314366016916999,
+      "active_entropy_nats": 1.3312257114239294,
+      "nominal_top_margin": 0.011121243238449097,
+      "active_top_margin": 0.009971946477890015,
+      "total_variation": 0.0007764175534248352,
+      "jensen_shannon_nats": 3.4993568230817036e-07,
+      "phase_probability_nominal": {
+        "0": 0.6545466482639313,
+        "2": 0.3454533517360687
+      },
+      "phase_probability_active": {
+        "0": 0.6549502313137054,
+        "2": 0.34504981338977814
+      },
+      "phase_total_variation": 0.00040356069803237915
+    },
+    {
+      "i": 54,
+      "decision_time_s": 270.0,
+      "end_time_s": 275.0,
+      "n_state_components_different": 14,
+      "affected_segments": [
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3323584198951721,
+        0.13996368646621704,
+        0.3226870596408844,
+        0.20499083399772644
+      ],
+      "active_p": [
+        0.3320557177066803,
+        0.139940083026886,
+        0.3232826292514801,
+        0.20472154021263123
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.331177057996356,
+      "active_entropy_nats": 1.3310432277497681,
+      "nominal_top_margin": 0.00967136025428772,
+      "active_top_margin": 0.008773088455200195,
+      "total_variation": 0.000595584511756897,
+      "jensen_shannon_nats": 2.1650034584275992e-07,
+      "phase_probability_nominal": {
+        "0": 0.6550454795360565,
+        "2": 0.3449545204639435
+      },
+      "phase_probability_active": {
+        "0": 0.6553383469581604,
+        "2": 0.3446616232395172
+      },
+      "phase_total_variation": 0.0002928823232650757
+    },
+    {
+      "i": 55,
+      "decision_time_s": 275.0,
+      "end_time_s": 280.0,
+      "n_state_components_different": 6,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3336133658885956,
+        0.1397809237241745,
+        0.3216368556022644,
+        0.20496879518032074
+      ],
+      "active_p": [
+        0.33358776569366455,
+        0.1399640291929245,
+        0.3216179311275482,
+        0.20483025908470154
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.330973131615482,
+      "active_entropy_nats": 1.3310640760908459,
+      "nominal_top_margin": 0.011976510286331177,
+      "active_top_margin": 0.011969834566116333,
+      "total_variation": 0.00018308311700820923,
+      "jensen_shannon_nats": 4.205574880332348e-08,
+      "phase_probability_nominal": {
+        "0": 0.65525022149086,
+        "2": 0.34474971890449524
+      },
+      "phase_probability_active": {
+        "0": 0.6552056968212128,
+        "2": 0.34479428827762604
+      },
+      "phase_total_variation": 4.454702138900757e-05
+    },
+    {
+      "i": 56,
+      "decision_time_s": 280.0,
+      "end_time_s": 285.0,
+      "n_state_components_different": 6,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3335358202457428,
+        0.13995862007141113,
+        0.3217419385910034,
+        0.20476360619068146
+      ],
+      "active_p": [
+        0.33327004313468933,
+        0.14006388187408447,
+        0.3219555914402008,
+        0.20471052825450897
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.331031362462534,
+      "active_entropy_nats": 1.331104349914434,
+      "nominal_top_margin": 0.01179388165473938,
+      "active_top_margin": 0.011314451694488525,
+      "total_variation": 0.00031888484954833984,
+      "jensen_shannon_nats": 5.582432522726275e-08,
+      "phase_probability_nominal": {
+        "0": 0.6552777588367462,
+        "2": 0.3447222262620926
+      },
+      "phase_probability_active": {
+        "0": 0.6552256345748901,
+        "2": 0.34477441012859344
+      },
+      "phase_total_variation": 5.21540641784668e-05
+    },
+    {
+      "i": 57,
+      "decision_time_s": 285.0,
+      "end_time_s": 290.0,
+      "n_state_components_different": 10,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.3335878551006317,
+        0.14005009829998016,
+        0.3217070996761322,
+        0.20465493202209473
+      ],
+      "active_p": [
+        0.3329029083251953,
+        0.14010342955589294,
+        0.32235318422317505,
+        0.20464041829109192
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3310564620927021,
+      "active_entropy_nats": 1.3311177205350218,
+      "nominal_top_margin": 0.011880755424499512,
+      "active_top_margin": 0.010549724102020264,
+      "total_variation": 0.0006994381546974182,
+      "jensen_shannon_nats": 3.406740742436725e-07,
+      "phase_probability_nominal": {
+        "0": 0.6552949547767639,
+        "2": 0.3447050303220749
+      },
+      "phase_probability_active": {
+        "0": 0.6552560925483704,
+        "2": 0.34474384784698486
+      },
+      "phase_total_variation": 3.8839876651763916e-05
+    },
+    {
+      "i": 58,
+      "decision_time_s": 290.0,
+      "end_time_s": 295.0,
+      "n_state_components_different": 25,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33247309923171997,
+        0.14048638939857483,
+        0.3225870430469513,
+        0.2044534534215927
+      ],
+      "active_p": [
+        0.3326483964920044,
+        0.1400672048330307,
+        0.32277414202690125,
+        0.20451031625270844
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3313647490216207,
+      "active_entropy_nats": 1.3310362118749945,
+      "nominal_top_margin": 0.009886056184768677,
+      "active_top_margin": 0.00987425446510315,
+      "total_variation": 0.00041922181844711304,
+      "jensen_shannon_nats": 1.836668979310401e-07,
+      "phase_probability_nominal": {
+        "0": 0.6550601422786713,
+        "2": 0.34493984282016754
+      },
+      "phase_probability_active": {
+        "0": 0.6554225385189056,
+        "2": 0.34457752108573914
+      },
+      "phase_total_variation": 0.0003623589873313904
+    },
+    {
+      "i": 59,
+      "decision_time_s": 295.0,
+      "end_time_s": 300.0,
+      "n_state_components_different": 24,
+      "affected_segments": [
+        "cola_12",
+        "espera_12",
+        "presion_4"
+      ],
+      "nominal_action": 0,
+      "active_action": 0,
+      "nominal_p": [
+        0.33294305205345154,
+        0.1406889110803604,
+        0.32179367542266846,
+        0.2045743316411972
+      ],
+      "active_p": [
+        0.33239561319351196,
+        0.14008250832557678,
+        0.3231422007083893,
+        0.20437972247600555
+      ],
+      "nominal_physical_phase": 0,
+      "active_physical_phase": 0,
+      "nominal_entropy_nats": 1.3315725441474926,
+      "active_entropy_nats": 1.3309966601128191,
+      "nominal_top_margin": 0.011149376630783081,
+      "active_top_margin": 0.00925341248512268,
+      "total_variation": 0.0013484880328178406,
+      "jensen_shannon_nats": 1.1681069384131279e-06,
+      "phase_probability_nominal": {
+        "0": 0.65473672747612,
+        "2": 0.3452632427215576
+      },
+      "phase_probability_active": {
+        "0": 0.6555378139019012,
+        "2": 0.34446223080158234
+      },
+      "phase_total_variation": 0.0008010491728782654
+    }
+  ],
+  "limits": [
+    "Una semilla; no demuestra robustez, generalizacion ni calidad del controlador",
+    "Las probabilidades son de la politica heredada, no del algoritmo sobre fases corregidas",
+    "Probabilidades agregadas por fase solo son descriptivas: PPO elige argmax de 4 acciones",
+    "Estado heredado repite carriles, deja outgoing vacio; fases amarillas no homologadas",
+    "No ejecuta SUMO ni verifica semantica de entrenamiento",
+    "ADVERTENCIA: TSCEnv declara Box [0,1]^34 pero devuelve edad_de_fase/120 sin clip en la posicion 32; el reporte conserva esos valores tal como los recibio PPO"
+  ]
+}

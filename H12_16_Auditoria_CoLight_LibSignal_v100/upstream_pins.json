@@ -1,0 +1,35 @@
+{
+  "schema": "H12_16_PINNED_SOURCES_V100",
+  "captured_on": "2026-10-12",
+  "original": {
+    "repository": "wingsweihua/colight",
+    "url": "https://github.com/wingsweihua/colight",
+    "commit": "04440b722e7f36d7043a3f2ad8e40c3df301fad3",
+    "files": {
+      "CoLight_agent.py": "4506141de6a38529ef2994c8b145610e2737caf6",
+      "requirements.txt": "c6cb90a24a176cf9e6ab3b7e3b8fbd58d7922858",
+      "readme.md": "4297c1a06b272599a9fec760ff171be9a9814b38",
+      "config.py": "a36771a22d0a7749fd601c7e6a1068266e504234",
+      "anon_env.py": "13181b1e101ab98cfd566e99fd84344403f1d8f2"
+    }
+  },
+  "libsignal": {
+    "repository": "DaRL-LibSignal/LibSignal",
+    "url": "https://github.com/DaRL-LibSignal/LibSignal",
+    "commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+    "files": {
+      "agent/colight.py": "b33858268b51fa008df2ea4ee4bea725a74de476",
+      "agent/colight_pytorch_agent.py": "b008a93c4582f1b0042b9020c8ec87bc7d484345",
+      "agent/__init__.py": "af4090d181cd228391b83b45395185c685d26862",
+      "configs/tsc/colight.yml": "f9b7bf38851ee0ea59e428081063c5e6c522ddc6",
+      "configs/sim/sumo1x1_colight.cfg": "bb505811c3e8667968576cd37c1aa447c0027733",
+      "requirements.txt": "2bbdd207488ccb49f28ef58d382b623f83be5c4c",
+      "run.py": "4e4ae5f3cda9eb7423210b0f7cd9d9549cb459a9",
+      "world/world_sumo.py": "ca6cbd71440ccab438e7c2454da3234c545ede51",
+      "world/world_cityflow.py": "3ff82a08b14f3063d7cdeb2805b7e6732acc4d6c",
+      "trainer/tsc_trainer.py": "e7575b97f1fbc33ca7d3fcb7c00678b4c81c7472"
+    }
+  },
+  "local_hangzhou_net_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+  "local_hangzhou_routes_sha256": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369"
+}

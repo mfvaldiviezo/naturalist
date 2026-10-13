@@ -1,0 +1,10 @@
+{
+  "version": "v1.2.0",
+  "purpose": "read_only_h10_postpilot_audit",
+  "sha256": {
+    "LEEME_H10_ANALISIS.md": "81f2725daef5800d47612ed980fd897e5abb5926187c8095e6656abbc3628d1c",
+    "scripts/auditar_h10_completo.py": "2ddb7f78ead19bccdb109207a7fc387f399ed3dad78274f29e18ff21985f1074",
+    "tests/test_auditor.py": "85ea741f1395f88f0fcbc24f6ec227f78604af8bc599b803dcc02f2c4838c52e",
+    "tests/test_integration_fixture.py": "33eda2ec1a78f60ee7193c0587ff7192bdd12e946c2c8cdedd1f7b0ab2ce5c48"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "protocol_version": "h09_quito_comparison_v1",
+  "network_role": "Hangzhou_pilot",
+  "source_population_compatibility": "proxy_only",
+  "denominator_definition": "completed_simulated_tls_passages_not_all_field_observed_vehicles",
+  "signal_classification_method": "TLS_next_disappeared_with_lane_transition_and_stable_phase",
+  "crossing_observation_window": "600 SUMO steps @ 0.5s, all observed transitions",
+  "speed_sampling_method": "no_sampling_stations_by_default",
+  "minimum_sample_crossings": 50,
+  "minimum_classified_fraction": 0.98,
+  "sites": {"B1": "QUI-1", "B2": "QUI-2", "C1": "QUI-3"},
+  "disclaimer": "Los sitios simulados son referencias SOLO de comparación y NO representan geometría, control ni composición vehicular de intersecciones de Quito. Sustituir IDs segun SUMO real. NO atribuir tasas a Quito.",
+  "yellow_event_definition": "phase_y_when_stopline_transition_detected",
+  "red_event_definition": "phase_r_when_stopline_transition_detected"
+}

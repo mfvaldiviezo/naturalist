@@ -1,0 +1,20 @@
+{
+  "package": "H12_4_Contrato_Inyector_Vine_v100",
+  "files": [
+    {
+      "path": "GUIA_H12_4.md",
+      "sha256": "3c601daa07e69531dc2358b79bcf87db32e7a54ac6c2c47290130aec34cb1177",
+      "bytes": 2123
+    },
+    {
+      "path": "h12_4_inspeccionar.py",
+      "sha256": "ce13b6a5e71e8a519920cac6e97005bb541f419537801005b05e87743809a4cd",
+      "bytes": 10922
+    },
+    {
+      "path": "tests/test_h12_4.py",
+      "sha256": "a330a767774af484a2e62e9d638be2c39fb9113b449859d0903dfa10963bbaad",
+      "bytes": 3170
+    }
+  ]
+}

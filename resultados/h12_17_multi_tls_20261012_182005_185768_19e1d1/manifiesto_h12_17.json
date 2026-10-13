@@ -1,0 +1,1284 @@
+{
+  "result": "H12_17_PLAN_CONTRACT_OK",
+  "schema": "H12_17_HZ12_MULTI_TLS_GRAPH_GREEN2_V100",
+  "network": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml",
+  "routes": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml",
+  "network_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+  "route_sha256": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+  "source_sha256": {
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_17_Entorno_MultiTLS_CoLight_v101\\h12_17_contract.py": "5451d8475e21de84909cca329cc61e375ff7cc7fbfe74f8fafc66525dd2e3b1d",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_17_Entorno_MultiTLS_CoLight_v101\\h12_17_env.py": "bbd51d067532bcdcc47c41d728778e856d7321ff10264f8d2def6e257b9b1323",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_17_Entorno_MultiTLS_CoLight_v101\\h12_17_multi_tls.py": "49e809f037b8f00bff874485efbbd7d353da7b7b6db51f2dbb43e78444105e29",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_contract.py": "df653d836fbb7ff38a8f161d08f7ca393cb97d6ca65425c070ef8c164824a57f",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_12_homologado_20261012_155458_787693_46131e\\smoke_h12_12.json": "6d712732fc17d3b77c1e6bee06981f285964f6ea871cc7d2831713d0a923cc84",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_12_homologado_20261012_155458_787693_46131e\\manifiesto_h12_12.json": "6d5710705c4119ee7c057eb8ffbdcb57b68c302df755dfa37fc07767889dfbb2",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_16_colight_20261012_125015_322811_3b659c\\dictamen_h12_16.json": "db52d05c17f5a0793f7872e87c74896a4ecde00cc085c7188a948b43edce5318",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369"
+  },
+  "prior": {
+    "h1212_smoke_report_sha256": "6d712732fc17d3b77c1e6bee06981f285964f6ea871cc7d2831713d0a923cc84",
+    "h1212_manifest_sha256": "6d5710705c4119ee7c057eb8ffbdcb57b68c302df755dfa37fc07767889dfbb2",
+    "h1216_report_sha256": "db52d05c17f5a0793f7872e87c74896a4ecde00cc085c7188a948b43edce5318",
+    "h1212_smoke_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_12_homologado_20261012_155458_787693_46131e\\smoke_h12_12.json",
+    "h1212_manifest_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_12_homologado_20261012_155458_787693_46131e\\manifiesto_h12_12.json",
+    "h1216_report_path": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_16_colight_20261012_125015_322811_3b659c\\dictamen_h12_16.json",
+    "h1212_source": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_contract.py",
+    "h1216_scope": "STATIC_ONLY_NO_COLIGHT_RUNTIME"
+  },
+  "graph": {
+    "node_order": [
+      "A1",
+      "A2",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2"
+    ],
+    "node_to_index": {
+      "A1": 0,
+      "A2": 1,
+      "B0": 2,
+      "B1": 3,
+      "B2": 4,
+      "B3": 5,
+      "C0": 6,
+      "C1": 7,
+      "C2": 8,
+      "C3": 9,
+      "D1": 10,
+      "D2": 11
+    },
+    "graph_directed_edge_index": [
+      [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11
+      ],
+      [
+        1,
+        3,
+        0,
+        4,
+        3,
+        6,
+        0,
+        2,
+        4,
+        7,
+        1,
+        3,
+        5,
+        8,
+        4,
+        9,
+        2,
+        7,
+        3,
+        6,
+        8,
+        10,
+        4,
+        7,
+        9,
+        11,
+        5,
+        8,
+        7,
+        11,
+        8,
+        10
+      ]
+    ],
+    "graph_directed_edges": [
+      [
+        "A1",
+        "A2"
+      ],
+      [
+        "A1",
+        "B1"
+      ],
+      [
+        "A2",
+        "A1"
+      ],
+      [
+        "A2",
+        "B2"
+      ],
+      [
+        "B0",
+        "B1"
+      ],
+      [
+        "B0",
+        "C0"
+      ],
+      [
+        "B1",
+        "A1"
+      ],
+      [
+        "B1",
+        "B0"
+      ],
+      [
+        "B1",
+        "B2"
+      ],
+      [
+        "B1",
+        "C1"
+      ],
+      [
+        "B2",
+        "A2"
+      ],
+      [
+        "B2",
+        "B1"
+      ],
+      [
+        "B2",
+        "B3"
+      ],
+      [
+        "B2",
+        "C2"
+      ],
+      [
+        "B3",
+        "B2"
+      ],
+      [
+        "B3",
+        "C3"
+      ],
+      [
+        "C0",
+        "B0"
+      ],
+      [
+        "C0",
+        "C1"
+      ],
+      [
+        "C1",
+        "B1"
+      ],
+      [
+        "C1",
+        "C0"
+      ],
+      [
+        "C1",
+        "C2"
+      ],
+      [
+        "C1",
+        "D1"
+      ],
+      [
+        "C2",
+        "B2"
+      ],
+      [
+        "C2",
+        "C1"
+      ],
+      [
+        "C2",
+        "C3"
+      ],
+      [
+        "C2",
+        "D2"
+      ],
+      [
+        "C3",
+        "B3"
+      ],
+      [
+        "C3",
+        "C2"
+      ],
+      [
+        "D1",
+        "C1"
+      ],
+      [
+        "D1",
+        "D2"
+      ],
+      [
+        "D2",
+        "C2"
+      ],
+      [
+        "D2",
+        "D1"
+      ]
+    ],
+    "directed_out_neighbors": {
+      "A1": [
+        "A2",
+        "B1"
+      ],
+      "A2": [
+        "A1",
+        "B2"
+      ],
+      "B0": [
+        "B1",
+        "C0"
+      ],
+      "B1": [
+        "A1",
+        "B0",
+        "B2",
+        "C1"
+      ],
+      "B2": [
+        "A2",
+        "B1",
+        "B3",
+        "C2"
+      ],
+      "B3": [
+        "B2",
+        "C3"
+      ],
+      "C0": [
+        "B0",
+        "C1"
+      ],
+      "C1": [
+        "B1",
+        "C0",
+        "C2",
+        "D1"
+      ],
+      "C2": [
+        "B2",
+        "C1",
+        "C3",
+        "D2"
+      ],
+      "C3": [
+        "B3",
+        "C2"
+      ],
+      "D1": [
+        "C1",
+        "D2"
+      ],
+      "D2": [
+        "C2",
+        "D1"
+      ]
+    },
+    "directed_in_neighbors": {
+      "A1": [
+        "A2",
+        "B1"
+      ],
+      "A2": [
+        "A1",
+        "B2"
+      ],
+      "B0": [
+        "B1",
+        "C0"
+      ],
+      "B1": [
+        "A1",
+        "B0",
+        "B2",
+        "C1"
+      ],
+      "B2": [
+        "A2",
+        "B1",
+        "B3",
+        "C2"
+      ],
+      "B3": [
+        "B2",
+        "C3"
+      ],
+      "C0": [
+        "B0",
+        "C1"
+      ],
+      "C1": [
+        "B1",
+        "C0",
+        "C2",
+        "D1"
+      ],
+      "C2": [
+        "B2",
+        "C1",
+        "C3",
+        "D2"
+      ],
+      "C3": [
+        "B3",
+        "C2"
+      ],
+      "D1": [
+        "C1",
+        "D2"
+      ],
+      "D2": [
+        "C2",
+        "D1"
+      ]
+    },
+    "graph_has_self_loops": false,
+    "required_colight_self_loop_policy": "DEFERRED_TO_MODEL",
+    "geometries": {
+      "A1": {
+        "tls_id": "A1",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "A0A1_0",
+          "A2A1_0",
+          "B1A1_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "A0A1_0",
+            [
+              "A1A0_0",
+              "A1A2_0",
+              "A1B1_0"
+            ]
+          ],
+          [
+            "A2A1_0",
+            [
+              "A1A0_0",
+              "A1A2_0",
+              "A1B1_0"
+            ]
+          ],
+          [
+            "B1A1_0",
+            [
+              "A1A0_0",
+              "A1A2_0",
+              "A1B1_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GggrrrGGg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyrrrGyy",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrGGgGrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrryyyGrr",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "A2": {
+        "tls_id": "A2",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "A1A2_0",
+          "A3A2_0",
+          "B2A2_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "A1A2_0",
+            [
+              "A2A1_0",
+              "A2A3_0",
+              "A2B2_0"
+            ]
+          ],
+          [
+            "A3A2_0",
+            [
+              "A2A1_0",
+              "A2A3_0",
+              "A2B2_0"
+            ]
+          ],
+          [
+            "B2A2_0",
+            [
+              "A2A1_0",
+              "A2A3_0",
+              "A2B2_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GggrrrGGg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyrrrGyy",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrGGgGrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrryyyGrr",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "B0": {
+        "tls_id": "B0",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "A0B0_0",
+          "B1B0_0",
+          "C0B0_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "A0B0_0",
+            [
+              "B0A0_0",
+              "B0B1_0",
+              "B0C0_0"
+            ]
+          ],
+          [
+            "B1B0_0",
+            [
+              "B0A0_0",
+              "B0B1_0",
+              "B0C0_0"
+            ]
+          ],
+          [
+            "C0B0_0",
+            [
+              "B0A0_0",
+              "B0B1_0",
+              "B0C0_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "rrrGGgGgg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "rrrGyyyyy",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "GGgGrrrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "yyyGrrrrr",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "B1": {
+        "tls_id": "B1",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "A1B1_0",
+          "B0B1_0",
+          "B2B1_0",
+          "C1B1_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "A1B1_0",
+            [
+              "B1A1_0",
+              "B1B0_0",
+              "B1B2_0",
+              "B1C1_0"
+            ]
+          ],
+          [
+            "B0B1_0",
+            [
+              "B1A1_0",
+              "B1B0_0",
+              "B1B2_0",
+              "B1C1_0"
+            ]
+          ],
+          [
+            "B2B1_0",
+            [
+              "B1A1_0",
+              "B1B0_0",
+              "B1B2_0",
+              "B1C1_0"
+            ]
+          ],
+          [
+            "C1B1_0",
+            [
+              "B1A1_0",
+              "B1B0_0",
+              "B1B2_0",
+              "B1C1_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GGggrrrrGGggrrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyyrrrryyyyrrrr",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrrGGggrrrrGGgg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrrryyyyrrrryyyy",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "B2": {
+        "tls_id": "B2",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "A2B2_0",
+          "B1B2_0",
+          "B3B2_0",
+          "C2B2_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "A2B2_0",
+            [
+              "B2A2_0",
+              "B2B1_0",
+              "B2B3_0",
+              "B2C2_0"
+            ]
+          ],
+          [
+            "B1B2_0",
+            [
+              "B2A2_0",
+              "B2B1_0",
+              "B2B3_0",
+              "B2C2_0"
+            ]
+          ],
+          [
+            "B3B2_0",
+            [
+              "B2A2_0",
+              "B2B1_0",
+              "B2B3_0",
+              "B2C2_0"
+            ]
+          ],
+          [
+            "C2B2_0",
+            [
+              "B2A2_0",
+              "B2B1_0",
+              "B2B3_0",
+              "B2C2_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GGggrrrrGGggrrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyyrrrryyyyrrrr",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrrGGggrrrrGGgg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrrryyyyrrrryyyy",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "B3": {
+        "tls_id": "B3",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "A3B3_0",
+          "B2B3_0",
+          "C3B3_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "A3B3_0",
+            [
+              "B3A3_0",
+              "B3B2_0",
+              "B3C3_0"
+            ]
+          ],
+          [
+            "B2B3_0",
+            [
+              "B3A3_0",
+              "B3B2_0",
+              "B3C3_0"
+            ]
+          ],
+          [
+            "C3B3_0",
+            [
+              "B3A3_0",
+              "B3B2_0",
+              "B3C3_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GggrrrGGg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyrrrGyy",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrGGgGrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrryyyGrr",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "C0": {
+        "tls_id": "C0",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "B0C0_0",
+          "C1C0_0",
+          "D0C0_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "B0C0_0",
+            [
+              "C0B0_0",
+              "C0C1_0",
+              "C0D0_0"
+            ]
+          ],
+          [
+            "C1C0_0",
+            [
+              "C0B0_0",
+              "C0C1_0",
+              "C0D0_0"
+            ]
+          ],
+          [
+            "D0C0_0",
+            [
+              "C0B0_0",
+              "C0C1_0",
+              "C0D0_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "rrrGGgGgg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "rrrGyyyyy",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "GGgGrrrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "yyyGrrrrr",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "C1": {
+        "tls_id": "C1",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "B1C1_0",
+          "C0C1_0",
+          "C2C1_0",
+          "D1C1_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "B1C1_0",
+            [
+              "C1B1_0",
+              "C1C0_0",
+              "C1C2_0",
+              "C1D1_0"
+            ]
+          ],
+          [
+            "C0C1_0",
+            [
+              "C1B1_0",
+              "C1C0_0",
+              "C1C2_0",
+              "C1D1_0"
+            ]
+          ],
+          [
+            "C2C1_0",
+            [
+              "C1B1_0",
+              "C1C0_0",
+              "C1C2_0",
+              "C1D1_0"
+            ]
+          ],
+          [
+            "D1C1_0",
+            [
+              "C1B1_0",
+              "C1C0_0",
+              "C1C2_0",
+              "C1D1_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GGggrrrrGGggrrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyyrrrryyyyrrrr",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrrGGggrrrrGGgg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrrryyyyrrrryyyy",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "C2": {
+        "tls_id": "C2",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "B2C2_0",
+          "C1C2_0",
+          "C3C2_0",
+          "D2C2_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "B2C2_0",
+            [
+              "C2B2_0",
+              "C2C1_0",
+              "C2C3_0",
+              "C2D2_0"
+            ]
+          ],
+          [
+            "C1C2_0",
+            [
+              "C2B2_0",
+              "C2C1_0",
+              "C2C3_0",
+              "C2D2_0"
+            ]
+          ],
+          [
+            "C3C2_0",
+            [
+              "C2B2_0",
+              "C2C1_0",
+              "C2C3_0",
+              "C2D2_0"
+            ]
+          ],
+          [
+            "D2C2_0",
+            [
+              "C2B2_0",
+              "C2C1_0",
+              "C2C3_0",
+              "C2D2_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GGggrrrrGGggrrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyyrrrryyyyrrrr",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrrGGggrrrrGGgg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrrryyyyrrrryyyy",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "C3": {
+        "tls_id": "C3",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "B3C3_0",
+          "C2C3_0",
+          "D3C3_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "B3C3_0",
+            [
+              "C3B3_0",
+              "C3C2_0",
+              "C3D3_0"
+            ]
+          ],
+          [
+            "C2C3_0",
+            [
+              "C3B3_0",
+              "C3C2_0",
+              "C3D3_0"
+            ]
+          ],
+          [
+            "D3C3_0",
+            [
+              "C3B3_0",
+              "C3C2_0",
+              "C3D3_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GggrrrGGg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "yyyrrrGyy",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "rrrGGgGrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "rrryyyGrr",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "D1": {
+        "tls_id": "D1",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "C1D1_0",
+          "D0D1_0",
+          "D2D1_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "C1D1_0",
+            [
+              "D1C1_0",
+              "D1D0_0",
+              "D1D2_0"
+            ]
+          ],
+          [
+            "D0D1_0",
+            [
+              "D1C1_0",
+              "D1D0_0",
+              "D1D2_0"
+            ]
+          ],
+          [
+            "D2D1_0",
+            [
+              "D1C1_0",
+              "D1D0_0",
+              "D1D2_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GGgGggrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "Gyyyyyrrr",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "GrrrrrGGg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "Grrrrryyy",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      },
+      "D2": {
+        "tls_id": "D2",
+        "source_xml_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+        "program_id": "0",
+        "original_program_type": "actuated",
+        "lanes_in": [
+          "C2D2_0",
+          "D1D2_0",
+          "D3D2_0"
+        ],
+        "lane_out_by_in": [
+          [
+            "C2D2_0",
+            [
+              "D2C2_0",
+              "D2D1_0",
+              "D2D3_0"
+            ]
+          ],
+          [
+            "D1D2_0",
+            [
+              "D2C2_0",
+              "D2D1_0",
+              "D2D3_0"
+            ]
+          ],
+          [
+            "D3D2_0",
+            [
+              "D2C2_0",
+              "D2D1_0",
+              "D2D3_0"
+            ]
+          ]
+        ],
+        "phases": [
+          {
+            "index": 0,
+            "state": "GGgGggrrr",
+            "duration_s": 42.0
+          },
+          {
+            "index": 1,
+            "state": "Gyyyyyrrr",
+            "duration_s": 3.0
+          },
+          {
+            "index": 2,
+            "state": "GrrrrrGGg",
+            "duration_s": 42.0
+          },
+          {
+            "index": 3,
+            "state": "Grrrrryyy",
+            "duration_s": 3.0
+          }
+        ],
+        "green_indices": [
+          0,
+          2
+        ],
+        "yellow_minimum_s": 3.0,
+        "action_to_phase": {
+          "0": 0,
+          "1": 2
+        }
+      }
+    },
+    "net_sha256": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6"
+  },
+  "simulation": {
+    "seed": 101,
+    "microtick_s": 0.5,
+    "decision_s": 5.0,
+    "n_decisions": 12,
+    "horizon_s": 60.0,
+    "min_green_s": 10.0,
+    "TLS": [
+      "online_all_12"
+    ],
+    "controller": "staggered_test_only_not_RL"
+  },
+  "interface": {
+    "observation": "Box(12,34) row-major node_order, H12.12 per-node definition",
+    "action": "MultiDiscrete([2]*12), action 0->green phase 0, 1->2",
+    "yellow": "net.xml states 1 and 3, 3.0 seconds minimum, stage yellow has priority over retained G",
+    "graph": "directed movement edge source_node -> target_node, self-loops excluded",
+    "neighbor_alignment": "node_to_index exact for graph and rows",
+    "colight_adapter": "NOT_IMPLEMENTED; graph is prepared, not consumed by LibSignal",
+    "mask": "2 physical greens each; per-node action masking required for other networks"
+  },
+  "gates": {
+    "H1212_B1_smoke": "VERIFIED",
+    "H1216_CoLight_sources": "PINNED_STATIC",
+    "H1217_real_Sumo": "NOT_RUN",
+    "CoLight_runtime": "NOT_RUN",
+    "CoLight_dependencies": "NOT_CERTIFIED",
+    "CoSLight": "NOT_RUN",
+    "Vine_H09": "NOT_CONNECTED",
+    "training": "NOT_RUN",
+    "resilience": "BLOCKED"
+  },
+  "environment": {
+    "python": "3.10.20",
+    "system": "Windows-10-10.0.26100-SP0"
+  }
+}

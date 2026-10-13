@@ -1,0 +1,137 @@
+{
+  "schema": "H12_15_B1_PHYSICAL_PROJECTIONS_V100",
+  "repo": "C:\\Proyecto_Tesis_Final_V1\\traffic_project",
+  "revision_root": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista",
+  "smoke_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_12_homologado_20261012_155458_787693_46131e",
+  "audit_h1214_dir": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_14_sota_20261012_162718_504371_4d2424",
+  "audit_h1214_sha256": "7f5408fa1626145850d9008da3f05612b8985c0759b301550d81b5645b184938",
+  "prior_smoke_h1212_sha256": "6d712732fc17d3b77c1e6bee06981f285964f6ea871cc7d2831713d0a923cc84",
+  "sources_sha256": {
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml": "2590ca460dafb57a4c608f4fe1ad9de072068a5b2ef0ea487f617296d8c627f6",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml": "a78363c99e1a6eab33028c3a36c82dcb66129adf8e73141612b9e7b2358f1369",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_contract.py": "df653d836fbb7ff38a8f161d08f7ca393cb97d6ca65425c070ef8c164824a57f",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_env.py": "3bc8783c107a09bd1f520d7606a2dda6b65fd14662d10123459c5584f3092aeb",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_12_Entorno_Homologado_B1_v100\\h12_12_homologar.py": "53f1bec7b0259a55b1f918e9a18370b894e200478c3572db408d268f869fd687",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_15_Baselines_Fisicos_B1_v100\\h12_15_politicas.py": "aef87c6873cf261b10976f7f98dfa766e539b71d3400a5aa1378908528738c5b",
+    "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\H12_15_Baselines_Fisicos_B1_v100\\h12_15_baselines.py": "bcc7d6482f515f5c5149c78ddc57d83ea2e5cd3ba846699e2e0e139104e2f7e4",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\config\\signal.yaml": "d3565f20409f33267010042db41df671522039873b7e2e3716bb91c2ddf73b6a",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\maxpressure.py": "202d9fe983f7d8d17e55a387b4b1166f2ba6ee6478beba701160ef6536da8e20",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\maxwave.py": "615f412b00a2a50f17bcaec800a803ec91ca8c5a31d2909dc3ea381bee192ca9",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\agents\\static\\fixed.py": "e6b244a34d6bb9f32eb7d1f1b389dce82539ad3abfe7438fa2a4e7b02233e22a",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\mdp_options\\states.py": "125dab0cdccb4a5ab4f44334eff6171075e629928dd7d271be8af2eab289f6e6",
+    "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\baselines\\RESCO\\resco_benchmark\\traffic_signal.py": "783a981851d952cf88b9346f045100822a4309929e7e8bac8d2173024fe636bb"
+  },
+  "network": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\networks\\hangzhou_4x4.net.xml",
+  "routes": "C:\\Proyecto_Tesis_Final_V1\\traffic_project\\tsc_framework\\sumo_configs\\routes\\hangzhou\\hangzhou_dense.rou.xml",
+  "seed": 101,
+  "rl_steps": 24,
+  "min_green_s": 10.0,
+  "binary": "sumo",
+  "projection": {
+    "green_phases": [
+      0,
+      2
+    ],
+    "resco_original_action_count": 8,
+    "resco_selected_original_pair_indices": [
+      0,
+      4
+    ],
+    "resco_selected_pairs": [
+      [
+        "S-S",
+        "N-N"
+      ],
+      [
+        "W-W",
+        "E-E"
+      ]
+    ],
+    "inbound_physical_groups": [
+      [
+        "B0B1_0",
+        "B2B1_0"
+      ],
+      [
+        "A1B1_0",
+        "C1B1_0"
+      ]
+    ],
+    "pressure_directions": [
+      [
+        {
+          "code": "S-S",
+          "inbound": [
+            "B2B1_0"
+          ],
+          "downstream": [
+            "B1B0_0"
+          ]
+        },
+        {
+          "code": "N-N",
+          "inbound": [
+            "B0B1_0"
+          ],
+          "downstream": [
+            "B1B2_0"
+          ]
+        }
+      ],
+      [
+        {
+          "code": "W-W",
+          "inbound": [
+            "C1B1_0"
+          ],
+          "downstream": [
+            "B1A1_0"
+          ]
+        },
+        {
+          "code": "E-E",
+          "inbound": [
+            "A1B1_0"
+          ],
+          "downstream": [
+            "B1C1_0"
+          ]
+        }
+      ]
+    ],
+    "original_fixed_timings_resco_8": [
+      4,
+      2,
+      4,
+      2,
+      4,
+      2,
+      4,
+      2
+    ],
+    "fixed_target_green_s": 42.0,
+    "identity": "B1 physical projections; NOT original 8-action RESCO SOTA reproduced",
+    "pressure_proxy": "TraCI instantaneous halting counts for RESCO lane.queued; differs from persistent vehicle queued flag"
+  },
+  "experiment": {
+    "rl_decision_s": 5.0,
+    "microtick_s": 0.5,
+    "SUMO_seeds_pairing": "same seed in both independent runs",
+    "controlled_TLS": "B1 only; other TLSs remain native SUMO",
+    "not_trained": "Both physical baselines require no training",
+    "fixed_policy": "original net.xml desired green 42 s, quantized to 5 s decisions; distinct from RESCO FIXED 8-action plan",
+    "maxpressure_policy": "RESCO 8 phase pairs projected to physically realizable pairs #0/#4; uses instantaneous TraCI halts as queued proxy",
+    "not_a_SOTA_certificate": true,
+    "vine_h09": "NOT_INTEGRATED",
+    "multi_TLS": "NOT_INTEGRATED"
+  },
+  "runtime": {
+    "sumo_version": [
+      "Eclipse SUMO sumo 1.26.0",
+      " Build features: Windows-10.0.26100 AMD64 MSVC 19.44.35222.0 Release FMI Proj GUI FMT Intl SWIG Parquet Eigen GDAL FFmpeg OSG GL2PS JuPedSim"
+    ],
+    "traci_file": "C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\traci\\__init__.py",
+    "gymnasium": "1.2.3",
+    "numpy": "2.2.6"
+  }
+}

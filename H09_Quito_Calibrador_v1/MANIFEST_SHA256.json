@@ -1,0 +1,21 @@
+{
+  "version": "H09-Quito-Calibrador-v1.0",
+  "created_date": "2026-10-11",
+  "source_city": "Quito",
+  "tests_passed": 11,
+  "execution_status": "offline_testing_only",
+  "sumo_live_tested": false,
+  "version_notes": "Observador independiente; comparación agregada Quito; no se habilitan decisiones ni cambios de SUMO",
+  "sha256": {
+    "LEEME.md": "0d47ddb903e5f6b621daa66804dcf259f327a01d0cceb43e042d03f2c5ad51f9",
+    "config/protocolo_hangzhou_ejemplo.json": "fa5dfa7b134956f698a5e978f58729eb6560b0d281ded8c69c7fd27a0968b139",
+    "config/zonas_velocidad_ejemplo.json": "6664e140f729b63b630ae37c95fd5e7fdbd53226d8b3063b426f0297de105bcf",
+    "datos_referencia/cruces_quito_publicados.csv": "95c81e963283dd444b38ea1bddd691d900e832d8f77564463c7c8ace75db5092",
+    "datos_referencia/indicador_alterno_velocidad_quito_2024.json": "7be052ee9337b78217eda614ec5bfc09c386d5d4b6d23be87cdae5a89fbb6200",
+    "datos_referencia/objetivos_quito_h09.json": "15c4c03ddee556e2c85da0d4c3b3fc4f7e2d5ac528be9dac3a42310de3b45df5",
+    "datos_referencia/velocidad_quito_publicada.csv": "4a97811d788f23dfff7b99fe2afa8345e8152e590bb0b1b43fc06ff65daca5ae",
+    "scripts/calibrador_quito_h09.py": "1077a2626c76fa89b5af4cc2eafa4290d7fb5dfeb122836a535f6fb537ed56c0",
+    "scripts/observador_traci_h09.py": "a5e88394e5b58b8b842565591984a5ebc31e0114a058f18b5288f496c6e487a8",
+    "tests/test_h09_quito.py": "9c8358795cb753f6f0b87a8ec66588a9d8e6b0b853aa665e1c9488611322aee6"
+  }
+}

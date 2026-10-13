@@ -1,0 +1,13 @@
+{
+  "artifact": "H09_Factorial_SxV_v1.3",
+  "files_sha256": {
+    "LEEME_H09_v13.md": "6a6b791225be3ecfb1c7ddbc7832309617f3f7b7c20c28f82bcf6588fce9f74b",
+    "config/perfil_placebo.json": "930364dec5bde3c29680f3e7e9fed2e1d839576c5920d96bcefa0bff59358382",
+    "config/perfil_semaforos_velocidad.json": "181964793ce6d04589986614142e3f72e7c930becab5280f4d1664b79dbb40dc",
+    "config/perfil_velocidad.json": "1cd8463c081583128a87952620835136b8352d51cd28269012f297ef06ff6cdc",
+    "ejecutar_factorial_101.ps1": "1da663fb26b65a258f4a707bb3275d70c7a97f7f8adab520212802e4a8644228",
+    "scripts/comparar_factorial_h09_v13.py": "087f4971c685cb1255a7a6d8e40b2b759928e7c0a288f879997700b8d6de4b3c",
+    "scripts/preparar_factorial_h09_v13.py": "3832ab0cbe28a01369993de75efbdc8a1c8e7db2be0f73e4bbde08460f87211e",
+    "tests/test_factorial_v13.py": "f2c84988036117610547072af458d73d5e115a785e284a03d38686ccb11fa310"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "release": "H12_18_Bridge_CoLight_LibSignal_v103",
+  "version": "1.0.3",
+  "scope": "REGISTERED_PINNED_LIBSIGNAL_ORIGINAL_AST_SHADOW_ONLY_NO_TRAINING",
+  "prior_defects": [
+    "v101 Git CRLF blob vs worktree",
+    "v102 PyG introspection sys.modules KeyError"
+  ],
+  "correction": "Register a real types.ModuleType in sys.modules before executing the verified original class AST; reject collisions; cleanup module on failure",
+  "pins": {
+    "libsignal_commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+    "colight_blob_sha1": "b33858268b51fa008df2ea4ee4bea725a74de476"
+  },
+  "offline_tests": 69,
+  "real_Colight_Windows": "NOT_TESTED",
+  "real_SUMO_Shadow": "NOT_TESTED",
+  "files_sha256": {
+    "GUIA_H12_18.md": "f151b3518b063abe916cac31d1cddb34ae54ae93e66e73bcda33e296e7b2d21a",
+    "MATRIZ_H12_18.md": "fe0ad262a35ca424dc6ce04599f41aae7245388dba7da252e306f0da3a614a08",
+    "h12_18_bridge.py": "bf2ecce671167e966f47da7f97eb55549ee7210bd0346713fb6e3be2845f8fe1",
+    "h12_18_colight_loader.py": "1d8747e1e6ac2977b6861cafc4ea158a99d9eef1fb1e813247cd030bc852a590",
+    "h12_18_libsignal_probe.py": "4cb50cb463b9444b7f55dcdbfbdcb084087d1aa2da6d13aab0de878a6fb85f17",
+    "tests/test_h12_18.py": "53e39a21aef356a53d61951c163d3dc21b3c11a570c1cbc932dd7651855245f2",
+    "tests/test_h12_18_isolation.py": "36eb04f91732ade71b47ebd204b453d0b20333f2db448e7415f38014ab511918",
+    "tests/test_h12_18_module_registry.py": "3623d630351b3959ae7a76028349f74b6be82d9261c686250b1f4cd5d31e4359"
+  }
+}

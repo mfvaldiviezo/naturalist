@@ -1,0 +1,18 @@
+{
+  "version": "H10-v1.1.2",
+  "source_v111_sha256": "2e5f6693003a435b7f93d93f8e101ab32852882227f8f892dd5b75b7c273efe3",
+  "files_sha256": {
+    "AUDITORIA_H08B_ADJUNTO.json": "59e5986acd33048c8a8b5fecd34c529cf52abdb71f6ff3f8d95cd8b53546e935",
+    "LEEME_H10.md": "1ff61273ea76dc2ffbe647d2b215d9b3f57e0bdc82e25b2d3b95d55d1d3787a1",
+    "ejecutar_piloto_h10_v112.ps1": "d43e1a5fb7d115990c2818fffc697e546369c286bcd51b26d92deba9bcde6e5e",
+    "scripts/__pycache__/piloto_hibrido_h10.cpython-313.pyc": "814e0ffdd3a24b9ef02c42cbb6b2c101ba7292ccc4a8bac58f3d6f84c31d5e47",
+    "scripts/piloto_hibrido_h10.py": "42a6fb5674307560688164c5ebbe7f06160a5df55b58c8fb021e1daac6211e7b",
+    "tests/__pycache__/test_digest_v111.cpython-313.pyc": "21c1312a73768072b801550dbae2839111f128484e78de24c4deb0960af74800",
+    "tests/__pycache__/test_h10.cpython-313.pyc": "651c9b636758d9e6d91e10238ba412db8d8ea136d5a572eaa9cfa8892747bd2c",
+    "tests/__pycache__/test_policy_v11.cpython-313.pyc": "073008faa370c4aaf3d510482bc4f96ab40cb5b7c0cf457dae7c25715c82c6d9",
+    "tests/test_digest_v111.py": "d849db650d4482192ca33a9e518f273aa7e6b79e9b590ce952f3506bb1ff5273",
+    "tests/test_h10.py": "fd6f3fc391430007e4605e8e9684c1c77704e37205a9e5bd4f8bc898c4a45666",
+    "tests/test_policy_v11.py": "bf11d7bfec52f6f718a2a428f92348b23b2175de8970cbb0e77c1b95423d0294",
+    "tests/test_xml_reuse_v112.py": "633e0d229c7f44098f0852861fc75b829545f6af176aa810dcc5e1426d737d18"
+  }
+}

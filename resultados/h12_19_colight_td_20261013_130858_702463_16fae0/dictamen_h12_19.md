@@ -1,0 +1,156 @@
+# H12.19 — Piloto TD aislado con red CoLight auténtica
+
+**Estado:** `H12_19_COLIGHT_UPSTREAM_NETWORK_TD_SMOKE_OK`.
+
+- Fuente neuronal: LibSignal commit `127af9f93902778e556de2eedb2b606c4c9447e6`, blob `b33858268b51fa008df2ea4ee4bea725a74de476`.
+- Contrato: Hangzhou 12 TLS, 32 aristas dirigidas, dos verdes físicos por TLS.
+- Observación: conteos por carril 12×4 de TraCI, con padding cero y orden de grafo fijado.
+- Durante la recolección SUMO ejecuta **exclusivamente la política H12.17 de prueba**; los valores Q de CoLight no actúan.
+- Recompensa de entrenamiento: `-12 * promedio lane_waiting_count` por intersección, análoga a la función observada de LibSignal; no es la recompensa H12.17, ni prueba equivalencia completa de World.
+- Actualización posterior a la recolección: DQN off-policy de laboratorio (RMSprop/MSE/target network), con la **clase neuronal original** `ColightNet`; sin agente/entrenador LibSignal integral, sin política epsilon-greedy actuando en SUMO.
+- No existe entrenamiento SOTA validado, mejora del tráfico, Vine/H09 ni comparación de resiliencia.
+
+## Resumen operativo
+
+{
+  "result": "H12_19_COLIGHT_UPSTREAM_NETWORK_TD_SMOKE_OK",
+  "scope": "OFF_POLICY_TD_GRADIENT_SMOKE_ONLY",
+  "steps": 24,
+  "microticks": 240,
+  "node_order": [
+    "A1",
+    "A2",
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "D1",
+    "D2"
+  ],
+  "graph_edges": 32,
+  "sumo_controller": "ONLY_H12.17_TEST_POLICY",
+  "neural_actions_applied": false,
+  "training": {
+    "architecture": {
+      "loader": "PINNED_LIBSIGNAL_UNMODIFIED_CLASS_AST",
+      "registered_neural_module": "h12_18_upstream_architecture_isolated",
+      "module_registered_in_sys_modules": true,
+      "model_origin": "agent/colight.py::ColightNet",
+      "upstream_source": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\externos_h12_16\\LibSignal\\agent\\colight.py",
+      "upstream_commit": "127af9f93902778e556de2eedb2b606c4c9447e6",
+      "upstream_blob_sha1": "b33858268b51fa008df2ea4ee4bea725a74de476",
+      "upstream_sha256": "4621e5d80665eacc28037b070a115715a1a6c19871af8e0744fdbe42bfc2ab48",
+      "upstream_committed_sha256": "4621e5d80665eacc28037b070a115715a1a6c19871af8e0744fdbe42bfc2ab48",
+      "upstream_worktree_sha256": "a484008170bb159c622def05ebe39cd1c7d132e0f5ea172c8c446c2d16fec8f1",
+      "source_read_mode": "GIT_SHOW_PINNED_COMMIT_BLOB_WITH_CLEAN_WORKTREE_GUARD",
+      "external_interface_adaptation": "gymnasium.spaces.Discrete replaces legacy gym.spaces.Discrete",
+      "full_agent_imported": false,
+      "cityflow_imported_by_loader": false,
+      "neural_class_definitions_modified": false
+    },
+    "update_count": 4,
+    "losses": [
+      10.670125007629395,
+      7.852992534637451,
+      8.172218322753906,
+      2.2544217109680176
+    ],
+    "updates": [
+      {
+        "loss": 10.670125007629395,
+        "gradient_norm": 4.134449481964111,
+        "batch_transitions": 4,
+        "batch_node_transitions": 48,
+        "iteration": 1,
+        "replay_indices": [
+          19,
+          5,
+          21,
+          14
+        ]
+      },
+      {
+        "loss": 7.852992534637451,
+        "gradient_norm": 3.188431739807129,
+        "batch_transitions": 4,
+        "batch_node_transitions": 48,
+        "iteration": 2,
+        "replay_indices": [
+          14,
+          15,
+          11,
+          13
+        ]
+      },
+      {
+        "loss": 8.172218322753906,
+        "gradient_norm": 2.81156063079834,
+        "batch_transitions": 4,
+        "batch_node_transitions": 48,
+        "iteration": 3,
+        "replay_indices": [
+          17,
+          5,
+          19,
+          2
+        ]
+      },
+      {
+        "loss": 2.2544217109680176,
+        "gradient_norm": 1.2575957775115967,
+        "batch_transitions": 4,
+        "batch_node_transitions": 48,
+        "iteration": 4,
+        "replay_indices": [
+          14,
+          7,
+          6,
+          13
+        ]
+      }
+    ],
+    "gradient_probe": "REAL_SIMULATION_REPLAY",
+    "max_parameter_delta": 0.012213710695505142,
+    "checkpoint_file": "C:\\Proyecto_Tesis_Final_V1\\revision_naturalista\\resultados\\h12_19_colight_td_20261013_130858_702463_16fae0\\colight_network_td_pilot_only.pt",
+    "checkpoint_sha256": "2be6957272a968cc22cb8401563b086829c52928f557ec53014ecf48bfde2549",
+    "checkpoint_bytes": 209265,
+    "checkpoint_status": "EXPLORATORY_TD_PILOT_NEVER_FULL_SOTA",
+    "upstream_colight_agent_training": "NOT_EXECUTED",
+    "environment_actions_from_network": "NEVER"
+  },
+  "replay_audit": {
+    "decisions": 24,
+    "node_transitions": 288,
+    "actions_covered": [
+      0,
+      1
+    ],
+    "reward_nonzero_node_transitions": 59
+  },
+  "phase_events": {
+    "n_tls": 12,
+    "per_tls_events": {
+      "A1": 11,
+      "A2": 13,
+      "B0": 11,
+      "B1": 13,
+      "B2": 11,
+      "B3": 13,
+      "C0": 11,
+      "C1": 13,
+      "C2": 11,
+      "C3": 13,
+      "D1": 11,
+      "D2": 13
+    },
+    "n_yellow_entries": 66
+  },
+  "replay_sha256": "abadc4c0aad178dc1c014105e30e3c7ea5fff9253bbb5f556fc1ca4ff6cbf0f4",
+  "manifest_sha256": "5ef09e0d4e11d15d5b39190e966857681df524df662d104ecb115cafcb85a9a4",
+  "checkpoints_certified_SOTA": false,
+  "Vine_H09": "NOT_CONNECTED"
+}
